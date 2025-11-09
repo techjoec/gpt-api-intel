@@ -1,0 +1,101 @@
+{
+  "version": "v2025-02-14",
+  "samples": [
+    {
+      "sample": "tasks_list/current.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/list?limit=19&task_filter=current"
+    },
+    {
+      "sample": "tasks_list/all.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/list?limit=19&task_filter=all"
+    },
+    {
+      "sample": "tasks_list/archived.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/list?limit=19&task_filter=archived"
+    },
+    {
+      "sample": "tasks_list/limit1_all.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/list?limit=1&task_filter=all"
+    },
+    {
+      "sample": "task_create/response.json",
+      "source_har": "bestof.har",
+      "method": "POST",
+      "url": "https://chatgpt.com/backend-api/wham/tasks"
+    },
+    {
+      "sample": "task_details/sample.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/task_e_EXAMPLE"
+    },
+    {
+      "sample": "turn_mapping/sample.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/task_e_EXAMPLE/turns"
+    },
+    {
+      "sample": "turn_viewed/success.json",
+      "source_har": "bestof.har",
+      "method": "POST",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/task_e_EXAMPLE/turns/task_e_EXAMPLE~assttrn_e_EXAMPLE/viewed"
+    },
+    {
+      "sample": "sibling_turns/sample.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/task_e_EXAMPLE/turns/task_e_EXAMPLE~assttrn_e_EXAMPLE/sibling_turns"
+    },
+    {
+      "sample": "rate_limit/plus.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/tasks/rate_limit"
+    },
+    {
+      "sample": "environments/list.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/environments"
+    },
+    {
+      "sample": "environments/recent.json",
+      "source_har": "bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/environments/recent"
+    },
+    {
+      "sample": "environment/detail_with_creator.json",
+      "source_har": "envsave.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/environments/6889d814d9c88191ac85ec5b67cc177a/with-creator-and-machine"
+    },
+    {
+      "sample": "machines/list.json",
+      "source_har": "envsave.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/machines"
+    },
+    {
+      "sample": "settings/user.json",
+      "source_har": "redacted_bestof.har",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/settings/user"
+    },
+    {
+      "sample": "environment/detail.json",
+      "source_har": "derived-from-detail_with_creator",
+      "method": "GET",
+      "url": "https://chatgpt.com/backend-api/wham/environments/{environment_id}"
+    }
+  ]
+}

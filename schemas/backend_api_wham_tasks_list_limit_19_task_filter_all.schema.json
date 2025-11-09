@@ -1,0 +1,262 @@
+{
+  "$id": "normalizer://wham.tasks.backend_api_wham_tasks_list__limit-19-task-filter-all",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "item_count": {
+          "type": "integer"
+        },
+        "items": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "archived": {
+                "type": "boolean"
+              },
+              "created_at": {
+                "type": "number"
+              },
+              "has_generated_title": {
+                "type": "boolean"
+              },
+              "has_unread_turn": {
+                "type": "boolean"
+              },
+              "list_context": {
+                "additionalProperties": false,
+                "properties": {
+                  "list_cursor": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "list_filters": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "list_cursor",
+                  "list_filters"
+                ],
+                "type": "object"
+              },
+              "pull_requests": {
+                "items": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "details": {
+                      "type": "object"
+                    },
+                    "reference_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "reference_id",
+                    "details"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "task_id": {
+                "type": "string"
+              },
+              "task_status_display": {
+                "additionalProperties": false,
+                "properties": {
+                  "branch_name": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "environment_label": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "fix_task_id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "initial_intent": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "latest_turn_status_display": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "diff_stats": {
+                        "additionalProperties": false,
+                        "properties": {
+                          "files_modified": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "lines_added": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          },
+                          "lines_removed": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "files_modified",
+                          "lines_added",
+                          "lines_removed"
+                        ],
+                        "type": [
+                          "object",
+                          "null"
+                        ]
+                      },
+                      "image_asset_pointer_citations": {
+                        "anyOf": [
+                          {},
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "intent": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "issue_counts": {
+                        "additionalProperties": {
+                          "type": "integer"
+                        },
+                        "type": "object"
+                      },
+                      "sibling_turn_ids": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "turn_id": {
+                        "type": "string"
+                      },
+                      "turn_status": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "turn_id",
+                      "turn_status",
+                      "intent",
+                      "diff_stats",
+                      "sibling_turn_ids",
+                      "issue_counts",
+                      "image_asset_pointer_citations"
+                    ],
+                    "type": [
+                      "object",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "environment_label",
+                  "branch_name",
+                  "fix_task_id",
+                  "initial_intent",
+                  "latest_turn_status_display"
+                ],
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "title": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "task_id",
+              "title",
+              "has_generated_title",
+              "created_at",
+              "updated_at",
+              "archived",
+              "has_unread_turn",
+              "pull_requests",
+              "task_status_display",
+              "list_context"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "list_cursor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "list_filters": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "list_cursor",
+        "list_filters",
+        "item_count",
+        "items"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.tasks.backend_api_wham_tasks_list__limit-19-task-filter-allEnvelope",
+  "type": "object"
+}

@@ -1,0 +1,17 @@
+{
+  "allowed": true,
+  "limit_reached": false,
+  "limit": 60.0,
+  "remaining": 58.0,
+  "resets_after": 3500.0,
+  "resets_after_text": "in 58 minutes",
+  "user_plan_type": "pro",
+  "windows": [
+    {
+      "limit": 60.0,
+      "remaining": 58.0,
+      "resets_after": 3500.0,
+      "limit_window_mins": 60
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "$id": "normalizer://wham.settings.backend_api_wham_settings_configs_user_preferences",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "branch_format_max_length": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "branch_format_special_values": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "char_count": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "char_count_label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "description": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "example": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "value",
+              "char_count_label",
+              "char_count",
+              "description",
+              "example"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "custom_instructions_max_chars": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "branch_format_special_values",
+        "branch_format_max_length",
+        "custom_instructions_max_chars"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.settings.backend_api_wham_settings_configs_user_preferencesEnvelope",
+  "type": "object"
+}

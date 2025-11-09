@@ -1,0 +1,123 @@
+[
+  {
+    "id": "env-example-1",
+    "machine_id": "wham-public/wham-universal",
+    "label": "sample-org/sample-app",
+    "is_pinned": false,
+    "description": "Ephemeral workspace with npm bootstrap",
+    "workspace_dir": "/workspace",
+    "agent_network_access": {
+      "mode": "on",
+      "preset_allowlist": "all",
+      "allowlist_domains": "",
+      "safe_methods_only": null
+    },
+    "repos": [
+      "github-0000000000"
+    ],
+    "setup": [
+      "#!/usr/bin/env bash",
+      "echo 'setup stub'"
+    ],
+    "maintenance_setup": "",
+    "repo_map": {
+      "github-0000000000": {
+        "id": "0000000000",
+        "name": "sample-app",
+        "repository_full_name": "sample-org/sample-app",
+        "clone_url": "https://github.com/sample-org/sample-app.git",
+        "default_branch": "main",
+        "language": "TypeScript",
+        "permissions": {
+          "admin": true,
+          "push": true,
+          "pull": true
+        },
+        "owner": {
+          "login": "sample-org",
+          "id": 123456,
+          "type": "Organization",
+          "avatar_url": "https://example.com/avatar.png",
+          "url": "https://api.github.com/orgs/sample-org"
+        }
+      }
+    },
+    "env_vars": {
+      "CODEX_ENV_NODE_VERSION": "20",
+      "CODEX_ENV_PYTHON_VERSION": "3.12"
+    },
+    "secrets": {},
+    "task_count": 42,
+    "creator_id": "user-example",
+    "share_settings": "workspace",
+    "share_targets": [],
+    "created_at": 1758697000.0,
+    "auto_setup_settings": {
+      "use_auto_setup": true
+    },
+    "cache_settings": {
+      "post_setup_cache_enabled": true,
+      "cache_invalidation_key": ""
+    }
+  },
+  {
+    "id": "env-example-2",
+    "machine_id": "wham-public/wham-universal",
+    "label": "sample-org/another-repo",
+    "is_pinned": true,
+    "description": "Pinned workspace with pip deps",
+    "workspace_dir": "/workspace",
+    "agent_network_access": {
+      "mode": "off",
+      "preset_allowlist": "none",
+      "allowlist_domains": "internal.example.com",
+      "safe_methods_only": true
+    },
+    "repos": [
+      "github-1111111111"
+    ],
+    "setup": [],
+    "maintenance_setup": "",
+    "repo_map": {
+      "github-1111111111": {
+        "id": "1111111111",
+        "name": "another-repo",
+        "repository_full_name": "sample-org/another-repo",
+        "clone_url": "https://github.com/sample-org/another-repo.git",
+        "default_branch": "main",
+        "language": "Python",
+        "permissions": {
+          "admin": true,
+          "push": true,
+          "pull": true
+        },
+        "owner": {
+          "login": "sample-org",
+          "id": 123456,
+          "type": "Organization",
+          "avatar_url": "https://example.com/avatar.png",
+          "url": "https://api.github.com/orgs/sample-org"
+        }
+      }
+    },
+    "env_vars": {
+      "CODEX_ENV_PYTHON_VERSION": "3.12",
+      "CODEX_ENV_GO_VERSION": "1.22"
+    },
+    "secrets": {},
+    "task_count": 7,
+    "creator_id": "user-example",
+    "share_settings": "private",
+    "share_targets": [
+      "team-example"
+    ],
+    "created_at": 1758600000.0,
+    "auto_setup_settings": {
+      "use_auto_setup": false
+    },
+    "cache_settings": {
+      "post_setup_cache_enabled": false,
+      "cache_invalidation_key": ""
+    }
+  }
+]

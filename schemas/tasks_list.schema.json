@@ -1,0 +1,256 @@
+{
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "task_status_display": {
+            "type": "object",
+            "properties": {
+              "environment_label": {
+                "type": "string"
+              },
+              "latest_turn_status_display": {
+                "type": "object",
+                "properties": {
+                  "diff_stats": {
+                    "type": [
+                      "object",
+                      "null"
+                    ],
+                    "properties": {
+                      "lines_added": {
+                        "type": "number"
+                      },
+                      "files_modified": {
+                        "type": "number"
+                      },
+                      "lines_removed": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "files_modified",
+                      "lines_added",
+                      "lines_removed"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "turn_status": {
+                    "type": "string"
+                  },
+                  "image_asset_pointer_citations": {
+                    "type": [
+                      "null"
+                    ]
+                  },
+                  "sibling_turn_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "turn_id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "diff_stats",
+                  "image_asset_pointer_citations",
+                  "sibling_turn_ids",
+                  "turn_id",
+                  "turn_status"
+                ],
+                "additionalProperties": false
+              },
+              "branch_name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "branch_name",
+              "environment_label",
+              "latest_turn_status_display"
+            ],
+            "additionalProperties": false
+          },
+          "has_unread_turn": {
+            "type": "boolean"
+          },
+          "has_generated_title": {
+            "type": "boolean"
+          },
+          "archived": {
+            "type": "boolean"
+          },
+          "updated_at": {
+            "type": "number"
+          },
+          "id": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "number"
+          },
+          "pull_requests": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "assistant_turn_id": {
+                  "type": "string"
+                },
+                "pull_request": {
+                  "type": "object",
+                  "properties": {
+                    "number": {
+                      "type": "number"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "merged": {
+                      "type": "boolean"
+                    },
+                    "mergeable": {
+                      "type": "boolean"
+                    },
+                    "draft": {
+                      "type": "boolean"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "body": {
+                      "type": "string"
+                    },
+                    "base": {
+                      "type": "string"
+                    },
+                    "head": {
+                      "type": "string"
+                    },
+                    "base_sha": {
+                      "type": "string"
+                    },
+                    "head_sha": {
+                      "type": "string"
+                    },
+                    "merge_commit_sha": {
+                      "type": [
+                        "null"
+                      ]
+                    },
+                    "comments": {
+                      "type": [
+                        "null"
+                      ]
+                    },
+                    "diff": {
+                      "type": [
+                        "null"
+                      ]
+                    },
+                    "user": {
+                      "type": "object",
+                      "properties": {
+                        "login": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "email": {
+                          "type": [
+                            "null"
+                          ]
+                        },
+                        "avatar_url": {
+                          "type": "string"
+                        },
+                        "id": {
+                          "type": "number"
+                        }
+                      },
+                      "required": [
+                        "login",
+                        "name",
+                        "email",
+                        "avatar_url",
+                        "id"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "number",
+                    "url",
+                    "state",
+                    "merged",
+                    "mergeable",
+                    "draft",
+                    "title",
+                    "body",
+                    "base",
+                    "head",
+                    "base_sha",
+                    "head_sha",
+                    "merge_commit_sha",
+                    "comments",
+                    "diff",
+                    "user"
+                  ],
+                  "additionalProperties": false
+                },
+                "codex_updated_sha": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "assistant_turn_id",
+                "pull_request",
+                "codex_updated_sha"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "archived",
+          "created_at",
+          "has_generated_title",
+          "has_unread_turn",
+          "id",
+          "pull_requests",
+          "task_status_display",
+          "title",
+          "updated_at"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "cursor": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "cursor",
+    "items"
+  ],
+  "additionalProperties": false
+}

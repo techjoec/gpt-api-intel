@@ -1,0 +1,444 @@
+{
+  "type": "object",
+  "properties": {
+    "sibling_turns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "sibling_turn_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "attempt_placement": {
+            "type": "number"
+          },
+          "role": {
+            "type": "string"
+          },
+          "output_items": {
+            "type": "array"
+          },
+          "child_turns": {
+            "type": "array"
+          },
+          "conversation_id": {
+            "type": [
+              "null"
+            ]
+          },
+          "error": {
+            "type": [
+              "null"
+            ]
+          },
+          "latest_event": {
+            "type": [
+              "null"
+            ]
+          },
+          "worklog": {
+            "type": "object",
+            "properties": {
+              "messages": {
+                "type": "array"
+              }
+            },
+            "required": [
+              "messages"
+            ],
+            "additionalProperties": false
+          },
+          "turn_status": {
+            "type": "string"
+          },
+          "pull_request_status": {
+            "type": "string"
+          },
+          "pull_request_data": {
+            "type": [
+              "null"
+            ]
+          },
+          "created_at": {
+            "type": "number"
+          },
+          "internal_only_rollouts": {
+            "type": [
+              "null"
+            ]
+          },
+          "environment_id": {
+            "type": "string"
+          },
+          "environment": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "machine_id": {
+                "type": "string"
+              },
+              "label": {
+                "type": "string"
+              },
+              "is_pinned": {
+                "type": "boolean"
+              },
+              "description": {
+                "type": "string"
+              },
+              "workspace_dir": {
+                "type": "string"
+              },
+              "agent_network_access": {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "type": "string"
+                  },
+                  "preset_allowlist": {
+                    "type": "string"
+                  },
+                  "allowlist_domains": {
+                    "type": "string"
+                  },
+                  "safe_methods_only": {
+                    "type": [
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "mode",
+                  "preset_allowlist",
+                  "allowlist_domains",
+                  "safe_methods_only"
+                ],
+                "additionalProperties": false
+              },
+              "repos": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "setup": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "maintenance_setup": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "repo_map": {
+                "type": "object",
+                "properties": {
+                  "github-XXXXXXXXXX": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "owner": {
+                        "type": "object",
+                        "properties": {
+                          "login": {
+                            "type": "string"
+                          },
+                          "id": {
+                            "type": "number"
+                          },
+                          "type": {
+                            "type": "string"
+                          },
+                          "avatar_url": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "login",
+                          "id",
+                          "type",
+                          "avatar_url",
+                          "url"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "repository_full_name": {
+                        "type": "string"
+                      },
+                      "allow_auto_merge": {
+                        "type": "boolean"
+                      },
+                      "allow_merge_commit": {
+                        "type": "boolean"
+                      },
+                      "allow_rebase_merge": {
+                        "type": "boolean"
+                      },
+                      "allow_squash_merge": {
+                        "type": "boolean"
+                      },
+                      "allow_update_branch": {
+                        "type": "boolean"
+                      },
+                      "clone_url": {
+                        "type": "string"
+                      },
+                      "size": {
+                        "type": "number"
+                      },
+                      "default_branch": {
+                        "type": "string"
+                      },
+                      "git_commits_url": {
+                        "type": "string"
+                      },
+                      "git_refs_url": {
+                        "type": "string"
+                      },
+                      "git_url": {
+                        "type": "string"
+                      },
+                      "master_branch": {
+                        "type": [
+                          "null"
+                        ]
+                      },
+                      "language": {
+                        "type": [
+                          "null"
+                        ]
+                      },
+                      "visibility": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "name",
+                      "owner",
+                      "repository_full_name",
+                      "allow_auto_merge",
+                      "allow_merge_commit",
+                      "allow_rebase_merge",
+                      "allow_squash_merge",
+                      "allow_update_branch",
+                      "clone_url",
+                      "size",
+                      "default_branch",
+                      "git_commits_url",
+                      "git_refs_url",
+                      "git_url",
+                      "master_branch",
+                      "language",
+                      "visibility"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "github-XXXXXXXXXX"
+                ],
+                "additionalProperties": false
+              },
+              "env_vars": {
+                "type": "object",
+                "properties": {
+                  "CODEX_ENV_PYTHON_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_NODE_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_RUBY_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_RUST_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_GO_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_BUN_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_PHP_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_JAVA_VERSION": {
+                    "type": "string"
+                  },
+                  "CODEX_ENV_SWIFT_VERSION": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "CODEX_ENV_PYTHON_VERSION",
+                  "CODEX_ENV_NODE_VERSION",
+                  "CODEX_ENV_RUBY_VERSION",
+                  "CODEX_ENV_RUST_VERSION",
+                  "CODEX_ENV_GO_VERSION",
+                  "CODEX_ENV_BUN_VERSION",
+                  "CODEX_ENV_PHP_VERSION",
+                  "CODEX_ENV_JAVA_VERSION",
+                  "CODEX_ENV_SWIFT_VERSION"
+                ],
+                "additionalProperties": false
+              },
+              "secrets": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+              },
+              "task_count": {
+                "type": "number"
+              },
+              "creator_id": {
+                "type": "string"
+              },
+              "share_settings": {
+                "type": "string"
+              },
+              "created_at": {
+                "type": "number"
+              },
+              "auto_setup_settings": {
+                "type": "object",
+                "properties": {
+                  "use_auto_setup": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "use_auto_setup"
+                ],
+                "additionalProperties": false
+              },
+              "cache_settings": {
+                "type": "object",
+                "properties": {
+                  "post_setup_cache_enabled": {
+                    "type": "boolean"
+                  },
+                  "cache_invalidation_key": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "post_setup_cache_enabled",
+                  "cache_invalidation_key"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "id",
+              "machine_id",
+              "label",
+              "is_pinned",
+              "description",
+              "workspace_dir",
+              "agent_network_access",
+              "repos",
+              "setup",
+              "maintenance_setup",
+              "repo_map",
+              "env_vars",
+              "secrets",
+              "task_count",
+              "creator_id",
+              "share_settings",
+              "created_at",
+              "auto_setup_settings",
+              "cache_settings"
+            ],
+            "additionalProperties": false
+          },
+          "branch": {
+            "type": "string"
+          },
+          "base_commit_sha": {
+            "type": [
+              "null"
+            ]
+          },
+          "previous_turn_id": {
+            "type": "string"
+          },
+          "logs": {
+            "type": [
+              "null"
+            ]
+          },
+          "proxy_events": {
+            "type": [
+              "null"
+            ]
+          },
+          "debug_metadata": {
+            "type": [
+              "null"
+            ]
+          },
+          "discarded": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "type",
+          "id",
+          "sibling_turn_ids",
+          "attempt_placement",
+          "role",
+          "output_items",
+          "child_turns",
+          "conversation_id",
+          "error",
+          "latest_event",
+          "worklog",
+          "turn_status",
+          "pull_request_status",
+          "pull_request_data",
+          "created_at",
+          "internal_only_rollouts",
+          "environment_id",
+          "environment",
+          "branch",
+          "base_commit_sha",
+          "previous_turn_id",
+          "logs",
+          "proxy_events",
+          "debug_metadata",
+          "discarded"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sibling_turns"
+  ],
+  "additionalProperties": false
+}

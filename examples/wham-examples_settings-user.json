@@ -1,0 +1,8 @@
+{
+  "user_id": "user-example",
+  "git_diff_mode": "split",
+  "branch_format": "codex/{feature}",
+  "custom_instructions": "Always create a pull request unless the user explicitly opts out.",
+  "code_review_preference": "never",
+  "alpha_opt_in": false
+}

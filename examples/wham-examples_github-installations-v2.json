@@ -1,0 +1,15 @@
+{
+  "memberships": [
+    {
+      "id": "installation-1",
+      "account_login": "sample-owner",
+      "account_id": 123456,
+      "account_type": "User",
+      "account_avatar_url": "https://example.com/avatar.png",
+      "html_url": "https://github.com/apps/sample-app",
+      "events": ["pull_request", "push", "issues"]
+    }
+  ],
+  "other": [],
+  "likely_on_old_access_token": false
+}

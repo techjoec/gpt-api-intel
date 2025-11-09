@@ -1,0 +1,48 @@
+{
+  "branch_format_special_values": [
+    {
+      "value": "{feature}",
+      "char_count_label": "[1, 60]",
+      "char_count": 60,
+      "description": "Model generated feature name",
+      "example": "feature-branch-name"
+    },
+    {
+      "value": "{branch}",
+      "char_count_label": "[1, 60]",
+      "char_count": 60,
+      "description": "The original branch name, or commit sha, truncated to 60 characters",
+      "example": "main"
+    },
+    {
+      "value": "{uuid}",
+      "char_count_label": "6",
+      "char_count": 6,
+      "description": "Randomly generated alphanumeric string",
+      "example": "q5ccpt"
+    },
+    {
+      "value": "{ts}",
+      "char_count_label": "10",
+      "char_count": 10,
+      "description": "Current UNIX timestamp",
+      "example": "1758000000"
+    },
+    {
+      "value": "{date}",
+      "char_count_label": "10",
+      "char_count": 10,
+      "description": "UTC date in yyyy-MM-dd format",
+      "example": "2025-09-25"
+    },
+    {
+      "value": "{time}",
+      "char_count_label": "8",
+      "char_count": 8,
+      "description": "UTC time in HH-mm-ss format",
+      "example": "05-22-24"
+    }
+  ],
+  "branch_format_max_length": 100,
+  "custom_instructions_max_chars": 100000
+}

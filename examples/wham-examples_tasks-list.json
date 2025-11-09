@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "id": "task_e_example",
+      "title": "Investigate build flake in linux release job",
+      "has_generated_title": true,
+      "created_at": 1758697448.62,
+      "updated_at": 1758697542.48,
+      "archived": false,
+      "has_unread_turn": true,
+      "pull_requests": [],
+      "task_status_display": {
+        "environment_label": "sample-org/sample-repo",
+        "branch_name": "main",
+        "latest_turn_status_display": {
+          "turn_id": "task_e_example~assttrn_e_example",
+          "turn_status": "pending",
+          "diff_stats": null,
+          "issue_counts": null,
+          "image_asset_pointer_citations": null,
+          "sibling_turn_ids": []
+        }
+      }
+    }
+  ],
+  "cursor": "+RID:sample#RT:1#TRC:1"
+}

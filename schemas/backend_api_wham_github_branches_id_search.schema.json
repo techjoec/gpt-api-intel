@@ -1,0 +1,75 @@
+{
+  "$id": "normalizer://wham.github.backend_api_wham_github_branches_id_search",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "cursor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "item_count": {
+          "type": "integer"
+        },
+        "items": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "branch": {
+                "type": "string"
+              },
+              "metadata": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "branch",
+              "metadata"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "cursor",
+        "item_count",
+        "items"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.github.backend_api_wham_github_branches_id_searchEnvelope",
+  "type": "object"
+}

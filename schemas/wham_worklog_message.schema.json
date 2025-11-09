@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WHAM Worklog Message",
+  "description": "Enhanced worklog message structure from task turns",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Message identifier (UUID)"
+    },
+    "author": {
+      "type": "object",
+      "description": "Message author information",
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": ["user", "assistant", "tool"]
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "Author name"
+        },
+        "metadata": {
+          "type": "object"
+        }
+      },
+      "required": ["role"]
+    },
+    "create_time": {
+      "type": "number",
+      "description": "Unix timestamp (seconds with millisecond precision)"
+    },
+    "update_time": {
+      "type": ["number", "null"],
+      "description": "Last update timestamp"
+    },
+    "content": {
+      "type": "object",
+      "description": "Message content",
+      "properties": {
+        "content_type": {
+          "type": "string",
+          "enum": ["text", "code", "terminal_output"]
+        },
+        "parts": {
+          "type": "array",
+          "description": "Content parts",
+          "items": {
+            "type": "string"
+          }
+        },
+        "language": {
+          "type": "string",
+          "description": "Programming language (for code content)"
+        },
+        "response_format_name": {
+          "type": "string",
+          "description": "Response format identifier"
+        }
+      },
+      "required": ["content_type", "parts"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Message status",
+      "enum": ["finished_successfully", "in_progress", "failed"]
+    },
+    "end_turn": {
+      "type": ["boolean", "null"],
+      "description": "Whether this message ends the turn"
+    },
+    "weight": {
+      "type": "number",
+      "description": "Message weight for importance"
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Message metadata",
+      "properties": {
+        "exclude_after_next_user_message": {
+          "type": "boolean",
+          "description": "Exclude from future context"
+        },
+        "reasoning_status": {
+          "type": "string",
+          "description": "Reasoning state indicator",
+          "enum": ["is_reasoning", "not_reasoning"]
+        },
+        "first_content_token_index": {
+          "type": "integer",
+          "description": "Token offset for first content"
+        },
+        "message_content_token_count": {
+          "type": "integer",
+          "description": "Number of tokens in message"
+        },
+        "is_initial_reasoning_message": {
+          "type": "boolean",
+          "description": "First reasoning message flag"
+        },
+        "error": {
+          "type": "object",
+          "description": "Error details if status is failed",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "recipient": {
+      "type": "string",
+      "description": "Message recipient (usually 'all')"
+    },
+    "channel": {
+      "type": ["string", "null"],
+      "description": "Message channel",
+      "enum": ["commentary", "final", null]
+    }
+  },
+  "required": ["id", "author", "create_time", "content", "status"]
+}

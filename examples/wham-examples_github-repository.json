@@ -1,0 +1,24 @@
+{
+  "id": "github-0000000000",
+  "name": "sample-app",
+  "owner": {
+    "login": "sample-org",
+    "id": 123456,
+    "type": "Organization",
+    "avatar_url": "https://example.com/avatar.png",
+    "url": "https://api.github.com/orgs/sample-org"
+  },
+  "repository_full_name": "sample-org/sample-app",
+  "clone_url": "https://github.com/sample-org/sample-app.git",
+  "default_branch": "main",
+  "allow_merge_commit": true,
+  "allow_rebase_merge": true,
+  "allow_squash_merge": true,
+  "allow_auto_merge": false,
+  "allow_update_branch": false,
+  "merge_commit_message": "MERGE_MESSAGE",
+  "merge_commit_title": "MERGE_TITLE",
+  "squash_merge_commit_message": "SQUASHED_COMMIT_MESSAGE",
+  "squash_merge_commit_title": "SQUASHED_COMMIT_TITLE",
+  "visibility": "private"
+}

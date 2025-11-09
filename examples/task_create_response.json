@@ -1,0 +1,159 @@
+{
+  "task": {
+    "id": "<id>",
+    "created_at": 0,
+    "title": "New task",
+    "has_generated_title": false,
+    "current_turn_id": "<turn-id>",
+    "has_unread_turn": false,
+    "denormalized_metadata": {
+      "num_follow_ups": 0,
+      "repo_name_map": {},
+      "last_user_turn_created_at": null,
+      "last_turn_status": null,
+      "diff_stats": {
+        "files_modified": null,
+        "lines_added": null,
+        "lines_removed": null
+      },
+      "last_pushed_turn_id": null,
+      "start_branch_name": null,
+      "pushed_branch_name": null,
+      "cached_pull_request_data": null
+    },
+    "archived": false,
+    "external_pull_requests": []
+  },
+  "user_turn": {
+    "type": "user",
+    "id": "<id>",
+    "role": "user",
+    "input_items": [
+      {
+        "type": "message",
+        "role": "user",
+        "content": [
+          {
+            "content_type": "text",
+            "text": "ping"
+          }
+        ]
+      }
+    ],
+    "user_model_slug": "slug",
+    "previous_turn_id": null,
+    "created_at": 0
+  },
+  "turn": {
+    "type": "assistant",
+    "id": "<id>",
+    "sibling_turn_ids": [
+      "<turn-id>"
+    ],
+    "attempt_placement": 0,
+    "role": "assistant",
+    "output_items": [],
+    "child_turns": [],
+    "conversation_id": null,
+    "error": null,
+    "latest_event": null,
+    "worklog": {
+      "messages": []
+    },
+    "turn_status": "pending",
+    "pull_request_status": "not_created",
+    "pull_request_data": null,
+    "created_at": 0,
+    "internal_only_rollouts": null,
+    "environment_id": "<environment-id>",
+    "environment": {
+      "id": "<id>",
+      "machine_id": "<environment-id>",
+      "label": "<owner>/<repo>",
+      "is_pinned": false,
+      "description": "",
+      "workspace_dir": "/workspace",
+      "agent_network_access": {
+        "mode": "on",
+        "preset_allowlist": "all",
+        "allowlist_domains": "",
+        "safe_methods_only": null
+      },
+      "repos": [
+        "<repo-id>"
+      ],
+      "setup": [
+        "<script omitted>"
+      ],
+      "maintenance_setup": [
+        "<script omitted>"
+      ],
+      "repo_map": {
+        "github-XXXXXXXXXX": {
+          "id": "<id>",
+          "name": "<repo>",
+          "owner": {
+            "login": "<owner>",
+            "id": 0,
+            "type": "User",
+            "avatar_url": "<url>",
+            "url": "<url>"
+          },
+          "repository_full_name": "<owner>/<repo>",
+          "allow_auto_merge": false,
+          "allow_merge_commit": true,
+          "allow_rebase_merge": true,
+          "allow_squash_merge": true,
+          "allow_update_branch": false,
+          "clone_url": "<url>",
+          "size": 7541,
+          "default_branch": "main",
+          "git_commits_url": "<url>",
+          "git_refs_url": "<url>",
+          "git_url": "<url>",
+          "master_branch": null,
+          "language": null,
+          "visibility": "private"
+        }
+      },
+      "env_vars": {
+        "CODEX_ENV_PYTHON_VERSION": "3.12",
+        "CODEX_ENV_NODE_VERSION": "20",
+        "CODEX_ENV_RUBY_VERSION": "3.4.4",
+        "CODEX_ENV_RUST_VERSION": "1.87.0",
+        "CODEX_ENV_GO_VERSION": "1.24.3",
+        "CODEX_ENV_BUN_VERSION": "1.2.14",
+        "CODEX_ENV_PHP_VERSION": "8.4",
+        "CODEX_ENV_JAVA_VERSION": "21",
+        "CODEX_ENV_SWIFT_VERSION": "6.1",
+        "TKEY": "<secret>"
+      },
+      "secrets": {},
+      "task_count": 577,
+      "creator_id": "<user-id>",
+      "share_settings": "workspace",
+      "created_at": 0,
+      "auto_setup_settings": null,
+      "cache_settings": {
+        "post_setup_cache_enabled": true,
+        "cache_invalidation_key": "<cache-key>"
+      }
+    },
+    "branch": "main",
+    "base_commit_sha": null,
+    "previous_turn_id": "<turn-id>",
+    "logs": null,
+    "proxy_events": null,
+    "debug_metadata": null,
+    "discarded": false
+  },
+  "rate_limit": {
+    "allowed": true,
+    "limit_reached": false,
+    "limit": 0,
+    "remaining": 0,
+    "resets_after": 0,
+    "user_plan_type": "plus",
+    "resets_after_text": "<duration>"
+  }
+}

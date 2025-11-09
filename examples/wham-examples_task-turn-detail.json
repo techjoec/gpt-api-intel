@@ -1,0 +1,87 @@
+{
+  "turn": {
+    "type": "assistant",
+    "id": "task_example~asst_turn_1",
+    "sibling_turn_ids": [],
+    "attempt_placement": 0,
+    "role": "assistant",
+    "output_items": [],
+    "child_turns": [],
+    "conversation_id": "conv-example",
+    "error": null,
+    "latest_event": {
+      "created": 1758700100.0,
+      "text": "Working",
+      "event_type": "info"
+    },
+    "worklog": {
+      "messages": []
+    },
+    "turn_status": "in_progress",
+    "pull_request_status": "not_created",
+    "pull_request_data": null,
+    "created_at": 1758700050.0,
+    "internal_only_rollouts": null,
+    "environment_id": "env-example-1",
+    "environment": {
+      "id": "env-example-1",
+      "machine_id": "wham-public/wham-universal",
+      "label": "sample-org/sample-repo",
+      "description": "Sample environment for schema docs",
+      "workspace_dir": "/workspace",
+      "agent_network_access": {
+        "mode": "on",
+        "preset_allowlist": "all",
+        "allowlist_domains": "",
+        "safe_methods_only": null
+      },
+      "repos": [
+        "github-0000000000"
+      ],
+      "setup": [
+        "#!/usr/bin/env bash",
+        "echo 'setup commands elided'"
+      ],
+      "maintenance_setup": "",
+      "repo_map": {
+        "github-0000000000": {
+          "id": "0000000000",
+          "name": "sample-repo",
+          "repository_full_name": "sample-org/sample-repo",
+          "clone_url": "https://github.com/sample-org/sample-repo.git",
+          "default_branch": "main",
+          "permissions": {
+            "admin": true,
+            "push": true,
+            "pull": true
+          }
+        }
+      },
+      "env_vars": {
+        "CODEX_ENV_NODE_VERSION": "20"
+      },
+      "secrets": {},
+      "task_count": 42,
+      "creator_id": "user-example",
+      "share_settings": "workspace",
+      "share_targets": [],
+      "created_at": 1754294758.0,
+      "auto_setup_settings": {
+        "use_auto_setup": true
+      },
+      "cache_settings": {
+        "post_setup_cache_enabled": true,
+        "cache_invalidation_key": "cache-key"
+      }
+    },
+    "branch": "feature/sample-update",
+    "base_commit_sha": "abcdef1234567890abcdef1234567890abcdef12",
+    "previous_turn_id": "task_example~user_turn_1",
+    "logs": {
+      "logs": []
+    },
+    "proxy_events": null,
+    "debug_metadata": null,
+    "discarded": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "string"
+    },
+    "git_diff_mode": {
+      "type": "string"
+    },
+    "branch_format": {
+      "type": "string"
+    },
+    "custom_instructions": {
+      "type": "string"
+    },
+    "code_review_preference": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "user_id",
+    "git_diff_mode",
+    "branch_format",
+    "custom_instructions",
+    "code_review_preference"
+  ],
+  "additionalProperties": false
+}

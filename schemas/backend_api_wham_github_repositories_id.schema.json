@@ -1,0 +1,213 @@
+{
+  "$id": "normalizer://wham.github.backend_api_wham_github_repositories_id",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "allow_auto_merge": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allow_merge_commit": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allow_rebase_merge": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allow_squash_merge": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "allow_update_branch": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "clone_url": {
+          "type": "string"
+        },
+        "default_branch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "git_commits_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "git_refs_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "git_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "master_branch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "owner": {
+          "additionalProperties": false,
+          "properties": {
+            "avatar_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "id": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "login": {
+              "type": "string"
+            },
+            "type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "login",
+            "id",
+            "type",
+            "avatar_url",
+            "url"
+          ],
+          "type": "object"
+        },
+        "permissions": {
+          "additionalProperties": false,
+          "properties": {
+            "admin": {
+              "type": "boolean"
+            },
+            "pull": {
+              "type": "boolean"
+            },
+            "push": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "admin",
+            "push",
+            "pull"
+          ],
+          "type": "object"
+        },
+        "repository_full_name": {
+          "type": "string"
+        },
+        "repository_id": {
+          "type": "string"
+        },
+        "size": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "visibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "repository_id",
+        "name",
+        "repository_full_name",
+        "clone_url",
+        "default_branch",
+        "git_commits_url",
+        "git_refs_url",
+        "git_url",
+        "visibility",
+        "allow_auto_merge",
+        "allow_merge_commit",
+        "allow_rebase_merge",
+        "allow_squash_merge",
+        "allow_update_branch",
+        "language",
+        "size",
+        "master_branch",
+        "owner",
+        "permissions"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.github.backend_api_wham_github_repositories_idEnvelope",
+  "type": "object"
+}

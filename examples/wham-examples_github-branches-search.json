@@ -1,0 +1,11 @@
+{
+  "items": [
+    {
+      "branch": "main"
+    },
+    {
+      "branch": "develop"
+    }
+  ],
+  "cursor": "+RID:sample#RT:1#TRC:2"
+}

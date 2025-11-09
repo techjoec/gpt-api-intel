@@ -1,0 +1,76 @@
+[
+  {
+    "id": "<id>",
+    "machine_id": "<environment-id>",
+    "label": "<owner>/<repo>",
+    "is_pinned": false,
+    "description": "",
+    "workspace_dir": "/workspace",
+    "agent_network_access": {
+      "mode": "on",
+      "preset_allowlist": "all",
+      "allowlist_domains": "",
+      "safe_methods_only": null
+    },
+    "repos": [
+      "<repo-id>"
+    ],
+    "setup": [
+      "<script omitted>"
+    ],
+    "maintenance_setup": [
+      "<script omitted>"
+    ],
+    "repo_map": {
+      "github-XXXXXXXXXX": {
+        "id": "<id>",
+        "name": "<repo>",
+        "owner": {
+          "login": "<owner>",
+          "id": 0,
+          "type": "User",
+          "avatar_url": "<url>",
+          "url": "<url>"
+        },
+        "repository_full_name": "<owner>/<repo>",
+        "clone_url": "<url>",
+        "default_branch": "codex",
+        "git_commits_url": "<url>",
+        "git_refs_url": "<url>",
+        "git_url": "<url>",
+        "visibility": "private",
+        "allow_auto_merge": false,
+        "allow_merge_commit": true,
+        "allow_rebase_merge": true,
+        "allow_squash_merge": true,
+        "allow_update_branch": false,
+        "language": null,
+        "size": 120770,
+        "master_branch": null
+      }
+    },
+    "env_vars": {
+      "CODEX_ENV_PYTHON_VERSION": "3.12",
+      "CODEX_ENV_NODE_VERSION": "20",
+      "CODEX_ENV_RUBY_VERSION": "3.4.4",
+      "CODEX_ENV_RUST_VERSION": "1.87.0",
+      "CODEX_ENV_GO_VERSION": "1.24.3",
+      "CODEX_ENV_BUN_VERSION": "1.2.14",
+      "CODEX_ENV_PHP_VERSION": "8.4",
+      "CODEX_ENV_JAVA_VERSION": "21",
+      "CODEX_ENV_SWIFT_VERSION": "6.1"
+    },
+    "secrets": {},
+    "task_count": 419,
+    "creator_id": "<user-id>",
+    "share_settings": "workspace",
+    "created_at": 0,
+    "auto_setup_settings": {
+      "use_auto_setup": false
+    },
+    "cache_settings": {
+      "post_setup_cache_enabled": true,
+      "cache_invalidation_key": "<cache-key>"
+    }
+  }
+]

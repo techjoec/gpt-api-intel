@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "allowed": {
+      "type": "boolean"
+    },
+    "limit_reached": {
+      "type": "boolean"
+    },
+    "limit": {
+      "type": "number"
+    },
+    "remaining": {
+      "type": "number"
+    },
+    "resets_after": {
+      "type": "number"
+    },
+    "user_plan_type": {
+      "type": "string"
+    },
+    "resets_after_text": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "allowed",
+    "limit_reached",
+    "limit",
+    "remaining",
+    "resets_after",
+    "user_plan_type",
+    "resets_after_text"
+  ],
+  "additionalProperties": false
+}

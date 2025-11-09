@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WHAM Environment Test Request",
+  "description": "Request schema for POST /backend-api/wham/environments/test",
+  "type": "object",
+  "properties": {
+    "environment_id": {
+      "type": "string",
+      "description": "Environment identifier"
+    },
+    "machine_id": {
+      "type": "string",
+      "description": "Machine/container identifier"
+    },
+    "repos": {
+      "type": "array",
+      "description": "Repository configurations",
+      "items": {
+        "type": "object",
+        "properties": {
+          "repository_full_name": {
+            "type": "string",
+            "description": "Full repository name (owner/repo)",
+            "pattern": "^[^/]+/[^/]+$"
+          },
+          "default_branch": {
+            "type": "string",
+            "description": "Default branch name",
+            "default": "main"
+          },
+          "permissions": {
+            "type": "object",
+            "properties": {
+              "admin": {
+                "type": "boolean"
+              },
+              "push": {
+                "type": "boolean"
+              },
+              "pull": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "required": ["repository_full_name"]
+      }
+    },
+    "setup": {
+      "type": "array",
+      "description": "Setup script lines (cold start)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "maintenance_setup": {
+      "type": "array",
+      "description": "Maintenance script lines (warm start)",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workspace_dir": {
+      "type": "string",
+      "description": "Container workspace path",
+      "default": "/workspace"
+    },
+    "agent_network_access": {
+      "type": "object",
+      "properties": {
+        "preset_allowlist": {
+          "type": "string",
+          "description": "Network allowlist preset"
+        }
+      }
+    },
+    "env_vars": {
+      "type": "object",
+      "description": "Environment variables (toolchain versions)",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "properties": {
+        "PYTHON_VERSION": {
+          "type": "string",
+          "description": "Python version (e.g., 3.12)"
+        },
+        "NODE_VERSION": {
+          "type": "string",
+          "description": "Node.js version (e.g., 20)"
+        },
+        "RUBY_VERSION": {
+          "type": "string",
+          "description": "Ruby version (e.g., 3.4.4)"
+        },
+        "RUST_VERSION": {
+          "type": "string",
+          "description": "Rust version (e.g., 1.89.0)"
+        },
+        "GO_VERSION": {
+          "type": "string",
+          "description": "Go version (e.g., 1.24.3)"
+        },
+        "BUN_VERSION": {
+          "type": "string",
+          "description": "Bun version (e.g., 1.2.14)"
+        },
+        "PHP_VERSION": {
+          "type": "string",
+          "description": "PHP version (e.g., 8.4)"
+        },
+        "JAVA_VERSION": {
+          "type": "string",
+          "description": "Java version (e.g., 21)"
+        },
+        "SWIFT_VERSION": {
+          "type": "string",
+          "description": "Swift version (e.g., 6.1)"
+        }
+      }
+    },
+    "secrets": {
+      "type": "object",
+      "description": "Cloud-managed secret values",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "auto_setup_settings": {
+      "type": "object",
+      "properties": {
+        "use_auto_setup": {
+          "type": "boolean",
+          "description": "Enable automatic setup detection"
+        }
+      }
+    }
+  },
+  "required": ["environment_id"]
+}

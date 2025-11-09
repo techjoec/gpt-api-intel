@@ -1,0 +1,83 @@
+# Hash Pointer Overview — 2025-10-05
+
+Generated from analysis/intel/hash_pointer_full.json. For richer notes (heuristic categories, rule-only callouts), see `analysis/intel/hash_pointer_mappings.md`.
+- `879591222` (crossrefs: 23) – 1qfecgTGhI41TyPRCHP0cj
+- `2711769261` (crossrefs: 23) – 2yyPpKFkcyShFLdyBksHG6
+- `3768341700` (crossrefs: 22) – 5Jlrd9pFV0UhGDfWGHkhQO, is_produce_design, is_produce_text, is_produce_text_design, remove_early_access_upsell, traceId
+- `733205176` (crossrefs: 21) – box, google_calendar, mcp
+- `773249106` (crossrefs: 21) – 5M80Kzz2tbfdgNONyvZ4yt
+- `1520205231` (crossrefs: 21) – 01rYN29WNc33FVGlTeqiAb
+- `2179180337` (crossrefs: 21) – Test, USeZCOloSU02kTe6xjZuA, default_attempts, is_experiment_active, is_user_in_experiment, loaderData
+- `16480203` (crossrefs: 20) – 5Jlrd9pFV0UhGDfWGHkhQO, Can you create an image for my website? I need something that matches the overall theme and tone., Can you create an image of my pet? I'd love to have a fun and creative representation., Can you summarize the notes from my meeting?\nIf you need more information, ask me a follow up question or ask me to upload a file or image., Tools With Label, all_pages_enabled
+- `735368229` (crossrefs: 20) – Tgpx2sWrjJFvrIQz5i2Rj
+- `766296922` (crossrefs: 20) – 5M80Kzz2tbfdgNONyvZ4yt, Tgpx2sWrjJFvrIQz5i2Rj
+- `1422501431` (crossrefs: 20) – 2FWfMqWUtJiyC5zXj1kE4j
+- `1741586789` (crossrefs: 20) – 4bd3o553p0ZCRkFmipROd8
+- `1860647109` (crossrefs: 20) – is_continue_enabled, is_direct_continue_enabled
+- `2398649844` (crossrefs: 20) – Show Fullscreen, is_experiment_active, is_user_in_experiment, prestart
+- `3148583717` (crossrefs: 20) – 2LMhhyBFNuqee6FxNBPYGD
+- `222560275` (crossrefs: 19) – disabled
+- `550560761` (crossrefs: 19) – Control, P, history_results_limit, is_experiment_active, is_user_in_experiment, local_results_limit
+- `638971034` (crossrefs: 19) – 5Wveq7GtTwSkw53xGh43IJ
+- `1627380539` (crossrefs: 19) – XpQQXUL1hnJL24lgK6SNc
+- `2134057841` (crossrefs: 19) – disabled
+- `2273762597` (crossrefs: 19) – 7kaMWWoUxPT50SeIPlfCdh, Football, additional_category, enable_additional_categories, force_madlibs_param_name, madlibs_0203
+- `2665240312` (crossrefs: 19) – 2yyPpKFkcyShFLdyBksHG6
+- `3950229590` (crossrefs: 19) – enable_mobile_app_upsell_banner, enable_moodeng_upsell_banner, enabled_custom_checkout_for_plus, enabled_custom_checkout_for_pro, enabled_custom_checkout_for_team, enabled_prefetch_checkout_for_plus
+- `51772912` (crossrefs: 18) – 7Clvb0QOWPUx3qCVJyHAEf, gdrivePercentage, loadTestPercentage, loaderData, o365BusinessLink, o365Link
+- `934056609` (crossrefs: 18) – 6cpOntJWaY0PM6KienOpud
+- `1382475798` (crossrefs: 18) – 1gTx2Aj2GOaFnX0i5QH3xd, 3P8OsGy1e5tQlR5dsTIWbL
+- `1586944302` (crossrefs: 18) – 6Y59g2W4iWZnRxhyTNJwCP
+- `3860515571` (crossrefs: 18) – 6AHTTZOZ7zK6ZwfVd3yEGZ
+- `1825130190` (crossrefs: 17) – Nef2uMceNUF9U3ZYwSbpD
+- `1900515849` (crossrefs: 17) – 440aNijkk3to2aY5qzAuce
+- `2494348560` (crossrefs: 17) – 1YTIN2lOJV3YW7CzgcmC0V, 3N1wXSeIKDZ1UyJJbchvtW, allocated_experiment_name, android-keyboard-layout, enable_ca_pro_onboarding_flow, enabled_suggested_prompts
+- `108590566` (crossrefs: 16) – 7Clvb0QOWPUx3qCVJyHAEf
+- `218915747` (crossrefs: 16) – disabled
+- `223382091` (crossrefs: 16) – 1fKkxDiVebEKfTj8nDAjHe
+- `392240685` (crossrefs: 16) – disabled
+- `402391964` (crossrefs: 16) – 14sAQaGJDosUKVV0DFZsAL, disabled
+- `417039829` (crossrefs: 16) – 14sAQaGJDosUKVV0DFZsAL
+- `614413305` (crossrefs: 16) – 4dJRDSQ21TM2T9VfKwgErx
+- `878458344` (crossrefs: 16) – 1qfecgTGhI41TyPRCHP0cj
+- `926440545` (crossrefs: 16) – 6cpOntJWaY0PM6KienOpud
+- `989108178` (crossrefs: 16) – 4sTodKrNyByM4guZ68MORR
+- `1062277569` (crossrefs: 16) – 71N4Jo1hoAkC2AgdDXKOKk
+- `1138231213` (crossrefs: 16) – 6vS0XLwzY0ev70A0LFGhbx
+- `1327278438` (crossrefs: 16) – 37b90Pe22hQ4v4zxzvfsMd
+- `1887864177` (crossrefs: 16) – 4aG4TMZXICKolzZX4PHocN
+- `1894790777` (crossrefs: 16) – 440aNijkk3to2aY5qzAuce, 4aG4TMZXICKolzZX4PHocN, HqUecdZnSS5dtVzQybG0p
+- `2239990662` (crossrefs: 16) – 2099-01-01T00:00:00Z, 7kaMWWoUxPT50SeIPlfCdh, Can you help me learn Python? Start by asking me about my current level of programming knowledge., Can you walk me through salary negotiation? Start by asking if this is a new job or an existing one., Get advice on moving to a new city, Get advice on salary negotiation
+- `3922476776` (crossrefs: 16) – 1DS1QvDa6IFq9C1oJfgtU9, 4P1FctCTa3aaKSskEnEeMt, 6L5wYPiQHvEkDBUW7S8GDe
+- `1656345175` (crossrefs: 15) – 2CwIChuIr7SLQ2CyqRegF2
+- `1668913216` (crossrefs: 15) – 2CwIChuIr7SLQ2CyqRegF2
+- `1719651090` (crossrefs: 15) – 60QaTyBFJYTakinhLvhAM9
+- `2675205028` (crossrefs: 15) – Launch, control, is_gating_fix_enabled, is_tatertot_enabled, items, scroll_to_plus_variant
+- `3043007979` (crossrefs: 15) – y5W2EvjkxL0c6pSNqRSrH
+- `3127600850` (crossrefs: 15) – yXprO4wBczNL9ZwbTbbpr
+- `3240576626` (crossrefs: 15) – 1i7lNEU7iSBdPOl5oe4uwD, 6Y59g2W4iWZnRxhyTNJwCP
+- `3507761600` (crossrefs: 15) – disabled
+- `3673716873` (crossrefs: 15) – 4ujdPPLRC5gTgcijXp73KE
+- `3637408529` (crossrefs: 14) – is_anon_chat_enabled, is_anon_chat_enabled_for_new_users_only, is_business_seats_discount_enabled, is_nav_add_seats_button_enabled, is_no_auth_welcome_modal_enabled, is_try_it_first_on_login_page_enabled
+- `422096659` (crossrefs: 13) – 3en0A2k05WrQRycc2lhnpO, is_experiment_active, is_in_layer, is_user_in_experiment, share_download_with_watermark
+- `1547743984` (crossrefs: 13) – is_simplified_sharing_modal_enabled, is_social_share_options_enabled, is_update_shared_links_enabled, should_simplify_modal
+- `1839283687` (crossrefs: 13) – Nef2uMceNUF9U3ZYwSbpD
+- `2304807207` (crossrefs: 13) – default_interval, image_gen, o1_pro, o3_pro
+- `892702716` (crossrefs: 12) – 4lWJhvUzhJRX3m9j9NB53Q, react_query_infinite_stale_time
+- `2053937752` (crossrefs: 12) – 3cvEsYb1HoYj1UHIjQNXrm
+- `2067628123` (crossrefs: 12) – 3CuBjEMi97tY3EGnq0NA9s, 4c694c02, 5vXZHAgSKcJI3DOaakCFsh, 6IJYeK738bHhndIx5Hf4HJ, 6tuG5rFrUXGY55YsiomLF3, Can you create an image that looks like it's made out of felt? I'm going for a crafty and textured look.
+- `2069653199` (crossrefs: 12) – 3CuBjEMi97tY3EGnq0NA9s
+- `2192543539` (crossrefs: 12) – 4k1Q0QR4ky77KKz2DuwDhv
+- `2287071194` (crossrefs: 12) – 1i7lNEU7iSBdPOl5oe4uwD, Nef2uMceNUF9U3ZYwSbpD
+- `3899518838` (crossrefs: 12) – 6L5wYPiQHvEkDBUW7S8GDe
+- `4126691920` (crossrefs: 12) – 63eDLLibpmlcDbpLs0IWtD
+- `2335877601` (crossrefs: 11) – 6NQcdu7pgfp18Sq2tfBC6q
+- `2861925050` (crossrefs: 11) – 5dJr6ZDkIIrj4TUrtPgLIX, 7KJcC85OKb48XkVMjhUWqu:override, allow_receiver_see_user_uploaded_files
+- `3612584454` (crossrefs: 11) – 7syAmaU2H61BFHvFI8mxgd
+- `978971143` (crossrefs: 10) – cta_type, react_query_infinite_stale_time
+- `2986567482` (crossrefs: 10) – 3CuBjEMi97tY3EGnq0NA9s
+- `3096078201` (crossrefs: 10) – yXprO4wBczNL9ZwbTbbpr
+- `193245580` (crossrefs: 9) – cli, gbNhJYZt2LT0MMPpBwPnn, https://developers.openai.com/codex/cli, passed, vscode, vscode:extension/openai.chatgpt
+- `611328734` (crossrefs: 9) – 4dJRDSQ21TM2T9VfKwgErx
+- `1418300125` (crossrefs: 9) – 2FWfMqWUtJiyC5zXj1kE4j
+- `2777663391` (crossrefs: 9) – p9BYNIPthX5LK0qDUO6NH

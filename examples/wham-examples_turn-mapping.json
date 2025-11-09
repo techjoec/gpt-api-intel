@@ -1,0 +1,309 @@
+{
+  "turn_mapping": {
+    "task_e_example~usertrn_e_example": {
+      "id": "task_e_example~usertrn_e_example",
+      "turn": {
+        "type": "user",
+        "id": "task_e_example~usertrn_e_example",
+        "role": "user",
+        "input_items": [
+          {
+            "type": "message",
+            "role": "user",
+            "content": [
+              {
+                "content_type": "text",
+                "text": "Please consolidate the binary candidate list into a reusable helper."
+              }
+            ]
+          },
+          {
+            "type": "pre_apply_patch",
+            "output_diff": {
+              "type": "output_diff",
+              "repo_id": null,
+              "base_commit_sha": null,
+              "preapply_patch_base_commit_sha": null,
+              "diff": "diff --git a/file.txt b/file.txt\n",
+              "external_storage_diff": {
+                "file_id": "file_example_diff_blob",
+                "ttl": null
+              },
+              "files_modified": null,
+              "lines_added": null,
+              "lines_removed": null,
+              "commit_message": null
+            }
+          }
+        ],
+        "user_model_slug": "gpt-4.1-mini",
+        "previous_turn_id": null,
+        "created_at": 1758697448.62
+      },
+      "parent": null,
+      "children": [
+        "task_e_example~assttrn_e_example"
+      ]
+    },
+    "task_e_example~assttrn_e_example": {
+      "id": "task_e_example~assttrn_e_example",
+      "turn": {
+        "type": "assistant",
+        "id": "task_e_example~assttrn_e_example",
+        "role": "assistant",
+        "attempt_placement": 0,
+        "sibling_turn_ids": [
+          "task_e_example~assttrn_e_alt"
+        ],
+        "output_items": [],
+        "child_turns": [],
+        "conversation_id": "None",
+        "error": {
+          "code": "failed_to_apply_patch_error",
+          "message": "Failed to apply patch to repo /workspace/sample-repo."
+        },
+        "latest_event": {
+          "created": 1758697535.18,
+          "text": "Thinking",
+          "event_type": "info"
+        },
+        "worklog": {
+          "messages": []
+        },
+        "turn_status": "failed",
+        "pull_request_status": "not_created",
+        "pull_request_data": null,
+        "created_at": 1758697448.79,
+        "internal_only_rollouts": null,
+        "environment_id": "env-example",
+        "environment": {
+          "id": "env-example",
+          "machine_id": "wham-public/wham-universal",
+          "label": "sample-org/sample-repo",
+          "description": "",
+          "workspace_dir": "/workspace",
+          "is_pinned": false,
+          "agent_network_access": {
+            "mode": "on",
+            "preset_allowlist": "all",
+            "allowlist_domains": "",
+            "safe_methods_only": null
+          },
+          "auto_setup_settings": {
+            "use_auto_setup": true
+          },
+          "cache_settings": {
+            "post_setup_cache_enabled": true,
+            "cache_invalidation_key": ""
+          },
+          "env_vars": {
+            "CODEX_ENV_NODE_VERSION": "20",
+            "CODEX_ENV_PYTHON_VERSION": "3.12",
+            "CODEX_ENV_RUST_VERSION": "1.89.0"
+          },
+          "repos": [
+            "github-0000000000"
+          ],
+          "repo_map": {
+            "github-0000000000": {
+              "id": "0000000000",
+              "name": "sample-repo",
+              "repository_full_name": "sample-org/sample-repo",
+              "clone_url": "https://github.com/sample-org/sample-repo.git",
+              "default_branch": "main",
+              "language": null,
+              "master_branch": null,
+              "permissions": {
+                "admin": true,
+                "push": true,
+                "pull": true
+              },
+              "owner": {
+                "login": "sample-org",
+                "id": 123456,
+                "type": "Organization",
+                "avatar_url": null,
+                "url": "https://api.github.com/orgs/sample-org"
+              },
+              "allow_merge_commit": true,
+              "allow_rebase_merge": true,
+              "allow_squash_merge": true,
+              "allow_update_branch": false,
+              "allow_auto_merge": false,
+              "git_url": "git://github.com/sample-org/sample-repo.git",
+              "git_refs_url": "https://api.github.com/repos/sample-org/sample-repo/git/refs{/sha}",
+              "git_commits_url": "https://api.github.com/repos/sample-org/sample-repo/git/commits{/sha}",
+              "size": 0,
+              "visibility": "private"
+            }
+          },
+          "setup": "",
+          "maintenance_setup": "",
+          "share_settings": "workspace",
+          "share_targets": [],
+          "secrets": {},
+          "task_count": 42,
+          "creator_id": "user-example",
+          "created_at": 1758697000.0
+        },
+        "branch": "main",
+        "base_commit_sha": null,
+        "previous_turn_id": "task_e_example~usertrn_e_example",
+        "logs": {
+          "logs": [
+            {
+              "key": {
+                "type": "UserSetupScript",
+                "name": "setup_autodetect",
+                "created_at": "2025-09-24T07:04:59.648738"
+              },
+              "value": "file_auto_detect_log"
+            },
+            {
+              "key": {
+                "type": "UserSetupScript",
+                "name": "auto_setup",
+                "created_at": "2025-09-24T07:05:09.790573"
+              },
+              "value": "file_auto_setup_log"
+            }
+          ]
+        },
+        "proxy_events": null,
+        "debug_metadata": null,
+        "discarded": false
+      },
+      "parent": "task_e_example~usertrn_e_example",
+      "children": []
+    },
+    "task_e_example~assttrn_e_alt": {
+      "id": "task_e_example~assttrn_e_alt",
+      "turn": {
+        "type": "assistant",
+        "id": "task_e_example~assttrn_e_alt",
+        "role": "assistant",
+        "attempt_placement": 1,
+        "sibling_turn_ids": [
+          "task_e_example~assttrn_e_example"
+        ],
+        "output_items": [],
+        "child_turns": [],
+        "conversation_id": "None",
+        "error": null,
+        "latest_event": {
+          "created": 1758697540.0,
+          "text": "Waiting",
+          "event_type": "info"
+        },
+        "worklog": {
+          "messages": []
+        },
+        "turn_status": "pending",
+        "pull_request_status": "not_created",
+        "pull_request_data": null,
+        "created_at": 1758697540.0,
+        "internal_only_rollouts": null,
+        "environment_id": "env-example",
+        "environment": {
+          "id": "env-example",
+          "machine_id": "wham-public/wham-universal",
+          "label": "sample-org/sample-repo",
+          "description": "",
+          "workspace_dir": "/workspace",
+          "is_pinned": false,
+          "agent_network_access": {
+            "mode": "on",
+            "preset_allowlist": "all",
+            "allowlist_domains": "",
+            "safe_methods_only": null
+          },
+          "auto_setup_settings": {
+            "use_auto_setup": true
+          },
+          "cache_settings": {
+            "post_setup_cache_enabled": true,
+            "cache_invalidation_key": ""
+          },
+          "env_vars": {
+            "CODEX_ENV_NODE_VERSION": "20",
+            "CODEX_ENV_PYTHON_VERSION": "3.12",
+            "CODEX_ENV_RUST_VERSION": "1.89.0"
+          },
+          "repos": [
+            "github-0000000000"
+          ],
+          "repo_map": {
+            "github-0000000000": {
+              "id": "0000000000",
+              "name": "sample-repo",
+              "repository_full_name": "sample-org/sample-repo",
+              "clone_url": "https://github.com/sample-org/sample-repo.git",
+              "default_branch": "main",
+              "language": null,
+              "master_branch": null,
+              "permissions": {
+                "admin": true,
+                "push": true,
+                "pull": true
+              },
+              "owner": {
+                "login": "sample-org",
+                "id": 123456,
+                "type": "Organization",
+                "avatar_url": null,
+                "url": "https://api.github.com/orgs/sample-org"
+              },
+              "allow_merge_commit": true,
+              "allow_rebase_merge": true,
+              "allow_squash_merge": true,
+              "allow_update_branch": false,
+              "allow_auto_merge": false,
+              "git_url": "git://github.com/sample-org/sample-repo.git",
+              "git_refs_url": "https://api.github.com/repos/sample-org/sample-repo/git/refs{/sha}",
+              "git_commits_url": "https://api.github.com/repos/sample-org/sample-repo/git/commits{/sha}",
+              "size": 0,
+              "visibility": "private"
+            }
+          },
+          "setup": "",
+          "maintenance_setup": "",
+          "share_settings": "workspace",
+          "share_targets": [],
+          "secrets": {},
+          "task_count": 42,
+          "creator_id": "user-example",
+          "created_at": 1758697000.0
+        },
+        "branch": "main",
+        "base_commit_sha": null,
+        "previous_turn_id": "task_e_example~usertrn_e_example",
+        "logs": {
+          "logs": [
+            {
+              "key": {
+                "type": "UserSetupScript",
+                "name": "setup_autodetect",
+                "created_at": "2025-09-24T07:04:59.648738"
+              },
+              "value": "file_auto_detect_log"
+            },
+            {
+              "key": {
+                "type": "UserSetupScript",
+                "name": "auto_setup",
+                "created_at": "2025-09-24T07:05:09.790573"
+              },
+              "value": "file_auto_setup_log"
+            }
+          ]
+        },
+        "proxy_events": null,
+        "debug_metadata": null,
+        "discarded": false
+      },
+      "parent": "task_e_example~usertrn_e_example",
+      "children": []
+    }
+  },
+  "current_turn_id": "task_e_example~assttrn_e_example"
+}

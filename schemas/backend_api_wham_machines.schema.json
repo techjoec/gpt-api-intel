@@ -1,0 +1,109 @@
+{
+  "$id": "normalizer://wham.machines.backend_api_wham_machines",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "machine_count": {
+          "type": "integer"
+        },
+        "machines": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "cpu_limit": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "disk_limit_mb": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "image": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "label": {
+                "type": "string"
+              },
+              "machine_id": {
+                "type": "string"
+              },
+              "memory_limit_mb": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "metadata": {
+                "additionalProperties": false,
+                "properties": {
+                  "data": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "data"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "machine_id",
+              "label",
+              "cpu_limit",
+              "memory_limit_mb",
+              "disk_limit_mb",
+              "image",
+              "metadata"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "machine_count",
+        "machines"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.machines.backend_api_wham_machinesEnvelope",
+  "type": "object"
+}
