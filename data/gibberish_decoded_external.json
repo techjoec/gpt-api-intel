@@ -1,360 +1,300 @@
 [
   {
-    "path": "/tmp/obfuscation_scan/hackernoon.html",
     "type": "base64",
     "token": "UmE55luzYHXn1zA8IjtR",
     "decoded": "Ra9[`u0<\";Q"
   },
   {
-    "path": "/tmp/obfuscation_scan/r57labs.html",
     "type": "base64",
     "token": "displayImportedProductReviewsEnabled",
     "decoded": "v+)+Onr^'InW"
   },
   {
-    "path": "/tmp/obfuscation_scan/r57labs.html",
     "type": "base64",
     "token": "cookieBannerPosition",
     "decoded": "r$Zw>\"*'"
   },
   {
-    "path": "/tmp/obfuscation_scan/r57labs.html",
     "type": "base64",
     "token": "siteTitleContainerWidth",
     "decoded": "+^N+ex*'zv"
   },
   {
-    "path": "/tmp/obfuscation_scan/r57labs.html",
     "type": "base64",
     "token": "QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4",
     "decoded": "AIzaSyCBTROq6LuvF_IE1r46-T4AeTSV-0d7my8"
   },
   {
-    "path": "/tmp/obfuscation_scan/digitalocean_base64.html",
     "type": "base64",
     "token": "3e2ab799aa5e46c193ec40f5760757",
     "decoded": "o}i^5wG;"
   },
   {
-    "path": "/tmp/obfuscation_scan/digitalocean_base64.html",
     "type": "base64",
     "token": "3e2ab799aa5e46c193ec40f5760757",
     "decoded": "o}i^5wG;"
   },
   {
-    "path": "/tmp/obfuscation_scan/digitalocean_base64.html",
     "type": "base64",
     "token": "3e2ab799aa5e46c193ec40f5760757",
     "decoded": "o}i^5wG;"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js.map",
     "type": "base64",
     "token": "addCacheListener",
     "decoded": "iBi^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js.map",
     "type": "base64",
     "token": "PrecacheInstallReportPlugin",
     "decoded": ">i^\"{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js.map",
     "type": "base64",
     "token": "PrecacheCacheKeyPlugin",
     "decoded": ">i^\t!x>["
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js.map",
     "type": "base64",
     "token": "installReportPlugin",
     "decoded": "{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "base64",
     "token": "d2dedf6d77957db5a7bfb6a53295e7d6",
     "decoded": "wg^uykooy{z"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "base64",
     "token": "4ee7ca328997d2c690444d79c6b48629",
     "decoded": "q{wg:N8s"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "base64",
     "token": "80d6025c59787e3fbdbd4e55ef08d7f3",
     "decoded": "Gzn\\myy<w"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "base64",
     "token": "fd9dd72ca3c520f1bfe2b6a271116235",
     "decoded": "}]wkw9Gmo]um"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "base64",
     "token": "90fd8544875e33a960c28041d8fcb6bc",
     "decoded": "G8^vG6N5wo"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/sw.js",
     "type": "hex",
     "token": "383595543e61ac2796b290749fcc52ef",
     "decoded": "85T>a'tR"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js.map",
     "type": "base64",
     "token": "addCacheListener",
     "decoded": "iBi^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js.map",
     "type": "base64",
     "token": "PrecacheInstallReportPlugin",
     "decoded": ">i^\"{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js.map",
     "type": "base64",
     "token": "PrecacheCacheKeyPlugin",
     "decoded": ">i^\t!x>["
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js.map",
     "type": "base64",
     "token": "installReportPlugin",
     "decoded": "{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-e1834b40.js",
     "type": "base64",
     "token": "QuotaExceededError",
     "decoded": "B-hL\\y^tJ"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js",
     "type": "base64",
     "token": "QuotaExceededError",
     "decoded": "B-hL\\y^tJ"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-a82ab0ba.js",
     "type": "base64",
     "token": "QuotaExceededError",
     "decoded": "B-hL\\y^tJ"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js.map",
     "type": "base64",
     "token": "addCacheListener",
     "decoded": "iBi^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js.map",
     "type": "base64",
     "token": "PrecacheInstallReportPlugin",
     "decoded": ">i^\"{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js.map",
     "type": "base64",
     "token": "PrecacheCacheKeyPlugin",
     "decoded": ">i^\t!x>["
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/workbox-08e0b74e.js.map",
     "type": "base64",
     "token": "installReportPlugin",
     "decoded": "{-jYQz+n)"
   },
   {
-    "path": "/tmp/obfuscation_scan/humanify/tsconfig.json",
     "type": "base64",
     "token": "importsNotUsedAsValues",
     "decoded": "jh\r,y,Unz"
   },
   {
-    "path": "/tmp/obfuscation_scan/humanify/tsconfig.json",
     "type": "base64",
     "token": "allowUnreachableCode",
     "decoded": "jYhIy!i^\n^"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/mathjs/math.min.js",
     "type": "base64",
     "token": "createFunctionAssignmentNode",
     "decoded": "rnbp,('6^"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-background-sync.prod.js.map",
     "type": "base64",
     "token": "serializableProperties",
     "decoded": "jXi^>)zbz"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-offline-ga.dev.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-background-sync.dev.js.map",
     "type": "base64",
     "token": "serializableProperties",
     "decoded": "jXi^>)zbz"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-core.prod.js",
     "type": "base64",
     "token": "QuotaExceededError",
     "decoded": "B-hL\\y^tJ"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-range-requests.dev.js.map",
     "type": "base64",
     "token": "calculateEffectiveBoundaries",
     "decoded": "q\\VxGybhwZ'"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-offline-ga.prod.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-routing.prod.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-routing.prod.js.map",
     "type": "base64",
     "token": "addCacheListener",
     "decoded": "iBi^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-precaching.prod.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-precaching.prod.js.map",
     "type": "base64",
     "token": "activateListener",
     "decoded": "ib^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-range-requests.prod.js.map",
     "type": "base64",
     "token": "calculateEffectiveBoundaries",
     "decoded": "q\\VxGybhwZ'"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-precaching.dev.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-precaching.dev.js.map",
     "type": "base64",
     "token": "activateListener",
     "decoded": "ib^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-routing.dev.js.map",
     "type": "base64",
     "token": "addFetchListener",
     "decoded": "iEz!.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/de4js/third_party/workbox/workbox-v5.1.4/workbox-routing.dev.js.map",
     "type": "base64",
     "token": "addCacheListener",
     "decoded": "iBi^.+-zw"
   },
   {
-    "path": "/tmp/obfuscation_scan/webcrack/packages/webcrack/src/unminify/test/json-parse.test.ts",
     "type": "base64",
     "token": "1000000000000000000000",
     "decoded": "M4M4M4M4M4"
   },
   {
-    "path": "/tmp/obfuscation_scan/obfuscation-detector/tests/resources/caesar_plus.js",
     "type": "base64",
     "token": "MCk7dmFyIGZGcz0oIml2QWFceDhiMzJZUT1aIlsiY2hhckNvZGVBdCJdKDYpKjArNC4wKTt2YXIgYjQ1PSJMdyY5alcqQj1",
     "decoded": "0);var fFs=(\"ivAa\\x8b32YQ=Z\"[\"charCodeAt\"](6)*0+4.0);var b45=\"Lw&9jW*B="
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/all_secret_locators.json",
     "type": "base64",
     "token": "fastlypersonaltoken",
     "decoded": "}-*^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/all_secret_locators.json",
     "type": "base64",
     "token": "terraformcloudpersonaltoken",
     "decoded": "i+h^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/all_secret_locators.json",
     "type": "base64",
     "token": "Terraformcloudpersonaltoken",
     "decoded": "Mi+h^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/key_locators.json",
     "type": "base64",
     "token": "fastlypersonaltoken",
     "decoded": "}-*^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/key_locators.json",
     "type": "base64",
     "token": "terraformcloudpersonaltoken",
     "decoded": "i+h^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/key_locators.json",
     "type": "base64",
     "token": "Terraformcloudpersonaltoken",
     "decoded": "Mi+h^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/cloud.json",
     "type": "base64",
     "token": "terraformcloudpersonaltoken",
     "decoded": "i+h^'j[h"
   },
   {
-    "path": "/tmp/obfuscation_scan/apkscan/src/apkscan/secret_locators/cloud.json",
     "type": "base64",
     "token": "Terraformcloudpersonaltoken",
     "decoded": "Mi+h^'j[h"
