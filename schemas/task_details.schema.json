@@ -1,0 +1,926 @@
+{
+  "type": "object",
+  "properties": {
+    "task": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "number"
+        },
+        "title": {
+          "type": "string"
+        },
+        "has_generated_title": {
+          "type": "boolean"
+        },
+        "current_turn_id": {
+          "type": "string"
+        },
+        "has_unread_turn": {
+          "type": "boolean"
+        },
+        "denormalized_metadata": {
+          "type": "object",
+          "properties": {
+            "num_follow_ups": {
+              "type": "number"
+            },
+            "repo_name_map": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            },
+            "last_user_turn_created_at": {
+              "type": [
+                "null"
+              ]
+            },
+            "last_turn_status": {
+              "type": [
+                "null"
+              ]
+            },
+            "diff_stats": {
+              "type": "object",
+              "properties": {
+                "files_modified": {
+                  "type": [
+                    "null"
+                  ]
+                },
+                "lines_added": {
+                  "type": [
+                    "null"
+                  ]
+                },
+                "lines_removed": {
+                  "type": [
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "files_modified",
+                "lines_added",
+                "lines_removed"
+              ],
+              "additionalProperties": false
+            },
+            "last_pushed_turn_id": {
+              "type": [
+                "null"
+              ]
+            },
+            "start_branch_name": {
+              "type": [
+                "null"
+              ]
+            },
+            "pushed_branch_name": {
+              "type": [
+                "null"
+              ]
+            },
+            "cached_pull_request_data": {
+              "type": [
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "num_follow_ups",
+            "repo_name_map",
+            "last_user_turn_created_at",
+            "last_turn_status",
+            "diff_stats",
+            "last_pushed_turn_id",
+            "start_branch_name",
+            "pushed_branch_name",
+            "cached_pull_request_data"
+          ],
+          "additionalProperties": false
+        },
+        "archived": {
+          "type": "boolean"
+        },
+        "external_pull_requests": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "created_at",
+        "title",
+        "has_generated_title",
+        "current_turn_id",
+        "has_unread_turn",
+        "denormalized_metadata",
+        "archived",
+        "external_pull_requests"
+      ],
+      "additionalProperties": false
+    },
+    "current_user_turn": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "input_items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "content": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "content_type": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "content_type",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "type",
+              "role",
+              "content"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "user_model_slug": {
+          "type": "string"
+        },
+        "previous_turn_id": {
+          "type": [
+            "null"
+          ]
+        },
+        "created_at": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "type",
+        "id",
+        "role",
+        "input_items",
+        "user_model_slug",
+        "previous_turn_id",
+        "created_at"
+      ],
+      "additionalProperties": false
+    },
+    "current_assistant_turn": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "sibling_turn_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attempt_placement": {
+          "type": "number"
+        },
+        "role": {
+          "type": "string"
+        },
+        "output_items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "role": {
+                "type": "string"
+              },
+              "content": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "line_range_start": {
+                      "type": "number"
+                    },
+                    "line_range_end": {
+                      "type": "number"
+                    },
+                    "content_type": {
+                      "type": "string"
+                    },
+                    "text": {
+                      "type": "string"
+                    },
+                    "terminal_chunk_id": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "content_type"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "files": {
+                "type": "array"
+              },
+              "type": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "type"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "child_turns": {
+          "type": "array"
+        },
+        "conversation_id": {
+          "type": [
+            "null"
+          ]
+        },
+        "error": {
+          "type": [
+            "null"
+          ]
+        },
+        "latest_event": {
+          "type": "object",
+          "properties": {
+            "created": {
+              "type": "number"
+            },
+            "text": {
+              "type": "string"
+            },
+            "event_type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "created",
+            "text",
+            "event_type"
+          ],
+          "additionalProperties": false
+        },
+        "worklog": {
+          "type": "object",
+          "properties": {
+            "messages": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "content": {
+                    "type": "object",
+                    "properties": {
+                      "response_format_name": {
+                        "type": [
+                          "null"
+                        ]
+                      },
+                      "language": {
+                        "type": "string"
+                      },
+                      "content_type": {
+                        "type": "string"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "parts": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "required": [
+                      "content_type"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "recipient": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "update_time": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "end_turn": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "create_time": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "status": {
+                    "type": "string"
+                  },
+                  "weight": {
+                    "type": "number"
+                  },
+                  "channel": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "author": {
+                    "type": "object",
+                    "properties": {
+                      "role": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": [
+                          "null"
+                        ]
+                      },
+                      "metadata": {
+                        "type": "object",
+                        "properties": {},
+                        "required": [],
+                        "additionalProperties": false
+                      }
+                    },
+                    "required": [
+                      "role",
+                      "name",
+                      "metadata"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "metadata": {
+                    "type": "object",
+                    "properties": {
+                      "exclude_after_next_user_message": {
+                        "type": "boolean"
+                      },
+                      "first_content_token_index": {
+                        "type": "number"
+                      },
+                      "l1239dk1": {
+                        "type": "object",
+                        "properties": {
+                          "inline_comments": {
+                            "type": "array"
+                          }
+                        },
+                        "required": [
+                          "inline_comments"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "is_initial_reasoning_message": {
+                        "type": "boolean"
+                      },
+                      "reasoning_status": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "first_content_token_index"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "author",
+                  "channel",
+                  "content",
+                  "create_time",
+                  "end_turn",
+                  "id",
+                  "metadata",
+                  "recipient",
+                  "status",
+                  "update_time",
+                  "weight"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "messages"
+          ],
+          "additionalProperties": false
+        },
+        "turn_status": {
+          "type": "string"
+        },
+        "pull_request_status": {
+          "type": "string"
+        },
+        "pull_request_data": {
+          "type": [
+            "null"
+          ]
+        },
+        "created_at": {
+          "type": "number"
+        },
+        "internal_only_rollouts": {
+          "type": [
+            "null"
+          ]
+        },
+        "environment_id": {
+          "type": "string"
+        },
+        "environment": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "machine_id": {
+              "type": "string"
+            },
+            "label": {
+              "type": "string"
+            },
+            "is_pinned": {
+              "type": "boolean"
+            },
+            "description": {
+              "type": "string"
+            },
+            "workspace_dir": {
+              "type": "string"
+            },
+            "agent_network_access": {
+              "type": "object",
+              "properties": {
+                "mode": {
+                  "type": "string"
+                },
+                "preset_allowlist": {
+                  "type": "string"
+                },
+                "allowlist_domains": {
+                  "type": "string"
+                },
+                "safe_methods_only": {
+                  "type": [
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "mode",
+                "preset_allowlist",
+                "allowlist_domains",
+                "safe_methods_only"
+              ],
+              "additionalProperties": false
+            },
+            "repos": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "setup": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "maintenance_setup": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "repo_map": {
+              "type": "object",
+              "properties": {
+                "github-XXXXXXXXXX": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "owner": {
+                      "type": "object",
+                      "properties": {
+                        "login": {
+                          "type": "string"
+                        },
+                        "id": {
+                          "type": "number"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "avatar_url": {
+                          "type": "string"
+                        },
+                        "url": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "login",
+                        "id",
+                        "type",
+                        "avatar_url",
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "repository_full_name": {
+                      "type": "string"
+                    },
+                    "allow_auto_merge": {
+                      "type": "boolean"
+                    },
+                    "allow_merge_commit": {
+                      "type": "boolean"
+                    },
+                    "allow_rebase_merge": {
+                      "type": "boolean"
+                    },
+                    "allow_squash_merge": {
+                      "type": "boolean"
+                    },
+                    "allow_update_branch": {
+                      "type": "boolean"
+                    },
+                    "clone_url": {
+                      "type": "string"
+                    },
+                    "size": {
+                      "type": "number"
+                    },
+                    "default_branch": {
+                      "type": "string"
+                    },
+                    "git_commits_url": {
+                      "type": "string"
+                    },
+                    "git_refs_url": {
+                      "type": "string"
+                    },
+                    "git_url": {
+                      "type": "string"
+                    },
+                    "master_branch": {
+                      "type": [
+                        "null"
+                      ]
+                    },
+                    "language": {
+                      "type": [
+                        "null"
+                      ]
+                    },
+                    "visibility": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "owner",
+                    "repository_full_name",
+                    "allow_auto_merge",
+                    "allow_merge_commit",
+                    "allow_rebase_merge",
+                    "allow_squash_merge",
+                    "allow_update_branch",
+                    "clone_url",
+                    "size",
+                    "default_branch",
+                    "git_commits_url",
+                    "git_refs_url",
+                    "git_url",
+                    "master_branch",
+                    "language",
+                    "visibility"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "github-XXXXXXXXXX"
+              ],
+              "additionalProperties": false
+            },
+            "env_vars": {
+              "type": "object",
+              "properties": {
+                "CODEX_ENV_PYTHON_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_NODE_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_RUBY_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_RUST_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_GO_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_BUN_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_PHP_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_JAVA_VERSION": {
+                  "type": "string"
+                },
+                "CODEX_ENV_SWIFT_VERSION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "CODEX_ENV_PYTHON_VERSION",
+                "CODEX_ENV_NODE_VERSION",
+                "CODEX_ENV_RUBY_VERSION",
+                "CODEX_ENV_RUST_VERSION",
+                "CODEX_ENV_GO_VERSION",
+                "CODEX_ENV_BUN_VERSION",
+                "CODEX_ENV_PHP_VERSION",
+                "CODEX_ENV_JAVA_VERSION",
+                "CODEX_ENV_SWIFT_VERSION"
+              ],
+              "additionalProperties": false
+            },
+            "secrets": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            },
+            "task_count": {
+              "type": "number"
+            },
+            "creator_id": {
+              "type": "string"
+            },
+            "share_settings": {
+              "type": "string"
+            },
+            "created_at": {
+              "type": "number"
+            },
+            "auto_setup_settings": {
+              "type": "object",
+              "properties": {
+                "use_auto_setup": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "use_auto_setup"
+              ],
+              "additionalProperties": false
+            },
+            "cache_settings": {
+              "type": "object",
+              "properties": {
+                "post_setup_cache_enabled": {
+                  "type": "boolean"
+                },
+                "cache_invalidation_key": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "post_setup_cache_enabled",
+                "cache_invalidation_key"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "id",
+            "machine_id",
+            "label",
+            "is_pinned",
+            "description",
+            "workspace_dir",
+            "agent_network_access",
+            "repos",
+            "setup",
+            "maintenance_setup",
+            "repo_map",
+            "env_vars",
+            "secrets",
+            "task_count",
+            "creator_id",
+            "share_settings",
+            "created_at",
+            "auto_setup_settings",
+            "cache_settings"
+          ],
+          "additionalProperties": false
+        },
+        "branch": {
+          "type": "string"
+        },
+        "base_commit_sha": {
+          "type": "string"
+        },
+        "previous_turn_id": {
+          "type": "string"
+        },
+        "logs": {
+          "type": "object",
+          "properties": {
+            "logs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "type",
+                      "created_at"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "key",
+                  "value"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "logs"
+          ],
+          "additionalProperties": false
+        },
+        "proxy_events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "timestamp": {
+                "type": "string"
+              },
+              "decision": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "method": {
+                "type": "string"
+              },
+              "domain": {
+                "type": "string"
+              },
+              "protocol": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "path": {
+                "type": [
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "timestamp",
+              "decision",
+              "reason",
+              "method",
+              "domain",
+              "protocol",
+              "size",
+              "path"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "debug_metadata": {
+          "type": [
+            "null"
+          ]
+        },
+        "discarded": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "type",
+        "id",
+        "sibling_turn_ids",
+        "attempt_placement",
+        "role",
+        "output_items",
+        "child_turns",
+        "conversation_id",
+        "error",
+        "latest_event",
+        "worklog",
+        "turn_status",
+        "pull_request_status",
+        "pull_request_data",
+        "created_at",
+        "internal_only_rollouts",
+        "environment_id",
+        "environment",
+        "branch",
+        "base_commit_sha",
+        "previous_turn_id",
+        "logs",
+        "proxy_events",
+        "debug_metadata",
+        "discarded"
+      ],
+      "additionalProperties": false
+    },
+    "current_diff_task_turn": {
+      "type": [
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "task",
+    "current_user_turn",
+    "current_assistant_turn",
+    "current_diff_task_turn"
+  ],
+  "additionalProperties": false
+}

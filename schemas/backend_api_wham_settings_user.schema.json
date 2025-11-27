@@ -1,0 +1,84 @@
+{
+  "$id": "normalizer://wham.settings.backend_api_wham_settings_user",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "alpha_opt_in": {
+          "type": "boolean"
+        },
+        "branch_format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "code_review_preference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "custom_instructions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "custom_instructions_length": {
+          "type": "integer"
+        },
+        "git_diff_mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "user_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "user_id",
+        "git_diff_mode",
+        "branch_format",
+        "custom_instructions",
+        "custom_instructions_length",
+        "code_review_preference",
+        "alpha_opt_in"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.settings.backend_api_wham_settings_userEnvelope",
+  "type": "object"
+}

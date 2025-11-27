@@ -1,0 +1,89 @@
+{
+  "$id": "normalizer://wham.turns.backend_api_wham_tasks_id_turns",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "current_turn_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "turn_count": {
+          "type": "integer"
+        },
+        "turn_mapping": {
+          "additionalProperties": {
+            "additionalProperties": false,
+            "properties": {
+              "children": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "id": {
+                "type": "string"
+              },
+              "parent": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "turn": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "id",
+              "parent",
+              "children",
+              "turn"
+            ],
+            "type": "object"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "current_turn_id",
+        "turn_count",
+        "turn_mapping"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.turns.backend_api_wham_tasks_id_turnsEnvelope",
+  "type": "object"
+}

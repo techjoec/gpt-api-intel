@@ -1,0 +1,9 @@
+{
+  "allowed": true,
+  "limit_reached": false,
+  "limit": 0,
+  "remaining": 0,
+  "resets_after": 0,
+  "user_plan_type": "plus",
+  "resets_after_text": "<duration>"
+}

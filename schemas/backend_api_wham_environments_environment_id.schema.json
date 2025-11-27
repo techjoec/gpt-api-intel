@@ -1,0 +1,432 @@
+{
+  "$id": "normalizer://wham.environments.backend_api_wham_environments_environment_id",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "environment": {
+          "additionalProperties": false,
+          "properties": {
+            "agent_network_access": {
+              "additionalProperties": false,
+              "properties": {
+                "allowlist_domains": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "mode": {
+                  "type": "string"
+                },
+                "preset_allowlist": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "safe_methods_only": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "mode",
+                "preset_allowlist",
+                "allowlist_domains",
+                "safe_methods_only"
+              ],
+              "type": "object"
+            },
+            "auto_setup_settings": {
+              "additionalProperties": false,
+              "properties": {
+                "use_auto_setup": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "use_auto_setup"
+              ],
+              "type": "object"
+            },
+            "cache_settings": {
+              "additionalProperties": false,
+              "properties": {
+                "cache_invalidation_key": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "post_setup_cache_enabled": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "post_setup_cache_enabled",
+                "cache_invalidation_key"
+              ],
+              "type": "object"
+            },
+            "created_at": {
+              "type": "number"
+            },
+            "creator_id": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "env_vars": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "environment_id": {
+              "type": "string"
+            },
+            "etag": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "is_pinned": {
+              "type": "boolean"
+            },
+            "label": {
+              "type": "string"
+            },
+            "machine_id": {
+              "type": "string"
+            },
+            "maintenance_setup": {
+              "type": "string"
+            },
+            "permissions": {
+              "additionalProperties": false,
+              "properties": {
+                "can_delete": {
+                  "type": "boolean"
+                },
+                "can_write": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "can_write",
+                "can_delete"
+              ],
+              "type": "object"
+            },
+            "repo_details": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "alias": {
+                    "type": "string"
+                  },
+                  "allow_auto_merge": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "allow_merge_commit": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "allow_rebase_merge": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "allow_squash_merge": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "allow_update_branch": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "clone_url": {
+                    "type": "string"
+                  },
+                  "default_branch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "git_commits_url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "git_refs_url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "git_url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "language": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "master_branch": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "owner": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "avatar_url": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "id": {
+                        "type": "integer"
+                      },
+                      "login": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "login",
+                      "id",
+                      "type",
+                      "avatar_url",
+                      "url"
+                    ],
+                    "type": "object"
+                  },
+                  "permissions": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "admin": {
+                        "type": "boolean"
+                      },
+                      "pull": {
+                        "type": "boolean"
+                      },
+                      "push": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "admin",
+                      "push",
+                      "pull"
+                    ],
+                    "type": "object"
+                  },
+                  "repository_full_name": {
+                    "type": "string"
+                  },
+                  "size": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "visibility": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "alias",
+                  "id",
+                  "name",
+                  "repository_full_name",
+                  "clone_url",
+                  "default_branch",
+                  "git_commits_url",
+                  "git_refs_url",
+                  "git_url",
+                  "visibility",
+                  "allow_auto_merge",
+                  "allow_merge_commit",
+                  "allow_rebase_merge",
+                  "allow_squash_merge",
+                  "allow_update_branch",
+                  "language",
+                  "size",
+                  "master_branch",
+                  "owner",
+                  "permissions"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "repos": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "secrets": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "setup": {
+              "type": "string"
+            },
+            "share_settings": {
+              "type": "string"
+            },
+            "share_targets": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "task_count": {
+              "type": "integer"
+            },
+            "workspace_dir": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "environment_id",
+            "machine_id",
+            "label",
+            "is_pinned",
+            "description",
+            "workspace_dir",
+            "agent_network_access",
+            "repos",
+            "repo_details",
+            "setup",
+            "maintenance_setup",
+            "env_vars",
+            "secrets",
+            "task_count",
+            "creator_id",
+            "share_settings",
+            "share_targets",
+            "permissions",
+            "created_at",
+            "auto_setup_settings",
+            "cache_settings",
+            "etag"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "error": {
+          "additionalProperties": false,
+          "properties": {
+            "detail": {
+              "type": "string"
+            },
+            "detail_lower": {
+              "type": "string"
+            },
+            "is_method_not_allowed": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "detail",
+            "detail_lower",
+            "is_method_not_allowed"
+          ],
+          "type": [
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "environment",
+        "error"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.environments.backend_api_wham_environments_environment_idEnvelope",
+  "type": "object"
+}

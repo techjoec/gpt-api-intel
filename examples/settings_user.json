@@ -1,0 +1,8 @@
+{
+  "user_id": "<user-id>",
+  "git_diff_mode": "split",
+  "branch_format": "codex/{feature}",
+  "custom_instructions": "<custom instructions>",
+  "code_review_preference": "repo_default",
+  "alpha_opt_in": false
+}

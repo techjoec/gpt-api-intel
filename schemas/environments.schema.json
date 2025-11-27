@@ -1,0 +1,309 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "agent_network_access": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string"
+          },
+          "preset_allowlist": {
+            "type": "string"
+          },
+          "allowlist_domains": {
+            "type": "string"
+          },
+          "safe_methods_only": {
+            "type": [
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "mode",
+          "preset_allowlist",
+          "allowlist_domains",
+          "safe_methods_only"
+        ],
+        "additionalProperties": false
+      },
+      "id": {
+        "type": "string"
+      },
+      "machine_id": {
+        "type": "string"
+      },
+      "creator_id": {
+        "type": "string"
+      },
+      "repo_map": {
+        "type": "object",
+        "properties": {
+          "github-XXXXXXXXXX": {
+            "type": "object",
+            "properties": {
+              "allow_merge_commit": {
+                "type": "boolean"
+              },
+              "visibility": {
+                "type": "string"
+              },
+              "allow_update_branch": {
+                "type": "boolean"
+              },
+              "id": {
+                "type": "string"
+              },
+              "git_url": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "repository_full_name": {
+                "type": "string"
+              },
+              "master_branch": {
+                "type": [
+                  "null"
+                ]
+              },
+              "language": {
+                "type": [
+                  "null"
+                ]
+              },
+              "default_branch": {
+                "type": "string"
+              },
+              "allow_auto_merge": {
+                "type": "boolean"
+              },
+              "clone_url": {
+                "type": "string"
+              },
+              "git_refs_url": {
+                "type": "string"
+              },
+              "allow_squash_merge": {
+                "type": "boolean"
+              },
+              "git_commits_url": {
+                "type": "string"
+              },
+              "owner": {
+                "type": "object",
+                "properties": {
+                  "login": {
+                    "type": "string"
+                  },
+                  "id": {
+                    "type": "number"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "avatar_url": {
+                    "type": "string"
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "login",
+                  "id",
+                  "type",
+                  "avatar_url",
+                  "url"
+                ],
+                "additionalProperties": false
+              },
+              "name": {
+                "type": "string"
+              },
+              "allow_rebase_merge": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "allow_auto_merge",
+              "allow_merge_commit",
+              "allow_rebase_merge",
+              "allow_squash_merge",
+              "allow_update_branch",
+              "clone_url",
+              "default_branch",
+              "git_commits_url",
+              "git_refs_url",
+              "git_url",
+              "id",
+              "language",
+              "master_branch",
+              "name",
+              "owner",
+              "repository_full_name",
+              "size",
+              "visibility"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "github-XXXXXXXXXX"
+        ],
+        "additionalProperties": false
+      },
+      "created_at": {
+        "type": "number"
+      },
+      "auto_setup_settings": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "properties": {
+          "use_auto_setup": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "use_auto_setup"
+        ],
+        "additionalProperties": false
+      },
+      "repos": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "setup": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "cache_settings": {
+        "type": "object",
+        "properties": {
+          "post_setup_cache_enabled": {
+            "type": "boolean"
+          },
+          "cache_invalidation_key": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "post_setup_cache_enabled",
+          "cache_invalidation_key"
+        ],
+        "additionalProperties": false
+      },
+      "description": {
+        "type": "string"
+      },
+      "maintenance_setup": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        }
+      },
+      "secrets": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      },
+      "is_pinned": {
+        "type": "boolean"
+      },
+      "label": {
+        "type": "string"
+      },
+      "workspace_dir": {
+        "type": "string"
+      },
+      "share_settings": {
+        "type": "string"
+      },
+      "env_vars": {
+        "type": "object",
+        "properties": {
+          "CODEX_ENV_NODE_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_PHP_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_GO_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_RUST_VERSION": {
+            "type": "string"
+          },
+          "TKEY": {
+            "type": "string"
+          },
+          "CODEX_ENV_JAVA_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_BUN_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_SWIFT_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_RUBY_VERSION": {
+            "type": "string"
+          },
+          "CODEX_ENV_PYTHON_VERSION": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "CODEX_ENV_BUN_VERSION",
+          "CODEX_ENV_GO_VERSION",
+          "CODEX_ENV_JAVA_VERSION",
+          "CODEX_ENV_NODE_VERSION",
+          "CODEX_ENV_PHP_VERSION",
+          "CODEX_ENV_PYTHON_VERSION",
+          "CODEX_ENV_RUBY_VERSION",
+          "CODEX_ENV_RUST_VERSION",
+          "CODEX_ENV_SWIFT_VERSION"
+        ],
+        "additionalProperties": false
+      },
+      "task_count": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "agent_network_access",
+      "auto_setup_settings",
+      "cache_settings",
+      "created_at",
+      "creator_id",
+      "description",
+      "env_vars",
+      "id",
+      "is_pinned",
+      "label",
+      "machine_id",
+      "maintenance_setup",
+      "repo_map",
+      "repos",
+      "secrets",
+      "setup",
+      "share_settings",
+      "task_count",
+      "workspace_dir"
+    ],
+    "additionalProperties": false
+  }
+}

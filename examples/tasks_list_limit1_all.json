@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "<id>",
+      "title": "Set up and run all tests",
+      "has_generated_title": true,
+      "updated_at": 0,
+      "created_at": 0,
+      "task_status_display": {
+        "latest_turn_status_display": {
+          "turn_id": "<turn-id>",
+          "turn_status": "completed",
+          "diff_stats": null,
+          "sibling_turn_ids": [
+            "<turn-id>"
+          ],
+          "image_asset_pointer_citations": null
+        },
+        "environment_label": "<owner>/<repo>",
+        "branch_name": "<branch>"
+      },
+      "archived": false,
+      "has_unread_turn": false,
+      "pull_requests": []
+    }
+  ],
+  "cursor": "+RID:~G4U-AJOIzhmAyyoDABA2AA==#RT:1#TRC:1#RTD:FFMNeBmc06hP2994zep3KwV2dGZzLkhOdGNuNUdSVjdkV1ZQW2t0RllYWDdGdAAFdnRmcy5ITnRjbjVHUlY3ZFdWUFtrdEZZWFg3RnQABUJkZHB2b3..."
+}

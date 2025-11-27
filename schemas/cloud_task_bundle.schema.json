@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Codex Cloud Task Bundle",
+  "type": "object",
+  "description": "Self-contained bundle combining task details and per-turn assistant details fetched from WHAM endpoints.",
+  "required": ["task_details", "turn_details"],
+  "properties": {
+    "task_details": {
+      "type": "object",
+      "description": "Exact response from GET /wham/tasks/{task_id}.",
+      "additionalProperties": true
+    },
+    "turn_details": {
+      "type": "object",
+      "description": "Object map keyed by assistant turn id. Each value is the exact response from GET /wham/tasks/{task_id}/turns/{turn_id}.",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["turn"],
+        "properties": {
+          "turn": {
+            "type": "object",
+            "required": ["id", "type"],
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "type": "string", "enum": ["assistant"] },
+              "sibling_turn_ids": { "type": "array", "items": { "type": "string" } },
+              "turn_status": { "type": "string" },
+              "worklog": {
+                "type": "object",
+                "properties": {
+                  "messages": { "type": "array" }
+                },
+                "additionalProperties": true
+              },
+              "environment": { "type": "object", "additionalProperties": true },
+              "output_items": {
+                "type": "array",
+                "items": { "type": "object", "additionalProperties": true }
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "turn_logs": {
+      "type": "object",
+      "description": "Optional. Object map keyed by assistant turn id with exact responses from GET /wham/tasks/{task_id}/turns/{turn_id}/logs. Values follow the observed shape where `.logs` is an array of entries with `key` and `line`. Note: `key.name` is non‑stable and varies per run.",
+      "additionalProperties": { "$ref": "#/$defs/TurnLogsResponse" }
+    }
+  },
+  "$defs": {
+    "LogEntryKey": {
+      "type": "object",
+      "description": "Metadata for a log line source. Values vary by run; do not treat as stable identifiers.",
+      "required": ["name", "type", "created_at"],
+      "properties": {
+        "name": { "type": "string", "description": "Script or phase name (non‑stable; e.g., setup_autodetect, userscript_1757908325)." },
+        "type": { "type": "string", "description": "Source type (e.g., UserSetupScript)." },
+        "created_at": { "type": "string", "format": "date-time", "description": "RFC3339 timestamp of the source context." }
+      },
+      "additionalProperties": true
+    },
+    "LogEntry": {
+      "type": "object",
+      "description": "Single log line entry with a source key and rendered text line.",
+      "required": ["key", "line"],
+      "properties": {
+        "key": { "$ref": "#/$defs/LogEntryKey" },
+        "line": { "type": "string", "description": "Rendered line (may contain ANSI escape codes)." }
+      },
+      "additionalProperties": true
+    },
+    "TurnLogsResponse": {
+      "type": "object",
+      "description": "Exact response from GET /wham/tasks/{task_id}/turns/{turn_id}/logs.",
+      "required": ["logs"],
+      "properties": {
+        "logs": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/LogEntry" }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

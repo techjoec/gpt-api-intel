@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "<id>",
+      "title": "Set up and run all tests",
+      "has_generated_title": true,
+      "updated_at": 0,
+      "created_at": 0,
+      "task_status_display": {
+        "latest_turn_status_display": {
+          "turn_id": "<turn-id>",
+          "turn_status": "completed",
+          "diff_stats": null,
+          "sibling_turn_ids": [
+            "<turn-id>"
+          ],
+          "image_asset_pointer_citations": null
+        },
+        "environment_label": "<owner>/<repo>",
+        "branch_name": "<branch>"
+      },
+      "archived": false,
+      "has_unread_turn": false,
+      "pull_requests": []
+    },
+    {
+      "id": "<id>",
+      "title": "Remove AIVentures and related references",
+      "has_generated_title": true,
+      "updated_at": 0,
+      "created_at": 0,
+      "task_status_display": {
+        "latest_turn_status_display": {
+          "turn_id": "<turn-id>",
+          "turn_status": "failed",
+          "diff_stats": {
+            "files_modified": 4,
+            "lines_added": 5,
+            "lines_removed": 5
+          },
+          "sibling_turn_ids": [
+            "<turn-id>"
+          ],
+          "image_asset_pointer_citations": null
+        },
+        "environment_label": "<owner>/<repo>",
+        "branch_name": "<branch>"
+      },
+      "archived": false,
+      "has_unread_turn": false,
+      "pull_requests": [
+        {
+          "id": "<id>",
+          "assistant_turn_id": "<turn-id>",
+          "pull_request": {
+            "number": 172,
+            "url": "<url>",
+            "state": "open",
+            "merged": false,
+            "mergeable": false,
+            "draft": false,
+            "title": "chore: remove aiventures artifacts",
+            "body": "## Summary\n- drop velocity tooling and references\n- scrub AIVentures naming from client and docs\n- remove sprint-related note from archived history\n\n## Testing\n...",
+            "base": "<branch>",
+            "head": "<branch>",
+            "base_sha": "<sha>",
+            "head_sha": "<sha>",
+            "merge_commit_sha": null,
+            "comments": null,
+            "diff": null,
+            "user": {
+              "login": "<owner>",
+              "name": "<owner>",
+              "email": null,
+              "avatar_url": "<url>",
+              "id": 0
+            }
+          },
+          "codex_updated_sha": "7a8180a0a161fc3e24abe1dd3f1fb8b4baf9a040"
+        }
+      ]
+    },
+    {
+      "id": "<id>",
+      "title": "Remove AIVentures and related terms",
+      "has_generated_title": true,
+      "updated_at": 0,
+      "created_at": 0,
+      "task_status_display": {
+        "latest_turn_status_display": {
+          "turn_id": "<turn-id>",
+          "turn_status": "cancelled",
+          "diff_stats": null,
+          "sibling_turn_ids": [
+            "<turn-id>"
+          ],
+          "image_asset_pointer_citations": null
+        },
+        "environment_label": "<owner>/<repo>",
+        "branch_name": "<branch>"
+      },
+      "archived": false,
+      "has_unread_turn": false,
+      "pull_requests": []
+    }
+  ],
+  "cursor": "+RID:~G4U-AJOIzhl0rCoDABA2AA==#RT:1#TRC:19#RTD:FFMNeBmc06hP2994zep3KwV2dGZzLkhOdGNuNUdSVjdkV1ZQW2t0RllYWDdGdAAFdnRmcy5ITnRjbjVHUlY3ZFdWUFtrdEZZWFg3RnQABUJkZHB2b..."
+}

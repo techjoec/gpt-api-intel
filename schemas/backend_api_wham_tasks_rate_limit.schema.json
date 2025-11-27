@@ -1,0 +1,109 @@
+{
+  "$id": "normalizer://wham.ops.backend_api_wham_tasks_rate_limit",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "allowed": {
+          "type": "boolean"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "limit_reached": {
+          "type": "boolean"
+        },
+        "remaining": {
+          "type": "number"
+        },
+        "resets_after": {
+          "type": "number"
+        },
+        "resets_after_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "user_plan_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "windows": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "limit": {
+                "type": "number"
+              },
+              "limit_window_mins": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "remaining": {
+                "type": "number"
+              },
+              "resets_after": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "limit",
+              "remaining",
+              "resets_after",
+              "limit_window_mins"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "allowed",
+        "limit_reached",
+        "limit",
+        "remaining",
+        "resets_after",
+        "resets_after_text",
+        "user_plan_type",
+        "windows"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.ops.backend_api_wham_tasks_rate_limitEnvelope",
+  "type": "object"
+}

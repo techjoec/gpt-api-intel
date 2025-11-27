@@ -1,0 +1,452 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "definitions": {
+    "diff_stats": {
+      "additionalProperties": false,
+      "properties": {
+        "files_modified": {
+          "type": "integer"
+        },
+        "lines_added": {
+          "type": "integer"
+        },
+        "lines_removed": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "files_modified",
+        "lines_added",
+        "lines_removed"
+      ],
+      "type": "object"
+    },
+    "latest_turn_status_display": {
+      "additionalProperties": false,
+      "properties": {
+        "diff_stats": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/diff_stats"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "image_asset_pointer_citations": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "intent": {
+          "type": "string"
+        },
+        "issue_counts": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "type": "object"
+        },
+        "sibling_turn_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "turn_id": {
+          "type": "string"
+        },
+        "turn_status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "turn_id",
+        "turn_status",
+        "intent",
+        "diff_stats",
+        "sibling_turn_ids",
+        "issue_counts",
+        "image_asset_pointer_citations"
+      ],
+      "type": "object"
+    },
+    "task_status_display": {
+      "additionalProperties": false,
+      "properties": {
+        "branch_name": {
+          "type": "string"
+        },
+        "environment_label": {
+          "type": "string"
+        },
+        "fix_task_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "initial_intent": {
+          "type": "string"
+        },
+        "latest_turn_status_display": {
+          "$ref": "#/definitions/latest_turn_status_display"
+        }
+      },
+      "required": [
+        "environment_label",
+        "branch_name",
+        "fix_task_id",
+        "initial_intent",
+        "latest_turn_status_display"
+      ],
+      "type": "object"
+    },
+    "denormalized_metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "diff_stats": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/diff_stats"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_turn_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "last_user_turn_created_at": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "num_follow_ups": {
+          "type": "integer"
+        },
+        "repo_name_map": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "type": "object"
+        }
+      },
+      "required": [
+        "num_follow_ups",
+        "repo_name_map",
+        "last_user_turn_created_at",
+        "last_turn_status",
+        "diff_stats"
+      ],
+      "type": "object"
+    },
+    "output_item": {
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "type": "object"
+        },
+        "item_type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "item_type",
+        "data"
+      ],
+      "type": "object"
+    },
+    "turn": {
+      "additionalProperties": false,
+      "properties": {
+        "attempt_placement": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "base_commit_sha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "branch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "child_turns": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "conversation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "created_at": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "debug_metadata": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "discarded": {
+          "type": "boolean"
+        },
+        "environment": {
+          "type": "object"
+        },
+        "environment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "error": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "internal_only_rollouts": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "latest_event": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "logs": {
+          "type": "object"
+        },
+        "output_items": {
+          "items": {
+            "$ref": "#/definitions/output_item"
+          },
+          "type": "array"
+        },
+        "previous_turn_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "proxy_events": {
+          "type": "array"
+        },
+        "pull_request_data": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "pull_request_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "type": "string"
+        },
+        "sibling_turn_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "turn_id": {
+          "type": "string"
+        },
+        "turn_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "turn_type": {
+          "type": "string"
+        },
+        "worklog": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "turn_id",
+        "turn_type",
+        "role",
+        "created_at",
+        "turn_status",
+        "attempt_placement",
+        "sibling_turn_ids",
+        "child_turns",
+        "conversation_id",
+        "previous_turn_id",
+        "environment_id",
+        "environment",
+        "branch",
+        "base_commit_sha",
+        "output_items",
+        "pull_request_status",
+        "pull_request_data",
+        "logs",
+        "worklog",
+        "proxy_events",
+        "debug_metadata",
+        "internal_only_rollouts",
+        "error",
+        "latest_event",
+        "discarded"
+      ],
+      "type": "object"
+    }
+  },
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "current_assistant_turn": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/turn"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "current_diff_task_turn": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/turn"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "current_user_turn": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/turn"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {
+          "type": "string"
+        },
+        "task": {
+          "additionalProperties": false,
+          "properties": {
+            "archived": {
+              "type": "boolean"
+            },
+            "created_at": {
+              "type": "number"
+            },
+            "current_turn_id": {
+              "type": "string"
+            },
+            "denormalized_metadata": {
+              "$ref": "#/definitions/denormalized_metadata"
+            },
+            "external_pull_requests": {
+              "items": {
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "has_generated_title": {
+              "type": "boolean"
+            },
+            "has_unread_turn": {
+              "type": "boolean"
+            },
+            "task_id": {
+              "type": "string"
+            },
+            "task_status_display": {
+              "$ref": "#/definitions/task_status_display"
+            },
+            "title": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "task_id",
+            "title",
+            "has_generated_title",
+            "archived",
+            "has_unread_turn",
+            "created_at",
+            "current_turn_id",
+            "denormalized_metadata",
+            "external_pull_requests",
+            "task_status_display"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "source",
+        "task"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "metadata",
+    "payload"
+  ],
+  "type": "object"
+}

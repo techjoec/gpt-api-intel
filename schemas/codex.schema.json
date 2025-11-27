@@ -1,0 +1,162 @@
+{
+  "$id": "normalizer://codex.overview.codex",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "alternate_locales": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "hero_heading": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hero_image_alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hero_image_src": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hero_subheading": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "http_status_code": {
+          "type": "integer"
+        },
+        "http_status_reason": {
+          "type": "string"
+        },
+        "meta_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "meta_og_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "meta_og_image": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "meta_og_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "method": {
+          "type": "string"
+        },
+        "page_title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primary_cta_href": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primary_cta_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "secondary_cta_href": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "secondary_cta_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source",
+        "url",
+        "method",
+        "http_status_code",
+        "http_status_reason",
+        "page_title",
+        "meta_description",
+        "meta_og_description",
+        "meta_og_image",
+        "meta_og_url",
+        "hero_heading",
+        "hero_subheading",
+        "primary_cta_text",
+        "primary_cta_href",
+        "secondary_cta_text",
+        "secondary_cta_href",
+        "hero_image_src",
+        "hero_image_alt",
+        "alternate_locales"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "codex.overview.codexEnvelope",
+  "type": "object"
+}

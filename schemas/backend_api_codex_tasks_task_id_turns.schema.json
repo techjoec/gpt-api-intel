@@ -1,0 +1,339 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Backend API Codex Tasks Task ID Turns Payload",
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "output_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "item_type": {
+          "type": "string"
+        },
+        "data": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "item_type",
+        "data"
+      ]
+    },
+    "turn": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        },
+        "turn_type": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "turn_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attempt_placement": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "sibling_turn_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "child_turns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conversation_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "previous_turn_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "environment_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "environment": {
+          "type": "object"
+        },
+        "branch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "base_commit_sha": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "output_items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/output_item"
+          }
+        },
+        "pull_request_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pull_request_data": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "logs": {
+          "type": "object"
+        },
+        "worklog": {
+          "type": "object"
+        },
+        "proxy_events": {
+          "type": "array"
+        },
+        "debug_metadata": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "internal_only_rollouts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "error": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "latest_event": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "discarded": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "turn_id",
+        "turn_type",
+        "role",
+        "created_at",
+        "turn_status",
+        "attempt_placement",
+        "sibling_turn_ids",
+        "child_turns",
+        "conversation_id",
+        "previous_turn_id",
+        "environment_id",
+        "environment",
+        "branch",
+        "base_commit_sha",
+        "output_items",
+        "pull_request_status",
+        "pull_request_data",
+        "logs",
+        "worklog",
+        "proxy_events",
+        "debug_metadata",
+        "internal_only_rollouts",
+        "error",
+        "latest_event",
+        "discarded"
+      ]
+    },
+    "input_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content_type": {
+          "type": "string"
+        },
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "data": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "content_type",
+        "text",
+        "data"
+      ]
+    },
+    "input_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "item_type": {
+          "type": "string"
+        },
+        "role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/input_content"
+          }
+        },
+        "metadata": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "item_type",
+        "role",
+        "contents",
+        "metadata"
+      ]
+    },
+    "turn_entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "turn_id": {
+          "type": "string"
+        },
+        "parent_turn_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "child_turn_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "turn": {
+          "$ref": "#/definitions/turn"
+        },
+        "input_items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/input_item"
+          }
+        }
+      },
+      "required": [
+        "turn_id",
+        "parent_turn_id",
+        "child_turn_ids",
+        "turn",
+        "input_items"
+      ]
+    }
+  },
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "normalizer_id": {
+          "type": "string"
+        },
+        "capture_path": {
+          "type": "string"
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "extras": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "task_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_turn_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "turn_count": {
+          "type": "integer"
+        },
+        "turns": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/turn_entry"
+          }
+        }
+      },
+      "required": [
+        "source",
+        "task_id",
+        "current_turn_id",
+        "turn_count",
+        "turns"
+      ]
+    }
+  },
+  "required": [
+    "metadata",
+    "payload"
+  ]
+}

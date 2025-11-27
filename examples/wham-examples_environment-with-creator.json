@@ -1,0 +1,70 @@
+{
+  "id": "env-example-1",
+  "machine_id": "wham-public/wham-universal",
+  "label": "sample-org/sample-app",
+  "is_pinned": false,
+  "description": "",
+  "workspace_dir": "/workspace",
+  "agent_network_access": {
+    "mode": "on",
+    "preset_allowlist": "all",
+    "allowlist_domains": "",
+    "safe_methods_only": null
+  },
+  "repos": [
+    "github-0000000000"
+  ],
+  "setup": "",
+  "maintenance_setup": "",
+  "repo_map": {
+    "github-0000000000": {
+      "id": "0000000000",
+      "name": "sample-app",
+      "repository_full_name": "sample-org/sample-app",
+      "clone_url": "https://github.com/sample-org/sample-app.git",
+      "default_branch": "main",
+      "language": "TypeScript",
+      "permissions": {
+        "admin": true,
+        "push": true,
+        "pull": true
+      },
+      "owner": {
+        "login": "sample-org",
+        "id": 123456,
+        "type": "Organization",
+        "avatar_url": "https://example.com/avatar.png",
+        "url": "https://api.github.com/orgs/sample-org"
+      }
+    }
+  },
+  "env_vars": {
+    "CODEX_ENV_NODE_VERSION": "20",
+    "CODEX_ENV_PYTHON_VERSION": "3.12"
+  },
+  "secrets": {},
+  "task_count": 42,
+  "creator_id": "user-example",
+  "share_settings": "workspace",
+  "share_targets": [],
+  "created_at": 1758697000.0,
+  "auto_setup_settings": {
+    "use_auto_setup": true
+  },
+  "cache_settings": {
+    "post_setup_cache_enabled": true,
+    "cache_invalidation_key": ""
+  },
+  "creator": {
+    "id": "user-example",
+    "email": "owner@example.com",
+    "name": "Sample Owner"
+  },
+  "machine": {
+    "label": "Universal",
+    "limits": {
+      "cpu": 8,
+      "memory_gb": 32
+    }
+  }
+}

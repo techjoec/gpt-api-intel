@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "task": {
+        "id": "task_example_1",
+        "created_at": 1758700000.0,
+        "title": "Investigate build flake",
+        "has_generated_title": true,
+        "current_turn_id": "task_example_1~turn_example_1",
+        "has_unread_turn": false,
+        "denormalized_metadata": {
+          "diff_stats": {
+            "files_modified": 2,
+            "lines_added": 24,
+            "lines_removed": 10
+          },
+          "last_turn_status": "completed"
+        },
+        "archived": false,
+        "external_pull_requests": []
+      },
+      "turn": {
+        "type": "assistant",
+        "id": "task_example_1~turn_example_1",
+        "sibling_turn_ids": [],
+        "attempt_placement": 0,
+        "role": "assistant",
+        "output_items": [],
+        "child_turns": [],
+        "conversation_id": "conv-example",
+        "error": null,
+        "latest_event": {
+          "created": 1758700100.0,
+          "text": "Completed",
+          "event_type": "info"
+        },
+        "worklog": {
+          "messages": []
+        },
+        "turn_status": "completed",
+        "pull_request_status": "not_created",
+        "pull_request_data": null,
+        "created_at": 1758700050.0,
+        "internal_only_rollouts": null,
+        "environment_id": "env-example-1",
+        "environment": {
+          "id": "env-example-1",
+          "label": "sample-org/sample-repo"
+        },
+        "branch": "main",
+        "base_commit_sha": "abcdef1234567890",
+        "previous_turn_id": "task_example_1~user_turn_1",
+        "logs": {
+          "logs": []
+        },
+        "proxy_events": null,
+        "debug_metadata": null,
+        "discarded": false
+      }
+    }
+  ],
+  "cursor": "+RID:sample#RT:1#TRC:1"
+}

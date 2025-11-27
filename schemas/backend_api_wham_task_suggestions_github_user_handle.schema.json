@@ -1,0 +1,55 @@
+{
+  "$id": "normalizer://wham.ops.backend_api_wham_task_suggestions_github_user_handle",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "github_handle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "has_github_handle": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "github_handle",
+        "has_github_handle"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.ops.backend_api_wham_task_suggestions_github_user_handleEnvelope",
+  "type": "object"
+}

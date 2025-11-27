@@ -1,0 +1,8777 @@
+{
+  "feature_gates": {
+    "16480203": [
+      true
+    ],
+    "28816792": [
+      false
+    ],
+    "46455729": [
+      false
+    ],
+    "51772912": [
+      false,
+      true
+    ],
+    "108590566": [
+      false,
+      true
+    ],
+    "138773978": [
+      false
+    ],
+    "156153730": [
+      false
+    ],
+    "174366048": [
+      false,
+      true
+    ],
+    "212625335": [
+      false
+    ],
+    "218915747": [
+      false
+    ],
+    "222560275": [
+      true
+    ],
+    "223382091": [
+      false
+    ],
+    "232003972": [
+      false
+    ],
+    "232791851": [
+      false
+    ],
+    "292227286": [
+      false
+    ],
+    "292680291": [
+      false,
+      true
+    ],
+    "294957382": [
+      false,
+      true
+    ],
+    "296452287": [
+      false
+    ],
+    "317829697": [
+      false,
+      true
+    ],
+    "369193424": [
+      true
+    ],
+    "392240685": [
+      true
+    ],
+    "402391964": [
+      false
+    ],
+    "417039829": [
+      false
+    ],
+    "422449809": [
+      true
+    ],
+    "471233253": [
+      false,
+      true
+    ],
+    "482976135": [
+      false,
+      true
+    ],
+    "491279851": [
+      false,
+      true
+    ],
+    "537200474": [
+      false,
+      true
+    ],
+    "547652119": [
+      false
+    ],
+    "550187082": [
+      false
+    ],
+    "550432558": [
+      false
+    ],
+    "555198838": [
+      false
+    ],
+    "571174949": [
+      false
+    ],
+    "611328734": [
+      true
+    ],
+    "614413305": [
+      false
+    ],
+    "616577762": [
+      false
+    ],
+    "622488229": [
+      true
+    ],
+    "638971034": [
+      false
+    ],
+    "645560164": [
+      true
+    ],
+    "667937038": [
+      false
+    ],
+    "671926036": [
+      false,
+      true
+    ],
+    "676035580": [
+      false
+    ],
+    "699610503": [
+      false
+    ],
+    "713974087": [
+      false
+    ],
+    "727502549": [
+      false
+    ],
+    "733205176": [
+      false,
+      true
+    ],
+    "735368229": [
+      false,
+      true
+    ],
+    "766296922": [
+      true
+    ],
+    "772206489": [
+      true
+    ],
+    "773249106": [
+      false
+    ],
+    "774953199": [
+      false
+    ],
+    "785520609": [
+      false,
+      true
+    ],
+    "846037718": [
+      false
+    ],
+    "878458344": [
+      true
+    ],
+    "879591222": [
+      true
+    ],
+    "880513586": [
+      false
+    ],
+    "891514942": [
+      false,
+      true
+    ],
+    "926440545": [
+      false
+    ],
+    "934056609": [
+      false
+    ],
+    "948657827": [
+      false,
+      true
+    ],
+    "966859370": [
+      false
+    ],
+    "989108178": [
+      false
+    ],
+    "1024240872": [
+      true
+    ],
+    "1030527215": [
+      false,
+      true
+    ],
+    "1032814809": [
+      false
+    ],
+    "1038269153": [
+      false,
+      true
+    ],
+    "1062277569": [
+      true
+    ],
+    "1138231213": [
+      true
+    ],
+    "1146160621": [
+      false
+    ],
+    "1154002920": [
+      false
+    ],
+    "1163864876": [
+      false
+    ],
+    "1213809372": [
+      false
+    ],
+    "1214379119": [
+      false
+    ],
+    "1224064188": [
+      false,
+      true
+    ],
+    "1225428216": [
+      false
+    ],
+    "1242184140": [
+      false
+    ],
+    "1256582879": [
+      true
+    ],
+    "1277555238": [
+      false
+    ],
+    "1281927149": [
+      false
+    ],
+    "1318146997": [
+      true
+    ],
+    "1320400016": [
+      false
+    ],
+    "1327278438": [
+      false,
+      true
+    ],
+    "1333611684": [
+      false,
+      true
+    ],
+    "1355972088": [
+      false
+    ],
+    "1382475798": [
+      true
+    ],
+    "1405405413": [
+      false
+    ],
+    "1406552515": [
+      false
+    ],
+    "1416952492": [
+      false
+    ],
+    "1418300125": [
+      true
+    ],
+    "1422501431": [
+      false
+    ],
+    "1424158285": [
+      false
+    ],
+    "1439437954": [
+      false
+    ],
+    "1468311859": [
+      false,
+      true
+    ],
+    "1478278884": [
+      true
+    ],
+    "1520205231": [
+      false
+    ],
+    "1524046265": [
+      false
+    ],
+    "1535847699": [
+      true
+    ],
+    "1536947154": [
+      true
+    ],
+    "1542198993": [
+      false
+    ],
+    "1586944302": [
+      false,
+      true
+    ],
+    "1596731578": [
+      true
+    ],
+    "1611573287": [
+      true
+    ],
+    "1627380539": [
+      false,
+      true
+    ],
+    "1656345175": [
+      true
+    ],
+    "1668913216": [
+      true
+    ],
+    "1681462365": [
+      false
+    ],
+    "1719651090": [
+      false,
+      true
+    ],
+    "1741586789": [
+      false
+    ],
+    "1753085879": [
+      false
+    ],
+    "1759425419": [
+      false
+    ],
+    "1767304360": [
+      false
+    ],
+    "1804926979": [
+      true
+    ],
+    "1819663106": [
+      false,
+      true
+    ],
+    "1825130190": [
+      false,
+      true
+    ],
+    "1839283687": [
+      false
+    ],
+    "1847911009": [
+      false
+    ],
+    "1854238036": [
+      false,
+      true
+    ],
+    "1855896025": [
+      false
+    ],
+    "1860647109": [
+      false
+    ],
+    "1863841549": [
+      false,
+      true
+    ],
+    "1887864177": [
+      true
+    ],
+    "1894790777": [
+      false,
+      true
+    ],
+    "1900515849": [
+      false
+    ],
+    "1909635392": [
+      false
+    ],
+    "1912739044": [
+      false
+    ],
+    "1946731762": [
+      false
+    ],
+    "1958014328": [
+      false
+    ],
+    "1961970013": [
+      false,
+      true
+    ],
+    "2000076788": [
+      false
+    ],
+    "2007094101": [
+      false
+    ],
+    "2036808540": [
+      false
+    ],
+    "2053937752": [
+      false,
+      true
+    ],
+    "2067628123": [
+      false
+    ],
+    "2069653199": [
+      false
+    ],
+    "2134057841": [
+      true
+    ],
+    "2151954125": [
+      false
+    ],
+    "2168270993": [
+      false
+    ],
+    "2189411909": [
+      true
+    ],
+    "2192543539": [
+      false,
+      true
+    ],
+    "2209667701": [
+      true
+    ],
+    "2212894775": [
+      false,
+      true
+    ],
+    "2256850471": [
+      false,
+      true
+    ],
+    "2287071194": [
+      false,
+      true
+    ],
+    "2293185713": [
+      false
+    ],
+    "2304807207": [
+      false,
+      true
+    ],
+    "2311599525": [
+      false
+    ],
+    "2335877601": [
+      false
+    ],
+    "2342247883": [
+      false,
+      true
+    ],
+    "2360528850": [
+      false
+    ],
+    "2395384117": [
+      true
+    ],
+    "2400167019": [
+      false,
+      true
+    ],
+    "2401070674": [
+      false
+    ],
+    "2459568560": [
+      false
+    ],
+    "2462890004": [
+      false
+    ],
+    "2468746551": [
+      false
+    ],
+    "2509278897": [
+      true
+    ],
+    "2560369700": [
+      false
+    ],
+    "2562876640": [
+      false,
+      true
+    ],
+    "2571214709": [
+      false,
+      true
+    ],
+    "2624610486": [
+      false
+    ],
+    "2632917233": [
+      false
+    ],
+    "2665240312": [
+      true
+    ],
+    "2673860158": [
+      true
+    ],
+    "2711769261": [
+      false,
+      true
+    ],
+    "2740339093": [
+      false,
+      true
+    ],
+    "2768222595": [
+      false,
+      true
+    ],
+    "2777663391": [
+      false,
+      true
+    ],
+    "2782825951": [
+      false
+    ],
+    "2783249450": [
+      false,
+      true
+    ],
+    "2804795149": [
+      false,
+      true
+    ],
+    "2807051353": [
+      true
+    ],
+    "2818336692": [
+      false
+    ],
+    "2837136623": [
+      false
+    ],
+    "2849099761": [
+      true
+    ],
+    "2860321732": [
+      false,
+      true
+    ],
+    "2861925050": [
+      false
+    ],
+    "2892913572": [
+      false,
+      true
+    ],
+    "2928249761": [
+      true
+    ],
+    "2935021756": [
+      false
+    ],
+    "2981514529": [
+      false
+    ],
+    "2986567482": [
+      true
+    ],
+    "2991909965": [
+      false,
+      true
+    ],
+    "2995560103": [
+      true
+    ],
+    "3014771484": [
+      false,
+      true
+    ],
+    "3014776572": [
+      false,
+      true
+    ],
+    "3024830181": [
+      false,
+      true
+    ],
+    "3043007979": [
+      false
+    ],
+    "3084799213": [
+      false,
+      true
+    ],
+    "3096078201": [
+      false
+    ],
+    "3125419433": [
+      false,
+      true
+    ],
+    "3127600850": [
+      false
+    ],
+    "3144771298": [
+      true
+    ],
+    "3148583717": [
+      false
+    ],
+    "3154019201": [
+      false,
+      true
+    ],
+    "3181713737": [
+      false
+    ],
+    "3204158400": [
+      true
+    ],
+    "3207737252": [
+      false
+    ],
+    "3208967109": [
+      false
+    ],
+    "3240576626": [
+      false,
+      true
+    ],
+    "3241763787": [
+      false,
+      true
+    ],
+    "3245235608": [
+      false
+    ],
+    "3247947701": [
+      false,
+      true
+    ],
+    "3259514411": [
+      true
+    ],
+    "3270233863": [
+      false,
+      true
+    ],
+    "3276774930": [
+      false
+    ],
+    "3286474446": [
+      false,
+      true
+    ],
+    "3287842150": [
+      false
+    ],
+    "3293658247": [
+      false
+    ],
+    "3302173089": [
+      false
+    ],
+    "3304830717": [
+      false
+    ],
+    "3309244414": [
+      true
+    ],
+    "3315017149": [
+      false,
+      true
+    ],
+    "3325813340": [
+      true
+    ],
+    "3345211875": [
+      true
+    ],
+    "3345485524": [
+      false,
+      true
+    ],
+    "3362382575": [
+      false
+    ],
+    "3365913332": [
+      false,
+      true
+    ],
+    "3375735072": [
+      false,
+      true
+    ],
+    "3376055906": [
+      true
+    ],
+    "3376455464": [
+      true
+    ],
+    "3384364566": [
+      false
+    ],
+    "3392860057": [
+      true
+    ],
+    "3406933735": [
+      true
+    ],
+    "3443256425": [
+      false
+    ],
+    "3468624635": [
+      false
+    ],
+    "3475796410": [
+      false
+    ],
+    "3485296344": [
+      false
+    ],
+    "3492040717": [
+      true
+    ],
+    "3507761600": [
+      true
+    ],
+    "3530414009": [
+      true
+    ],
+    "3536244140": [
+      true
+    ],
+    "3544641259": [
+      false,
+      true
+    ],
+    "3550239432": [
+      false
+    ],
+    "3550297692": [
+      false,
+      true
+    ],
+    "3562222102": [
+      false,
+      true
+    ],
+    "3576660380": [
+      false,
+      true
+    ],
+    "3592108663": [
+      false
+    ],
+    "3600660324": [
+      false
+    ],
+    "3612584454": [
+      false
+    ],
+    "3639187874": [
+      true
+    ],
+    "3651421897": [
+      false,
+      true
+    ],
+    "3664702598": [
+      false,
+      true
+    ],
+    "3673716873": [
+      false,
+      true
+    ],
+    "3677330697": [
+      false,
+      true
+    ],
+    "3678527908": [
+      false
+    ],
+    "3681557806": [
+      true
+    ],
+    "3681682292": [
+      false
+    ],
+    "3691820594": [
+      false
+    ],
+    "3700195277": [
+      false
+    ],
+    "3728856343": [
+      false,
+      true
+    ],
+    "3782704232": [
+      false
+    ],
+    "3828441000": [
+      false,
+      true
+    ],
+    "3830740688": [
+      true
+    ],
+    "3838495619": [
+      false
+    ],
+    "3843674407": [
+      true
+    ],
+    "3848576186": [
+      false
+    ],
+    "3860515571": [
+      false
+    ],
+    "3881721129": [
+      false,
+      true
+    ],
+    "3899518838": [
+      false,
+      true
+    ],
+    "3922476776": [
+      false,
+      true
+    ],
+    "3930843960": [
+      true
+    ],
+    "3940160259": [
+      true
+    ],
+    "3954884439": [
+      true
+    ],
+    "3958255976": [
+      false
+    ],
+    "3959994305": [
+      false
+    ],
+    "3984934927": [
+      false,
+      true
+    ],
+    "3989934672": [
+      false
+    ],
+    "3999836663": [
+      false,
+      true
+    ],
+    "4011688770": [
+      false
+    ],
+    "4012051055": [
+      false
+    ],
+    "4059945251": [
+      true
+    ],
+    "4094234945": [
+      false
+    ],
+    "4105779609": [
+      true
+    ],
+    "4111922784": [
+      false
+    ],
+    "4126691920": [
+      false,
+      true
+    ],
+    "4141006638": [
+      false,
+      true
+    ],
+    "4141805301": [
+      false
+    ],
+    "4147309512": [
+      true
+    ],
+    "4148168517": [
+      true
+    ],
+    "4154476537": [
+      false
+    ],
+    "4155990341": [
+      false
+    ],
+    "4170238021": [
+      false,
+      true
+    ],
+    "4190046875": [
+      true
+    ],
+    "4202324921": [
+      false
+    ],
+    "4206189746": [
+      false
+    ],
+    "4223274760": [
+      false
+    ],
+    "4226692983": [
+      true
+    ],
+    "4230914712": [
+      false
+    ],
+    "4262476867": [
+      true
+    ],
+    "4283270305": [
+      false,
+      true
+    ],
+    "4288825238": [
+      false
+    ],
+    "4290238484": [
+      false
+    ],
+    "4291846205": [
+      false
+    ],
+    "69563813": [
+      false
+    ],
+    "156264210": [
+      false
+    ],
+    "350291705": [
+      false
+    ],
+    "473637331": [
+      false
+    ],
+    "490346566": [
+      true
+    ],
+    "506294923": [
+      false
+    ],
+    "513489216": [
+      false
+    ],
+    "544083113": [
+      false
+    ],
+    "669593727": [
+      false
+    ],
+    "838019241": [
+      false,
+      true
+    ],
+    "877631007": [
+      false
+    ],
+    "988697485": [
+      false
+    ],
+    "1053331630": [
+      true
+    ],
+    "1126963133": [
+      false
+    ],
+    "1261424157": [
+      false
+    ],
+    "1426094881": [
+      true
+    ],
+    "1448302202": [
+      false
+    ],
+    "1600402835": [
+      false
+    ],
+    "1605274664": [
+      false,
+      true
+    ],
+    "1627064618": [
+      false
+    ],
+    "1640462792": [
+      false,
+      true
+    ],
+    "1821051864": [
+      false
+    ],
+    "1921942886": [
+      false
+    ],
+    "1927459101": [
+      false
+    ],
+    "1957563541": [
+      false
+    ],
+    "2014777261": [
+      true
+    ],
+    "2042715633": [
+      false
+    ],
+    "2050949565": [
+      false
+    ],
+    "2072714933": [
+      false
+    ],
+    "2115167980": [
+      false
+    ],
+    "2137702454": [
+      false
+    ],
+    "2358095084": [
+      false
+    ],
+    "2444205802": [
+      false
+    ],
+    "2508433885": [
+      false,
+      true
+    ],
+    "2792858552": [
+      true
+    ],
+    "2839926172": [
+      false
+    ],
+    "2881402514": [
+      true
+    ],
+    "2894268612": [
+      false,
+      true
+    ],
+    "2913573978": [
+      false
+    ],
+    "2944006050": [
+      false
+    ],
+    "2968710568": [
+      false
+    ],
+    "3220695551": [
+      false
+    ],
+    "3269508448": [
+      false
+    ],
+    "3309894884": [
+      false
+    ],
+    "3324471394": [
+      true
+    ],
+    "3327816228": [
+      true
+    ],
+    "3419038745": [
+      true
+    ],
+    "3469443183": [
+      false
+    ],
+    "3576660381": [
+      false
+    ],
+    "3585049109": [
+      false
+    ],
+    "3832963721": [
+      false
+    ],
+    "3870713715": [
+      false
+    ],
+    "3905235728": [
+      false
+    ],
+    "3927245414": [
+      false
+    ],
+    "3933797510": [
+      true
+    ],
+    "4026425501": [
+      false
+    ],
+    "4123826335": [
+      false
+    ],
+    "4178431533": [
+      true
+    ],
+    "80186230": [
+      true
+    ],
+    "204406973": [
+      false
+    ],
+    "222095887": [
+      false
+    ],
+    "264061553": [
+      true
+    ],
+    "795789557": [
+      false
+    ],
+    "875954897": [
+      false
+    ],
+    "1234748132": [
+      false
+    ],
+    "1508312659": [
+      false
+    ],
+    "1693134918": [
+      false
+    ],
+    "1733239976": [
+      true
+    ],
+    "2780352974": [
+      true
+    ],
+    "3287225511": [
+      true
+    ],
+    "3728943795": [
+      true
+    ],
+    "3760395675": [
+      false
+    ],
+    "3786438384": [
+      true
+    ],
+    "3922080075": [
+      false
+    ],
+    "4092730449": [
+      true
+    ],
+    "4153230103": [
+      false
+    ],
+    "4227928901": [
+      false
+    ],
+    "1524828339": [
+      true
+    ],
+    "2607001979": [
+      false
+    ],
+    "917648193": [
+      false
+    ],
+    "1363490439": [
+      false
+    ],
+    "1748348224": [
+      false
+    ],
+    "2170166050": [
+      false
+    ],
+    "3516223039": [
+      false
+    ],
+    "3489620775": [
+      false,
+      true
+    ],
+    "1031481799": [
+      false
+    ],
+    "2089437143": [
+      false
+    ],
+    "4258592801": [
+      true
+    ],
+    "3145491373": [
+      true
+    ]
+  },
+  "dynamic_configs": {
+    "43324078": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "110789670": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "inlineTargetingRules",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "inlineTargetingRules",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "111706139": {
+      "keys": [
+        "enabled",
+        "kind",
+        "loginStrategy",
+        "name",
+        "tempDisabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "name": [
+          "string"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "tempDisabled": [
+          "bool"
+        ],
+        "kind": [
+          "string"
+        ],
+        "loginStrategy": [
+          "string"
+        ]
+      }
+    },
+    "193245580": {
+      "keys": [
+        "cli",
+        "cursor",
+        "cursorExtensionAppId",
+        "vscode",
+        "vscodeExtensionAppId",
+        "windsurf",
+        "windsurfExtensionAppId"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "cli": [
+          "string"
+        ],
+        "vscode": [
+          "string"
+        ],
+        "cursor": [
+          "string"
+        ],
+        "windsurf": [
+          "string"
+        ],
+        "cursorExtensionAppId": [
+          "string"
+        ],
+        "vscodeExtensionAppId": [
+          "string"
+        ],
+        "windsurfExtensionAppId": [
+          "string"
+        ]
+      }
+    },
+    "208869162": {
+      "keys": [],
+      "groups": [
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "layerAssignment"
+      ],
+      "value_types": {}
+    },
+    "242574110": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "269676899": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "349697204": {
+      "keys": [
+        "availability_message_type",
+        "changelog_date",
+        "changelog_url",
+        "upgrade_button_message_type"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "availability_message_type": [
+          "string"
+        ],
+        "upgrade_button_message_type": [
+          "string"
+        ],
+        "changelog_date": [
+          "string"
+        ],
+        "changelog_url": [
+          "string"
+        ]
+      }
+    },
+    "398474797": {
+      "keys": [
+        "enabled",
+        "share_download_with_watermark"
+      ],
+      "groups": [
+        "layerAssignment",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "layerAssignment",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "share_download_with_watermark": [
+          "bool"
+        ]
+      }
+    },
+    "422096659": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "3en0A0EXDEimy8EgrdlK6M",
+        "3en0A2k05WrQRycc2lhnpO",
+        "6OkBNMzPBivISzAVUPlnwn",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "3en0A0EXDEimy8EgrdlK6M",
+        "3en0A2k05WrQRycc2lhnpO",
+        "6OkBNMzPBivISzAVUPlnwn",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "433209173": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "5XodsG0mEnjIpHmAVrBxgk"
+      ],
+      "rule_ids": [
+        "5XodsG0mEnjIpHmAVrBxgk"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "463092697": {
+      "keys": [
+        "autoConnectors",
+        "can_see_system_hint_announcement",
+        "connectorConfig",
+        "enabled",
+        "enabledConnectors",
+        "slurm_system_hint_enabled",
+        "softmentionEnabled"
+      ],
+      "groups": [
+        "3p65gOVy9MGQbQZtItNcli:100.00:1",
+        "5LfA2bqNtMUNPTElKmuuB8:100.00:1",
+        "5Lfro4QqLXYnSQO50qSP9Y:100.00:1",
+        "default"
+      ],
+      "rule_ids": [
+        "3p65gOVy9MGQbQZtItNcli:100.00:1",
+        "5LfA2bqNtMUNPTElKmuuB8:100.00:1",
+        "5Lfro4QqLXYnSQO50qSP9Y:100.00:1",
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "slurm_system_hint_enabled": [
+          "bool"
+        ],
+        "can_see_system_hint_announcement": [
+          "bool"
+        ],
+        "enabledConnectors": [
+          "list"
+        ],
+        "softmentionEnabled": [
+          "bool"
+        ],
+        "autoConnectors": [
+          "list"
+        ],
+        "connectorConfig": [
+          "dict"
+        ]
+      }
+    },
+    "516806730": {
+      "keys": [
+        "quickstart_enabled"
+      ],
+      "groups": [
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "launchedGroup"
+      ],
+      "value_types": {
+        "quickstart_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "550560761": {
+      "keys": [
+        "history_results_limit",
+        "local_results_limit"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "history_results_limit": [
+          "dict"
+        ],
+        "local_results_limit": [
+          "string"
+        ]
+      }
+    },
+    "555825174": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "647109062": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "3RcGk9yaqMoQ5TvdLS6KjO",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "3RcGk9yaqMoQ5TvdLS6KjO",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "730493191": {
+      "keys": [
+        "enabled",
+        "kind",
+        "loginStrategy",
+        "name",
+        "tempDisabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "name": [
+          "string"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "tempDisabled": [
+          "bool"
+        ],
+        "kind": [
+          "string"
+        ],
+        "loginStrategy": [
+          "string"
+        ]
+      }
+    },
+    "734083401": {
+      "keys": [
+        "enabled",
+        "kind",
+        "loginStrategy",
+        "name",
+        "tempDisabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "name": [
+          "string"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "tempDisabled": [
+          "bool"
+        ],
+        "kind": [
+          "string"
+        ],
+        "loginStrategy": [
+          "string"
+        ]
+      }
+    },
+    "770426823": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "164axeUO1f5Qi5wXmJioEu",
+        "30rHEOknpN5WYjGRs8PN0w",
+        "32YbkjgMJGrYQ6C1qTCIc7:override",
+        "4gJqbvCxhUTsBYOLBM09Ea",
+        "RY1ZarIa52OUJgXSIfxUm",
+        "prestart"
+      ],
+      "rule_ids": [
+        "164axeUO1f5Qi5wXmJioEu",
+        "30rHEOknpN5WYjGRs8PN0w",
+        "32YbkjgMJGrYQ6C1qTCIc7:override",
+        "4gJqbvCxhUTsBYOLBM09Ea",
+        "RY1ZarIa52OUJgXSIfxUm",
+        "prestart"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1001765573": {
+      "keys": [
+        "ca_admin_enabled",
+        "ca_box_sync_enabled",
+        "ca_dropbox_sync_enabled",
+        "ca_dwd_enabled",
+        "ca_enabled",
+        "ca_enabled_o_series",
+        "ca_github_sync_enabled",
+        "ca_github_sync_max_repos",
+        "ca_intercom_sync_enabled",
+        "ca_linear_sync_enabled",
+        "ca_notion_sync_enabled",
+        "ca_personal_enabled",
+        "ca_sharepoint_sync_enabled",
+        "ca_sk_enabled",
+        "ca_system_hint_enabled",
+        "can_see_system_hint_announcement",
+        "enable_mclick_dates",
+        "enable_mimetype_filtering",
+        "enable_query_intent",
+        "enable_source_filtering",
+        "onboarding_paused",
+        "retrieval_additional_system_prompt",
+        "retrieval_override_instructions",
+        "use_coarse_grained_filters_for_vocabulary_search",
+        "vocabulary_search_enabled"
+      ],
+      "groups": [
+        "23mmWetLKu4sd183WpNZ1v",
+        "5Ls1z1aGtCY7vkH2lXmY0J",
+        "6SWgr0tHm2AcdrsxViTpTw:100.00:1",
+        "default"
+      ],
+      "rule_ids": [
+        "23mmWetLKu4sd183WpNZ1v",
+        "5Ls1z1aGtCY7vkH2lXmY0J",
+        "6SWgr0tHm2AcdrsxViTpTw:100.00:1",
+        "default"
+      ],
+      "value_types": {
+        "ca_admin_enabled": [
+          "bool"
+        ],
+        "ca_enabled": [
+          "bool"
+        ],
+        "ca_enabled_o_series": [
+          "bool"
+        ],
+        "onboarding_paused": [
+          "bool"
+        ],
+        "ca_personal_enabled": [
+          "bool"
+        ],
+        "ca_github_sync_enabled": [
+          "bool"
+        ],
+        "ca_linear_sync_enabled": [
+          "bool"
+        ],
+        "ca_intercom_sync_enabled": [
+          "bool"
+        ],
+        "ca_github_sync_max_repos": [
+          "string"
+        ],
+        "ca_sharepoint_sync_enabled": [
+          "bool"
+        ],
+        "ca_box_sync_enabled": [
+          "bool"
+        ],
+        "ca_dropbox_sync_enabled": [
+          "bool"
+        ],
+        "ca_notion_sync_enabled": [
+          "bool"
+        ],
+        "retrieval_override_instructions": [
+          "dict"
+        ],
+        "retrieval_additional_system_prompt": [
+          "dict"
+        ],
+        "ca_system_hint_enabled": [
+          "bool"
+        ],
+        "can_see_system_hint_announcement": [
+          "bool"
+        ],
+        "ca_sk_enabled": [
+          "bool"
+        ],
+        "ca_dwd_enabled": [
+          "bool"
+        ],
+        "enable_query_intent": [
+          "bool"
+        ],
+        "enable_mclick_dates": [
+          "bool"
+        ],
+        "enable_source_filtering": [
+          "bool"
+        ],
+        "enable_mimetype_filtering": [
+          "bool"
+        ],
+        "vocabulary_search_enabled": [
+          "bool"
+        ],
+        "use_coarse_grained_filters_for_vocabulary_search": [
+          "bool"
+        ]
+      }
+    },
+    "1087852479": {
+      "keys": [
+        "blacklist"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "blacklist": [
+          "list"
+        ]
+      }
+    },
+    "1165494509": {
+      "keys": [
+        "enabled",
+        "kind",
+        "loginStrategy",
+        "name",
+        "tempDisabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "name": [
+          "string"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "tempDisabled": [
+          "bool"
+        ],
+        "kind": [
+          "string"
+        ],
+        "loginStrategy": [
+          "string"
+        ]
+      }
+    },
+    "1204757806": {
+      "keys": [
+        "connectors_button",
+        "enableToggle",
+        "group",
+        "join_teammates",
+        "keywords-upsell",
+        "links-upsell",
+        "onboarding_state",
+        "post_connection_connector_button",
+        "suggested_prompts",
+        "toggleState"
+      ],
+      "groups": [
+        "5JabYAaMS7IWJiE5RAyBvu:override",
+        "launchedGroup",
+        "layerAssignment",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "5JabYAaMS7IWJiE5RAyBvu:override",
+        "launchedGroup",
+        "layerAssignment",
+        "targetingGate"
+      ],
+      "value_types": {
+        "group": [
+          "string"
+        ],
+        "links-upsell": [
+          "bool"
+        ],
+        "keywords-upsell": [
+          "bool"
+        ],
+        "enableToggle": [
+          "bool"
+        ],
+        "toggleState": [
+          "string"
+        ],
+        "connectors_button": [
+          "bool"
+        ],
+        "suggested_prompts": [
+          "bool"
+        ],
+        "join_teammates": [
+          "bool"
+        ],
+        "onboarding_state": [
+          "string"
+        ],
+        "post_connection_connector_button": [
+          "bool"
+        ]
+      }
+    },
+    "1206459705": {
+      "keys": [
+        "upsell_variant"
+      ],
+      "groups": [
+        "3oMnsAm9uRMOLYGJ3S79xn",
+        "3oMnsC1bX9Wj5oeEF02MQp"
+      ],
+      "rule_ids": [
+        "3oMnsAm9uRMOLYGJ3S79xn",
+        "3oMnsC1bX9Wj5oeEF02MQp"
+      ],
+      "value_types": {
+        "upsell_variant": [
+          "string"
+        ]
+      }
+    },
+    "1249441124": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "1341269548": {
+      "keys": [
+        "enabled",
+        "kind",
+        "loginStrategy",
+        "name",
+        "tempDisabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "name": [
+          "string"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "tempDisabled": [
+          "bool"
+        ],
+        "kind": [
+          "string"
+        ],
+        "loginStrategy": [
+          "string"
+        ]
+      }
+    },
+    "1504865540": {
+      "keys": [
+        "max_file_size_mb"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "max_file_size_mb": [
+          "list",
+          "string"
+        ]
+      }
+    },
+    "1682643554": {
+      "keys": [
+        "school_configurations"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "school_configurations": [
+          "dict"
+        ]
+      }
+    },
+    "1792765184": {
+      "keys": [],
+      "groups": [
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "targetingGate"
+      ],
+      "value_types": {}
+    },
+    "1967546325": {
+      "keys": [
+        "gdriveLink",
+        "gdrivePercentage",
+        "gdrivePicker",
+        "loadTestPercentage",
+        "o365BusinessLink",
+        "o365Link",
+        "o365Percentage",
+        "o365PersonalLink",
+        "o365Picker",
+        "oversmokeLink",
+        "oversmokePercentage",
+        "showWorkspaceSettings",
+        "testCtor1Link",
+        "testCtor1Percentage"
+      ],
+      "groups": [
+        "2bcszlc7CFHdfdCdq7jXNb:100.00:5",
+        "default"
+      ],
+      "rule_ids": [
+        "2bcszlc7CFHdfdCdq7jXNb:100.00:5",
+        "default"
+      ],
+      "value_types": {
+        "gdrivePicker": [
+          "bool"
+        ],
+        "gdriveLink": [
+          "bool"
+        ],
+        "o365Picker": [
+          "bool"
+        ],
+        "o365Link": [
+          "bool"
+        ],
+        "o365PersonalLink": [
+          "bool"
+        ],
+        "o365BusinessLink": [
+          "bool"
+        ],
+        "testCtor1Link": [
+          "bool"
+        ],
+        "gdrivePercentage": [
+          "list",
+          "string"
+        ],
+        "o365Percentage": [
+          "list",
+          "string"
+        ],
+        "oversmokeLink": [
+          "bool"
+        ],
+        "oversmokePercentage": [
+          "string"
+        ],
+        "testCtor1Percentage": [
+          "string"
+        ],
+        "loadTestPercentage": [
+          "string"
+        ],
+        "showWorkspaceSettings": [
+          "bool"
+        ]
+      }
+    },
+    "2071846358": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "2179180337": {
+      "keys": [
+        "default_attempts",
+        "max_attempts"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "max_attempts": [
+          "string"
+        ],
+        "default_attempts": [
+          "string"
+        ]
+      }
+    },
+    "2202961878": {
+      "keys": [
+        "order"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "order": [
+          "list"
+        ]
+      }
+    },
+    "2210309751": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "7eQlO0ktzwxkPseDjpZXUo",
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "7eQlO0ktzwxkPseDjpZXUo",
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "2302071098": {
+      "keys": [
+        "posterUrl",
+        "videoUrl"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "videoUrl": [
+          "string"
+        ],
+        "posterUrl": [
+          "string"
+        ]
+      }
+    },
+    "2307162844": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "3NRu4SHdXjSeena9YjO5WL",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "3NRu4SHdXjSeena9YjO5WL",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2398649844": {
+      "keys": [
+        "default_attempts"
+      ],
+      "groups": [
+        "4ICqOmxJOcaWbdNQN8JPx7",
+        "prestart"
+      ],
+      "rule_ids": [
+        "4ICqOmxJOcaWbdNQN8JPx7",
+        "prestart"
+      ],
+      "value_types": {
+        "default_attempts": [
+          "string"
+        ]
+      }
+    },
+    "2471442003": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "7CdEoNY80tYsuzPn9AV25F"
+      ],
+      "rule_ids": [
+        "7CdEoNY80tYsuzPn9AV25F"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2604379743": {
+      "keys": [
+        "nux_image_url",
+        "nux_video_url"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "nux_video_url": [
+          "string"
+        ],
+        "nux_image_url": [
+          "string"
+        ]
+      }
+    },
+    "2699916856": {
+      "keys": [
+        "custom_headers"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "custom_headers": [
+          "dict"
+        ]
+      }
+    },
+    "2826703856": {
+      "keys": [
+        "enable_combined_rbac_page"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_combined_rbac_page": [
+          "bool"
+        ]
+      }
+    },
+    "2888003541": {
+      "keys": [
+        "max_bytes"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "max_bytes": [
+          "number"
+        ]
+      }
+    },
+    "2943229081": {
+      "keys": [
+        "enable-cache-for-gpts",
+        "enable-cache-for-new-users",
+        "enable-cache-if-mic-granted",
+        "new-user-within-past-days",
+        "require-voice-used-recently",
+        "voice-status-cache-ttl-ms",
+        "voice-used-within-past-days"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "require-voice-used-recently": [
+          "bool"
+        ],
+        "voice-used-within-past-days": [
+          "string"
+        ],
+        "voice-status-cache-ttl-ms": [
+          "number"
+        ],
+        "enable-cache-for-gpts": [
+          "bool"
+        ],
+        "enable-cache-for-new-users": [
+          "bool"
+        ],
+        "new-user-within-past-days": [
+          "string"
+        ],
+        "enable-cache-if-mic-granted": [
+          "bool"
+        ]
+      }
+    },
+    "2999143687": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "1xwYL9xU8avxvmAF3kvOvI",
+        "1xwYLbcWAsF1OM8AEsrrOK"
+      ],
+      "rule_ids": [
+        "1xwYL9xU8avxvmAF3kvOvI",
+        "1xwYLbcWAsF1OM8AEsrrOK"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3019066937": {
+      "keys": [
+        "should_show_cot_header",
+        "should_update_thread_store",
+        "should_use_new_ui"
+      ],
+      "groups": [
+        "5nRyKpqTxIe8j19ZsvSGyw:override",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "5nRyKpqTxIe8j19ZsvSGyw:override",
+        "targetingGate"
+      ],
+      "value_types": {
+        "should_update_thread_store": [
+          "bool"
+        ],
+        "should_use_new_ui": [
+          "bool"
+        ],
+        "should_show_cot_header": [
+          "bool"
+        ]
+      }
+    },
+    "3131667714": {
+      "keys": [
+        "regions"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "regions": [
+          "list"
+        ]
+      }
+    },
+    "3165814200": {
+      "keys": [
+        "JITTER_MAXIMUM",
+        "JITTER_MINIMUM",
+        "MAX_RETRY_COUNT",
+        "MAX_RETRY_INTERVAL",
+        "MIN_RETRY_INTERVAL",
+        "RETRY_FACTOR"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "MIN_RETRY_INTERVAL": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "MAX_RETRY_INTERVAL": [
+          "dict",
+          "number",
+          "string"
+        ],
+        "RETRY_FACTOR": [
+          "number"
+        ],
+        "MAX_RETRY_COUNT": [
+          "string"
+        ],
+        "JITTER_MINIMUM": [
+          "number"
+        ],
+        "JITTER_MAXIMUM": [
+          "string"
+        ]
+      }
+    },
+    "3205212221": {
+      "keys": [
+        "max_navlinks",
+        "numWords"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "numWords": [
+          "string"
+        ],
+        "max_navlinks": [
+          "dict"
+        ]
+      }
+    },
+    "3230069703": {
+      "keys": [
+        "expirySeconds"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "expirySeconds": [
+          "string"
+        ]
+      }
+    },
+    "3253785454": {
+      "keys": [
+        "should_animate_composer",
+        "should_animate_user_message"
+      ],
+      "groups": [
+        "1vZhxLNQj6TYVm44mf9h5C",
+        "7Dkloq19v4eiSKffZFyJWu"
+      ],
+      "rule_ids": [
+        "1vZhxLNQj6TYVm44mf9h5C",
+        "7Dkloq19v4eiSKffZFyJWu"
+      ],
+      "value_types": {
+        "should_animate_user_message": [
+          "bool"
+        ],
+        "should_animate_composer": [
+          "bool"
+        ]
+      }
+    },
+    "3317473948": {
+      "keys": [
+        "default_interval",
+        "default_max_polling_duration",
+        "model_slug_intervals",
+        "model_slug_max_polling_durations"
+      ],
+      "groups": [
+        "2VVKrjIwc2VcBceUZhfkJB:100.00:1",
+        "default"
+      ],
+      "rule_ids": [
+        "2VVKrjIwc2VcBceUZhfkJB:100.00:1",
+        "default"
+      ],
+      "value_types": {
+        "default_interval": [
+          "string"
+        ],
+        "default_max_polling_duration": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "model_slug_intervals": [
+          "dict"
+        ],
+        "model_slug_max_polling_durations": [
+          "dict"
+        ]
+      }
+    },
+    "3401870206": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "3406517345": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "3438591328": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "3453210145": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "3480162268": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3529298638": {
+      "keys": [
+        "bvc_enabled",
+        "cc_default_on",
+        "cc_header_ux",
+        "custom_instructions_prefix",
+        "enabled",
+        "hide_dictation_button",
+        "in_tc_experiment",
+        "integrated-ux",
+        "integrated-ux-start-talking-prompt",
+        "integrated-ux-widgets",
+        "keyboard-down-launch",
+        "keyboard-down-new-thread",
+        "krisp_noise_filter",
+        "model-speaks-first",
+        "model-speaks-first-prompt",
+        "model-speaks-first-prompt-existing-conversation",
+        "noise_filter",
+        "show-dictation-button",
+        "show_label_on_button",
+        "snowflake_composer_entry_point",
+        "tc_enabled",
+        "use_broad_rate_limit_language",
+        "voice-button-label",
+        "voice_entry_point_style",
+        "voice_holdout",
+        "voice_only",
+        "zing_drag_enabled",
+        "zing_enabled",
+        "zing_enabled_v2",
+        "zing_enabled_v3"
+      ],
+      "groups": [
+        "2I1hgDj7yyx7cyGKFx1Zfk",
+        "5EoxwnCTKjxptVLLtRinj5",
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "2I1hgDj7yyx7cyGKFx1Zfk",
+        "5EoxwnCTKjxptVLLtRinj5",
+        "launchedGroup",
+        "layerAssignment"
+      ],
+      "value_types": {
+        "snowflake_composer_entry_point": [
+          "bool"
+        ],
+        "use_broad_rate_limit_language": [
+          "bool"
+        ],
+        "voice_holdout": [
+          "bool"
+        ],
+        "krisp_noise_filter": [
+          "string"
+        ],
+        "voice_entry_point_style": [
+          "string"
+        ],
+        "show_label_on_button": [
+          "bool"
+        ],
+        "voice_only": [
+          "bool"
+        ],
+        "bvc_enabled": [
+          "bool"
+        ],
+        "noise_filter": [
+          "string"
+        ],
+        "zing_enabled": [
+          "bool"
+        ],
+        "hide_dictation_button": [
+          "bool"
+        ],
+        "cc_default_on": [
+          "bool"
+        ],
+        "cc_header_ux": [
+          "bool"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "zing_enabled_v2": [
+          "bool"
+        ],
+        "tc_enabled": [
+          "bool"
+        ],
+        "keyboard-down-launch": [
+          "bool"
+        ],
+        "keyboard-down-new-thread": [
+          "bool"
+        ],
+        "in_tc_experiment": [
+          "bool"
+        ],
+        "zing_drag_enabled": [
+          "bool"
+        ],
+        "integrated-ux": [
+          "bool"
+        ],
+        "custom_instructions_prefix": [
+          "string"
+        ],
+        "voice-button-label": [
+          "bool"
+        ],
+        "show-dictation-button": [
+          "bool"
+        ],
+        "zing_enabled_v3": [
+          "bool"
+        ],
+        "integrated-ux-start-talking-prompt": [
+          "bool"
+        ],
+        "model-speaks-first": [
+          "bool"
+        ],
+        "integrated-ux-widgets": [
+          "bool"
+        ],
+        "model-speaks-first-prompt": [
+          "string"
+        ],
+        "model-speaks-first-prompt-existing-conversation": [
+          "string"
+        ]
+      }
+    },
+    "3578245547": {
+      "keys": [
+        "double-write-files-to-library",
+        "persist-files-to-library",
+        "show-recent-files-dropdown"
+      ],
+      "groups": [
+        "layerAssignment",
+        "prestart"
+      ],
+      "rule_ids": [
+        "layerAssignment",
+        "prestart"
+      ],
+      "value_types": {
+        "show-recent-files-dropdown": [
+          "bool"
+        ],
+        "persist-files-to-library": [
+          "bool"
+        ],
+        "double-write-files-to-library": [
+          "bool"
+        ]
+      }
+    },
+    "3586972587": {
+      "keys": [
+        "prompt"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "prompt": [
+          "string"
+        ]
+      }
+    },
+    "3709818006": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "5KV28t6OFXsfe0fi2EVzRL",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "5KV28t6OFXsfe0fi2EVzRL",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3747383021": {
+      "keys": [
+        "box",
+        "canva",
+        "dropbox",
+        "github",
+        "gmail",
+        "google_calendar",
+        "google_drive",
+        "hubspot",
+        "linear",
+        "mcp",
+        "notion",
+        "outlook_calendar",
+        "outlook_email",
+        "sharepoint",
+        "slack",
+        "teams"
+      ],
+      "groups": [
+        "7cvBu4nR7a9tVSNBIeCzCV:100.00:1",
+        "default"
+      ],
+      "rule_ids": [
+        "7cvBu4nR7a9tVSNBIeCzCV:100.00:1",
+        "default"
+      ],
+      "value_types": {
+        "github": [
+          "bool"
+        ],
+        "sharepoint": [
+          "bool"
+        ],
+        "google_drive": [
+          "bool"
+        ],
+        "linear": [
+          "bool"
+        ],
+        "dropbox": [
+          "bool"
+        ],
+        "teams": [
+          "bool"
+        ],
+        "outlook_email": [
+          "bool"
+        ],
+        "outlook_calendar": [
+          "bool"
+        ],
+        "box": [
+          "bool"
+        ],
+        "google_calendar": [
+          "bool"
+        ],
+        "gmail": [
+          "bool"
+        ],
+        "hubspot": [
+          "bool"
+        ],
+        "mcp": [
+          "bool"
+        ],
+        "canva": [
+          "bool"
+        ],
+        "slack": [
+          "bool"
+        ],
+        "notion": [
+          "bool"
+        ]
+      }
+    },
+    "3934129380": {
+      "keys": [
+        "model"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "model": [
+          "string"
+        ]
+      }
+    },
+    "3961845717": {
+      "keys": [
+        "styles"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "styles": [
+          "list"
+        ]
+      }
+    },
+    "3983984123": {
+      "keys": [
+        "is_memory_undo_enabled"
+      ],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {
+        "is_memory_undo_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4147197039": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "4243523004": {
+      "keys": [
+        "enabled",
+        "enabledConnectorEntries",
+        "enabledConnectors"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "enabledConnectors": [
+          "list"
+        ],
+        "enabledConnectorEntries": [
+          "list"
+        ]
+      }
+    },
+    "4293611158": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "PnSI3RZuiRPgwTBPn5zoM",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "PnSI3RZuiRPgwTBPn5zoM",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "109457": {
+      "keys": [
+        "ONBOARDING_EXAMPLES_PROMPT_ID",
+        "add_system_prompt_during_onboarding",
+        "create_example_chats_in_background",
+        "enable_new_onboarding_flow",
+        "feature_tour_slide_type",
+        "is_guided_onboarding",
+        "is_new_user_banner_disclaimer_enabled",
+        "is_prompt_onboarding",
+        "is_starter_prompt_back_and_forth",
+        "is_starter_prompt_enabled_for_new_users_only",
+        "is_starter_prompt_popular",
+        "is_starter_prompt_top_performer",
+        "is_static_onboarding",
+        "keep_onboarding_after_dismiss",
+        "model_talks_first",
+        "model_talks_first_augment_system_prompt",
+        "model_talks_first_kind",
+        "new_onboarding_flow_qualified_start_date",
+        "new_thread_after_onboarding",
+        "new_thread_for_each_prompt",
+        "onboarding_auto_scroll",
+        "onboarding_dynamic_steps_based_on_main_usage",
+        "onboarding_enable_interest_picker",
+        "onboarding_gen_examples_prompt_type",
+        "onboarding_inject_cards_position",
+        "onboarding_show_custom_instructions_page",
+        "onboarding_show_followups",
+        "onboarding_sidebar_entry_style",
+        "onboarding_skip_usage_question",
+        "onboarding_style",
+        "onboarding_system_prompt_type",
+        "onboarding_unified_user_prompts",
+        "personalized_onboarding",
+        "prompt_onboarding_enable_usage_selection",
+        "prompt_onboarding_prompt_variant",
+        "prompt_onboarding_style",
+        "show_new_chat_nux",
+        "skip_button_continues",
+        "use_dynamic_response",
+        "use_starter_prompt_help_how_to",
+        "work_question_upsell",
+        "write_custom_instructions_in_onboarding"
+      ],
+      "groups": [
+        "1W0GxB4FABY3KYAUuKDt5v",
+        "1zhV92eeGVaDezlEgaWR5w",
+        "4PRe0McQwj5rrjBbwsPqtZ",
+        "default",
+        "prestart",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "1W0GxB4FABY3KYAUuKDt5v",
+        "1zhV92eeGVaDezlEgaWR5w",
+        "4PRe0McQwj5rrjBbwsPqtZ",
+        "default",
+        "prestart",
+        "targetingGate"
+      ],
+      "value_types": {
+        "is_starter_prompt_popular": [
+          "bool"
+        ],
+        "is_starter_prompt_top_performer": [
+          "bool"
+        ],
+        "is_starter_prompt_back_and_forth": [
+          "bool"
+        ],
+        "use_starter_prompt_help_how_to": [
+          "bool"
+        ],
+        "model_talks_first": [
+          "bool"
+        ],
+        "model_talks_first_kind": [
+          "string"
+        ],
+        "model_talks_first_augment_system_prompt": [
+          "bool"
+        ],
+        "is_starter_prompt_enabled_for_new_users_only": [
+          "bool"
+        ],
+        "add_system_prompt_during_onboarding": [
+          "bool"
+        ],
+        "onboarding_system_prompt_type": [
+          "string"
+        ],
+        "enable_new_onboarding_flow": [
+          "bool"
+        ],
+        "new_onboarding_flow_qualified_start_date": [
+          "string"
+        ],
+        "personalized_onboarding": [
+          "bool"
+        ],
+        "onboarding_show_custom_instructions_page": [
+          "bool"
+        ],
+        "write_custom_instructions_in_onboarding": [
+          "bool"
+        ],
+        "keep_onboarding_after_dismiss": [
+          "bool"
+        ],
+        "onboarding_dynamic_steps_based_on_main_usage": [
+          "bool"
+        ],
+        "onboarding_style": [
+          "string"
+        ],
+        "onboarding_show_followups": [
+          "bool"
+        ],
+        "onboarding_inject_cards_position": [
+          "string"
+        ],
+        "ONBOARDING_EXAMPLES_PROMPT_ID": [
+          "string"
+        ],
+        "onboarding_gen_examples_prompt_type": [
+          "string"
+        ],
+        "show_new_chat_nux": [
+          "bool"
+        ],
+        "is_guided_onboarding": [
+          "bool"
+        ],
+        "new_thread_after_onboarding": [
+          "bool"
+        ],
+        "new_thread_for_each_prompt": [
+          "bool"
+        ],
+        "use_dynamic_response": [
+          "bool"
+        ],
+        "onboarding_skip_usage_question": [
+          "bool"
+        ],
+        "onboarding_unified_user_prompts": [
+          "bool"
+        ],
+        "onboarding_auto_scroll": [
+          "bool"
+        ],
+        "skip_button_continues": [
+          "bool"
+        ],
+        "is_static_onboarding": [
+          "bool"
+        ],
+        "is_prompt_onboarding": [
+          "bool"
+        ],
+        "onboarding_sidebar_entry_style": [
+          "string"
+        ],
+        "prompt_onboarding_style": [
+          "string"
+        ],
+        "feature_tour_slide_type": [
+          "string"
+        ],
+        "create_example_chats_in_background": [
+          "bool"
+        ],
+        "work_question_upsell": [
+          "bool"
+        ],
+        "is_new_user_banner_disclaimer_enabled": [
+          "bool"
+        ],
+        "prompt_onboarding_enable_usage_selection": [
+          "bool"
+        ],
+        "prompt_onboarding_prompt_variant": [
+          "string"
+        ],
+        "onboarding_enable_interest_picker": [
+          "bool"
+        ]
+      }
+    },
+    "16152997": {
+      "keys": [
+        "enable_o3_mini_retrieval",
+        "enable_reason_by_default",
+        "expand_by_default",
+        "is_enabled",
+        "override_o3_mini_to_high",
+        "show_preview_when_collapsed",
+        "summarizer_chunk_char_limit",
+        "summarizer_chunk_template",
+        "summarizer_system_prompt"
+      ],
+      "groups": [
+        "6DaNqHbUdaQZCJTtuXMn3l:override"
+      ],
+      "rule_ids": [
+        "6DaNqHbUdaQZCJTtuXMn3l:override"
+      ],
+      "value_types": {
+        "show_preview_when_collapsed": [
+          "bool"
+        ],
+        "expand_by_default": [
+          "bool"
+        ],
+        "is_enabled": [
+          "bool"
+        ],
+        "summarizer_system_prompt": [
+          "string"
+        ],
+        "summarizer_chunk_template": [
+          "string"
+        ],
+        "summarizer_chunk_char_limit": [
+          "string"
+        ],
+        "enable_o3_mini_retrieval": [
+          "bool"
+        ],
+        "override_o3_mini_to_high": [
+          "bool"
+        ],
+        "enable_reason_by_default": [
+          "bool"
+        ]
+      }
+    },
+    "40440673": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "51287004": {
+      "keys": [
+        "enable"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable": [
+          "bool"
+        ]
+      }
+    },
+    "111733276": {
+      "keys": [
+        "reorder_advertised_features",
+        "show_advertised_ca_icons",
+        "show_upgrade_page_v2_copy"
+      ],
+      "groups": [
+        "7cdSd6s9bThu2ykuvzSsnZ",
+        "Yife0lqNfIROzUEVw3opl",
+        "default",
+        "sn0kJQzCzC0HLwEVSrdwa"
+      ],
+      "rule_ids": [
+        "7cdSd6s9bThu2ykuvzSsnZ",
+        "Yife0lqNfIROzUEVw3opl",
+        "default",
+        "sn0kJQzCzC0HLwEVSrdwa"
+      ],
+      "value_types": {
+        "show_advertised_ca_icons": [
+          "bool"
+        ],
+        "reorder_advertised_features": [
+          "bool"
+        ],
+        "show_upgrade_page_v2_copy": [
+          "bool"
+        ]
+      }
+    },
+    "166098152": {
+      "keys": [
+        "enabled",
+        "share_download_with_watermark"
+      ],
+      "groups": [
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "share_download_with_watermark": [
+          "bool"
+        ]
+      }
+    },
+    "183390215": {
+      "keys": [
+        "in_phone_signup_holdout",
+        "in_phone_signup_holdout_from_login_web",
+        "signup_allow_phone",
+        "signup_allow_phone_from_login_web"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "signup_allow_phone": [
+          "bool"
+        ],
+        "in_phone_signup_holdout": [
+          "bool"
+        ],
+        "signup_allow_phone_from_login_web": [
+          "bool"
+        ],
+        "in_phone_signup_holdout_from_login_web": [
+          "bool"
+        ]
+      }
+    },
+    "190694971": {
+      "keys": [
+        "show_nux"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_nux": [
+          "bool"
+        ]
+      }
+    },
+    "229662723": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "312855442": {
+      "keys": [
+        "enable_chatgpt_trending",
+        "enable_data",
+        "enable_image_gen_trending",
+        "enabled",
+        "num_desktop_results",
+        "num_mobile_results"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "num_mobile_results": [
+          "dict",
+          "string"
+        ],
+        "num_desktop_results": [
+          "string"
+        ],
+        "enable_chatgpt_trending": [
+          "bool"
+        ],
+        "enable_image_gen_trending": [
+          "bool"
+        ],
+        "enable_data": [
+          "bool"
+        ]
+      }
+    },
+    "313799188": {
+      "keys": [
+        "sync_advertised_features"
+      ],
+      "groups": [
+        "5g2WD1bHVjZoO1TzsnTHmw",
+        "5g2WD2QKnC8T7rrv3vPkFy",
+        "default"
+      ],
+      "rule_ids": [
+        "5g2WD1bHVjZoO1TzsnTHmw",
+        "5g2WD2QKnC8T7rrv3vPkFy",
+        "default"
+      ],
+      "value_types": {
+        "sync_advertised_features": [
+          "bool"
+        ]
+      }
+    },
+    "356691204": {
+      "keys": [
+        "paid_plan_default_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "paid_plan_default_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "387752763": {
+      "keys": [
+        "enable_rich_text_composer",
+        "enable_slash_commands"
+      ],
+      "groups": [
+        "5UE8g4T56yxUBUYancL7KB:override",
+        "default"
+      ],
+      "rule_ids": [
+        "5UE8g4T56yxUBUYancL7KB:override",
+        "default"
+      ],
+      "value_types": {
+        "enable_slash_commands": [
+          "bool"
+        ],
+        "enable_rich_text_composer": [
+          "bool"
+        ]
+      }
+    },
+    "415386882": {
+      "keys": [
+        "is_voice_mode_entry_point_enabled"
+      ],
+      "groups": [
+        "4wq9eoMUDvtsghK9YLElQA:override",
+        "default"
+      ],
+      "rule_ids": [
+        "4wq9eoMUDvtsghK9YLElQA:override",
+        "default"
+      ],
+      "value_types": {
+        "is_voice_mode_entry_point_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "453021389": {
+      "keys": [
+        "enable-block-animations",
+        "enable-word-animations"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable-block-animations": [
+          "bool"
+        ],
+        "enable-word-animations": [
+          "bool"
+        ]
+      }
+    },
+    "468168202": {
+      "keys": [
+        "cancellation_modal_cancel_button_color",
+        "cancellation_modal_go_back_button_color",
+        "cp_eligibility_months",
+        "cp_id",
+        "does_manage_my_subscription_link_take_user_to_subscription_settings",
+        "is_auto_save_stripe_payment_info_enabled",
+        "is_bw",
+        "is_enrolled_for_huli",
+        "is_enterprise_enabled",
+        "is_mobile_web_toggle_enabled",
+        "is_modal_fullscreen",
+        "is_optimized_checkout",
+        "is_produce_color_scheme",
+        "is_produce_colors",
+        "is_produce_text",
+        "is_save_stripe_payment_info_enabled",
+        "is_split_between_personal_and_business_enabled",
+        "is_stripe_manage_subscription_link_enabled",
+        "is_team_enabled",
+        "is_v2_toggle_labels_enabled",
+        "is_yearly_plus_subscription_enabled",
+        "should_offer_paypal_when_eligible",
+        "should_open_cancellation_survey_after_canceling",
+        "should_set_customer_address_country_to_billing_country",
+        "should_show_cp",
+        "should_show_manage_my_subscription_link"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_team_enabled": [
+          "bool"
+        ],
+        "is_yearly_plus_subscription_enabled": [
+          "bool"
+        ],
+        "is_split_between_personal_and_business_enabled": [
+          "bool"
+        ],
+        "is_modal_fullscreen": [
+          "bool"
+        ],
+        "is_v2_toggle_labels_enabled": [
+          "bool"
+        ],
+        "is_bw": [
+          "bool"
+        ],
+        "is_produce_colors": [
+          "bool"
+        ],
+        "is_produce_color_scheme": [
+          "bool"
+        ],
+        "is_mobile_web_toggle_enabled": [
+          "bool"
+        ],
+        "is_enterprise_enabled": [
+          "bool"
+        ],
+        "is_produce_text": [
+          "bool"
+        ],
+        "is_optimized_checkout": [
+          "bool"
+        ],
+        "is_save_stripe_payment_info_enabled": [
+          "bool"
+        ],
+        "is_auto_save_stripe_payment_info_enabled": [
+          "bool"
+        ],
+        "does_manage_my_subscription_link_take_user_to_subscription_settings": [
+          "bool"
+        ],
+        "should_open_cancellation_survey_after_canceling": [
+          "bool"
+        ],
+        "should_show_manage_my_subscription_link": [
+          "bool"
+        ],
+        "is_stripe_manage_subscription_link_enabled": [
+          "bool"
+        ],
+        "cancellation_modal_cancel_button_color": [
+          "string"
+        ],
+        "cancellation_modal_go_back_button_color": [
+          "string"
+        ],
+        "should_show_cp": [
+          "bool"
+        ],
+        "cp_eligibility_months": [
+          "string"
+        ],
+        "should_offer_paypal_when_eligible": [
+          "bool"
+        ],
+        "cp_id": [
+          "string"
+        ],
+        "is_enrolled_for_huli": [
+          "bool"
+        ],
+        "should_set_customer_address_country_to_billing_country": [
+          "bool"
+        ]
+      }
+    },
+    "474444727": {
+      "keys": [
+        "custom_instr_message_timeout_duration",
+        "show_custom_instr_message"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_custom_instr_message": [
+          "bool"
+        ],
+        "custom_instr_message_timeout_duration": [
+          "dict",
+          "string"
+        ]
+      }
+    },
+    "478519118": {
+      "keys": [
+        "show-keyword-upsell-prompt"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show-keyword-upsell-prompt": [
+          "bool"
+        ]
+      }
+    },
+    "497415788": {
+      "keys": [
+        "plus_upgrade_pill_cta",
+        "should_show_purple_sidebar_upsell",
+        "should_show_upgrade_cta_mobile_web",
+        "should_upgrade_pill_persist",
+        "upgrade_pill_position",
+        "upgrade_pill_type"
+      ],
+      "groups": [
+        "7gXjtcsO0U3pbfzP3PttYz",
+        "G5WWnqzESzKIlwFhslj7SZ:override",
+        "default"
+      ],
+      "rule_ids": [
+        "7gXjtcsO0U3pbfzP3PttYz",
+        "G5WWnqzESzKIlwFhslj7SZ:override",
+        "default"
+      ],
+      "value_types": {
+        "should_upgrade_pill_persist": [
+          "bool"
+        ],
+        "upgrade_pill_position": [
+          "string"
+        ],
+        "should_show_purple_sidebar_upsell": [
+          "bool"
+        ],
+        "upgrade_pill_type": [
+          "string"
+        ],
+        "plus_upgrade_pill_cta": [
+          "string"
+        ],
+        "should_show_upgrade_cta_mobile_web": [
+          "bool"
+        ]
+      }
+    },
+    "590557768": {
+      "keys": [
+        "should_show_return_home_btn"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_return_home_btn": [
+          "bool"
+        ]
+      }
+    },
+    "603105008": {
+      "keys": [
+        "retry_convo_request",
+        "retry_stream_requests"
+      ],
+      "groups": [
+        "4Xs91O4dEUXkiXDf4L1Nie",
+        "67lrAZXqmU4Ln72xMeQYrj",
+        "67lrB1CsPcefGwAtnmMBKl",
+        "default"
+      ],
+      "rule_ids": [
+        "4Xs91O4dEUXkiXDf4L1Nie",
+        "67lrAZXqmU4Ln72xMeQYrj",
+        "67lrB1CsPcefGwAtnmMBKl",
+        "default"
+      ],
+      "value_types": {
+        "retry_convo_request": [
+          "bool"
+        ],
+        "retry_stream_requests": [
+          "bool"
+        ]
+      }
+    },
+    "660512088": {
+      "keys": [
+        "enable_arch_updates",
+        "include_account_settings_move",
+        "include_floating_state",
+        "include_legacy_sidebar_contents",
+        "include_revised_sidebar_ia",
+        "include_scrolling_behavior_update",
+        "include_share_on_mobile"
+      ],
+      "groups": [
+        "default",
+        "prestart"
+      ],
+      "rule_ids": [
+        "default",
+        "prestart"
+      ],
+      "value_types": {
+        "enable_arch_updates": [
+          "bool"
+        ],
+        "include_legacy_sidebar_contents": [
+          "bool"
+        ],
+        "include_floating_state": [
+          "bool"
+        ],
+        "include_share_on_mobile": [
+          "bool"
+        ],
+        "include_account_settings_move": [
+          "bool"
+        ],
+        "include_scrolling_behavior_update": [
+          "bool"
+        ],
+        "include_revised_sidebar_ia": [
+          "bool"
+        ]
+      }
+    },
+    "668322707": {
+      "keys": [
+        "show_citations_with_title",
+        "use_chip_style_citations"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_citations_with_title": [
+          "bool"
+        ],
+        "use_chip_style_citations": [
+          "bool"
+        ]
+      }
+    },
+    "685344542": {
+      "keys": [
+        "is_enterprise_enabled",
+        "is_mobile_enterprise_enabled"
+      ],
+      "groups": [
+        "3INu3qkV6QoN42TYoP3gja:override"
+      ],
+      "rule_ids": [
+        "3INu3qkV6QoN42TYoP3gja:override"
+      ],
+      "value_types": {
+        "is_mobile_enterprise_enabled": [
+          "bool"
+        ],
+        "is_enterprise_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "717266490": {
+      "keys": [
+        "defer_memory_modal",
+        "enable_mobile_app_upsell_banner",
+        "enable_new_onboarding_flow",
+        "enable_v2_cleanup",
+        "keep_onboarding_after_dismiss",
+        "new_onboarding_flow_qualified_start_date",
+        "onboarding_flow_tool_steps",
+        "onboarding_show_custom_instructions_page",
+        "onboarding_show_other_option",
+        "one_announcement_tooltip_per_session",
+        "one_tooltip_per_session",
+        "optimize_initial_modals",
+        "personalized_onboarding",
+        "plus_rl_during_onboarding_minutes_after_creation",
+        "use_plus_rl_during_onboarding",
+        "write_custom_instructions_in_onboarding"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "optimize_initial_modals": [
+          "bool"
+        ],
+        "defer_memory_modal": [
+          "bool"
+        ],
+        "enable_v2_cleanup": [
+          "bool"
+        ],
+        "new_onboarding_flow_qualified_start_date": [
+          "string"
+        ],
+        "enable_new_onboarding_flow": [
+          "bool"
+        ],
+        "use_plus_rl_during_onboarding": [
+          "bool"
+        ],
+        "personalized_onboarding": [
+          "bool"
+        ],
+        "keep_onboarding_after_dismiss": [
+          "bool"
+        ],
+        "write_custom_instructions_in_onboarding": [
+          "bool"
+        ],
+        "plus_rl_during_onboarding_minutes_after_creation": [
+          "string"
+        ],
+        "enable_mobile_app_upsell_banner": [
+          "bool"
+        ],
+        "onboarding_show_custom_instructions_page": [
+          "bool"
+        ],
+        "one_tooltip_per_session": [
+          "bool"
+        ],
+        "one_announcement_tooltip_per_session": [
+          "bool"
+        ],
+        "onboarding_show_other_option": [
+          "bool"
+        ],
+        "onboarding_flow_tool_steps": [
+          "list"
+        ]
+      }
+    },
+    "723297404": {
+      "keys": [
+        "show_india_language_upsell_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_india_language_upsell_banner": [
+          "bool"
+        ]
+      }
+    },
+    "730987993": {
+      "keys": [
+        "is_banner_dismissible",
+        "should_show_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_banner": [
+          "bool"
+        ],
+        "is_banner_dismissible": [
+          "bool"
+        ]
+      }
+    },
+    "760468832": {
+      "keys": [
+        "react_query_infinite"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "react_query_infinite": [
+          "bool"
+        ]
+      }
+    },
+    "772164167": {
+      "keys": [
+        "enable_profile_upgrade_pill",
+        "enable_thread_header_upgrade_pill",
+        "enable_tinybar_upgrade_btn",
+        "enable_upgrade_menu_sparkle_icon"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_thread_header_upgrade_pill": [
+          "bool"
+        ],
+        "enable_profile_upgrade_pill": [
+          "bool"
+        ],
+        "enable_upgrade_menu_sparkle_icon": [
+          "bool"
+        ],
+        "enable_tinybar_upgrade_btn": [
+          "bool"
+        ]
+      }
+    },
+    "789160436": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "790459319": {
+      "keys": [
+        "add-file-icon",
+        "attachfile-rate-limit-message-show-icon",
+        "attachfile-rate-limit-message-variant",
+        "collapsed-more-menu",
+        "file-rate-limit-description",
+        "file-rate-limit-icon",
+        "file-rate-limit-title",
+        "font-size",
+        "fully-collapsed-tool-menu",
+        "has-add-file-slash-command",
+        "juice-value-high",
+        "juice-value-high-pro-plan",
+        "juice-value-standard",
+        "legacy-juice-default",
+        "logged-out-new-composer",
+        "logged-out-voice-label",
+        "model-slash-commands",
+        "models-in-plus-menu",
+        "plus-button-label",
+        "show-connected-apps",
+        "show-juice-control",
+        "show-selected-model-in-composer",
+        "show-slash-hint",
+        "single-line",
+        "system-hints-by-plan",
+        "tools-in-plus-menu"
+      ],
+      "groups": [
+        "4zznZUrFRjbvf0onuHXraH:override",
+        "6Z1JM81vzn98uZH1f51Noe:override",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "4zznZUrFRjbvf0onuHXraH:override",
+        "6Z1JM81vzn98uZH1f51Noe:override",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "tools-in-plus-menu": [
+          "bool"
+        ],
+        "single-line": [
+          "bool"
+        ],
+        "show-connected-apps": [
+          "bool"
+        ],
+        "add-file-icon": [
+          "string"
+        ],
+        "font-size": [
+          "string"
+        ],
+        "has-add-file-slash-command": [
+          "bool"
+        ],
+        "collapsed-more-menu": [
+          "bool"
+        ],
+        "attachfile-rate-limit-message-variant": [
+          "string"
+        ],
+        "attachfile-rate-limit-message-show-icon": [
+          "bool"
+        ],
+        "fully-collapsed-tool-menu": [
+          "bool"
+        ],
+        "show-slash-hint": [
+          "bool"
+        ],
+        "models-in-plus-menu": [
+          "bool"
+        ],
+        "show-selected-model-in-composer": [
+          "bool"
+        ],
+        "model-slash-commands": [
+          "bool"
+        ],
+        "show-juice-control": [
+          "bool"
+        ],
+        "legacy-juice-default": [
+          "bool"
+        ],
+        "logged-out-new-composer": [
+          "bool"
+        ],
+        "plus-button-label": [
+          "bool"
+        ],
+        "logged-out-voice-label": [
+          "bool"
+        ],
+        "system-hints-by-plan": [
+          "dict"
+        ],
+        "file-rate-limit-description": [
+          "string"
+        ],
+        "file-rate-limit-title": [
+          "string"
+        ],
+        "file-rate-limit-icon": [
+          "string"
+        ],
+        "juice-value-high-pro-plan": [
+          "list"
+        ],
+        "juice-value-high": [
+          "string"
+        ],
+        "juice-value-standard": [
+          "string"
+        ]
+      }
+    },
+    "816388808": {
+      "keys": [
+        "is_network_disconnect_polling_enabled"
+      ],
+      "groups": [
+        "5HJ8YrkdYMnzPcjDWgChyZ",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "5HJ8YrkdYMnzPcjDWgChyZ",
+        "targetingGate"
+      ],
+      "value_types": {
+        "is_network_disconnect_polling_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "853191128": {
+      "keys": [
+        "is_tatertot_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_tatertot_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "871635014": {
+      "keys": [
+        "bvc_enabled",
+        "cc_default_on",
+        "cc_header_ux",
+        "custom_instructions_prefix",
+        "enabled",
+        "hide_dictation_button",
+        "in_tc_experiment",
+        "integrated-ux",
+        "integrated-ux-start-talking-prompt",
+        "integrated-ux-widgets",
+        "keyboard-down-launch",
+        "keyboard-down-new-thread",
+        "krisp_noise_filter",
+        "model-speaks-first",
+        "model-speaks-first-prompt",
+        "model-speaks-first-prompt-existing-conversation",
+        "noise_filter",
+        "show-dictation-button",
+        "show_label_on_button",
+        "snowflake_composer_entry_point",
+        "tc_enabled",
+        "use_broad_rate_limit_language",
+        "voice-button-label",
+        "voice_entry_point_style",
+        "voice_holdout",
+        "voice_only",
+        "zing_drag_enabled",
+        "zing_enabled",
+        "zing_enabled_v2",
+        "zing_enabled_v3"
+      ],
+      "groups": [
+        "2I1hgDj7yyx7cyGKFx1Zfk",
+        "5EoxwnCTKjxptVLLtRinj5",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "2I1hgDj7yyx7cyGKFx1Zfk",
+        "5EoxwnCTKjxptVLLtRinj5",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "snowflake_composer_entry_point": [
+          "bool"
+        ],
+        "use_broad_rate_limit_language": [
+          "bool"
+        ],
+        "voice_holdout": [
+          "bool"
+        ],
+        "krisp_noise_filter": [
+          "string"
+        ],
+        "voice_entry_point_style": [
+          "string"
+        ],
+        "show_label_on_button": [
+          "bool"
+        ],
+        "voice_only": [
+          "bool"
+        ],
+        "bvc_enabled": [
+          "bool"
+        ],
+        "noise_filter": [
+          "string"
+        ],
+        "zing_enabled": [
+          "bool"
+        ],
+        "hide_dictation_button": [
+          "bool"
+        ],
+        "cc_default_on": [
+          "bool"
+        ],
+        "cc_header_ux": [
+          "bool"
+        ],
+        "enabled": [
+          "bool"
+        ],
+        "zing_enabled_v2": [
+          "bool"
+        ],
+        "tc_enabled": [
+          "bool"
+        ],
+        "keyboard-down-launch": [
+          "bool"
+        ],
+        "keyboard-down-new-thread": [
+          "bool"
+        ],
+        "in_tc_experiment": [
+          "bool"
+        ],
+        "zing_drag_enabled": [
+          "bool"
+        ],
+        "integrated-ux": [
+          "bool"
+        ],
+        "custom_instructions_prefix": [
+          "string"
+        ],
+        "voice-button-label": [
+          "bool"
+        ],
+        "show-dictation-button": [
+          "bool"
+        ],
+        "zing_enabled_v3": [
+          "bool"
+        ],
+        "integrated-ux-start-talking-prompt": [
+          "bool"
+        ],
+        "model-speaks-first": [
+          "bool"
+        ],
+        "integrated-ux-widgets": [
+          "bool"
+        ],
+        "model-speaks-first-prompt": [
+          "string"
+        ],
+        "model-speaks-first-prompt-existing-conversation": [
+          "string"
+        ]
+      }
+    },
+    "892702716": {
+      "keys": [
+        "react_query_infinite_stale_time"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "react_query_infinite_stale_time": [
+          "bool"
+        ]
+      }
+    },
+    "978971143": {
+      "keys": [
+        "cta_type"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "cta_type": [
+          "string"
+        ]
+      }
+    },
+    "1065956717": {
+      "keys": [
+        "download_page_enabled",
+        "download_page_variant",
+        "language_picker_enabled",
+        "language_picker_enabled_v2",
+        "new_nav_enabled",
+        "overview_page_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "overview_page_enabled": [
+          "bool"
+        ],
+        "download_page_enabled": [
+          "bool"
+        ],
+        "new_nav_enabled": [
+          "bool"
+        ],
+        "language_picker_enabled": [
+          "bool"
+        ],
+        "language_picker_enabled_v2": [
+          "bool"
+        ],
+        "download_page_variant": [
+          "string"
+        ]
+      }
+    },
+    "1074962980": {
+      "keys": [
+        "ios_enabled",
+        "is_plus_1_month_free_enabled",
+        "is_team_1_month_free_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_plus_1_month_free_enabled": [
+          "bool"
+        ],
+        "is_team_1_month_free_enabled": [
+          "bool"
+        ],
+        "ios_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1092897457": {
+      "keys": [
+        "custom_prompt_enabled",
+        "in_context_upsell_custom_prompt_enabled",
+        "is_tatertot_enabled",
+        "is_upsell_banner_enabled",
+        "over_24_enable_banner",
+        "prompt_version",
+        "study_mode_beacon_enabled",
+        "study_mode_beacon_experiment_enabled",
+        "study_mode_custom_prompt_beacon_enabled",
+        "study_mode_custom_prompt_beacon_experiment_enabled"
+      ],
+      "groups": [
+        "EpIbNZUqQb7HC4TfAy5aIv",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "EpIbNZUqQb7HC4TfAy5aIv",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "is_tatertot_enabled": [
+          "bool"
+        ],
+        "in_context_upsell_custom_prompt_enabled": [
+          "bool"
+        ],
+        "over_24_enable_banner": [
+          "bool"
+        ],
+        "custom_prompt_enabled": [
+          "bool"
+        ],
+        "is_upsell_banner_enabled": [
+          "bool"
+        ],
+        "study_mode_beacon_enabled": [
+          "bool"
+        ],
+        "study_mode_beacon_experiment_enabled": [
+          "bool"
+        ],
+        "study_mode_custom_prompt_beacon_enabled": [
+          "bool"
+        ],
+        "study_mode_custom_prompt_beacon_experiment_enabled": [
+          "bool"
+        ],
+        "prompt_version": [
+          "string"
+        ]
+      }
+    },
+    "1170120107": {
+      "keys": [
+        "is_whisper_enabled"
+      ],
+      "groups": [
+        "j6PCzjVXxuYRb3KVeZ7s0:override"
+      ],
+      "rule_ids": [
+        "j6PCzjVXxuYRb3KVeZ7s0:override"
+      ],
+      "value_types": {
+        "is_whisper_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1187049270": {
+      "keys": [
+        "paid_plan_default_enabled",
+        "themes_enabled"
+      ],
+      "groups": [
+        "2Hcqv0J0YlY6Z1Xsu6kkHT:override",
+        "default"
+      ],
+      "rule_ids": [
+        "2Hcqv0J0YlY6Z1Xsu6kkHT:override",
+        "default"
+      ],
+      "value_types": {
+        "themes_enabled": [
+          "bool"
+        ],
+        "paid_plan_default_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1238742812": {
+      "keys": [
+        "should_enable_zh_tw"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_enable_zh_tw": [
+          "bool"
+        ]
+      }
+    },
+    "1320801051": {
+      "keys": [
+        "gpt_discovery_experiment_enabled",
+        "hide_new_at_workspace_section",
+        "hide_section_new_at_workspace",
+        "popular_at_my_workspace_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "hide_new_at_workspace_section": [
+          "bool"
+        ],
+        "hide_section_new_at_workspace": [
+          "bool"
+        ],
+        "gpt_discovery_experiment_enabled": [
+          "bool"
+        ],
+        "popular_at_my_workspace_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1346366956": {
+      "keys": [
+        "continue_with_email_phone_placement",
+        "forwardToAuthApi",
+        "in_signup_allow_phone_hold_out",
+        "login_allow_phone",
+        "signup_allow_phone",
+        "signup_cta_copy",
+        "use_email_otp",
+        "use_formatted_national_number",
+        "use_new_phone_ui"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "use_email_otp": [
+          "bool"
+        ],
+        "signup_cta_copy": [
+          "string"
+        ],
+        "login_allow_phone": [
+          "bool"
+        ],
+        "signup_allow_phone": [
+          "bool"
+        ],
+        "forwardToAuthApi": [
+          "bool"
+        ],
+        "use_new_phone_ui": [
+          "bool"
+        ],
+        "in_signup_allow_phone_hold_out": [
+          "bool"
+        ],
+        "use_formatted_national_number": [
+          "bool"
+        ],
+        "continue_with_email_phone_placement": [
+          "string"
+        ]
+      }
+    },
+    "1358188185": {
+      "keys": [
+        "prefetch-models",
+        "sidebar-default-close"
+      ],
+      "groups": [
+        "6ypgO1iunECwdWs6kSLKtW:override",
+        "default"
+      ],
+      "rule_ids": [
+        "6ypgO1iunECwdWs6kSLKtW:override",
+        "default"
+      ],
+      "value_types": {
+        "prefetch-models": [
+          "bool"
+        ],
+        "sidebar-default-close": [
+          "bool"
+        ]
+      }
+    },
+    "1358849452": {
+      "keys": [
+        "disable-ssr"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "disable-ssr": [
+          "bool"
+        ]
+      }
+    },
+    "1368081792": {
+      "keys": [
+        "should_change_model_picker",
+        "should_show_codex_upsell_banner",
+        "should_show_deep_research_upsell_banner",
+        "should_show_deep_research_upsell_banner_free",
+        "should_show_o3_mini_high_upsell_banner_free_user_to_plus",
+        "should_show_o3_mini_high_upsell_banner_plus_user",
+        "should_show_tatertot_in_context_upsell_banner",
+        "should_show_tatertot_nux",
+        "tatortot_contextual_upsell_frequency_window_length_hours",
+        "tatortot_contextual_upsell_shown_max_count"
+      ],
+      "groups": [
+        "61NoZHLVFXEERUSBRi67Le",
+        "default"
+      ],
+      "rule_ids": [
+        "61NoZHLVFXEERUSBRi67Le",
+        "default"
+      ],
+      "value_types": {
+        "should_show_o3_mini_high_upsell_banner_free_user_to_plus": [
+          "bool"
+        ],
+        "should_show_o3_mini_high_upsell_banner_plus_user": [
+          "bool"
+        ],
+        "should_change_model_picker": [
+          "bool"
+        ],
+        "should_show_deep_research_upsell_banner": [
+          "bool"
+        ],
+        "should_show_deep_research_upsell_banner_free": [
+          "bool"
+        ],
+        "should_show_codex_upsell_banner": [
+          "bool"
+        ],
+        "should_show_tatertot_in_context_upsell_banner": [
+          "bool"
+        ],
+        "tatortot_contextual_upsell_frequency_window_length_hours": [
+          "dict",
+          "string"
+        ],
+        "tatortot_contextual_upsell_shown_max_count": [
+          "string"
+        ],
+        "should_show_tatertot_nux": [
+          "bool"
+        ]
+      }
+    },
+    "1411664690": {
+      "keys": [
+        "show-upsell-via-keyword",
+        "show-upsell-via-links",
+        "switch-to-reasoning-modal"
+      ],
+      "groups": [
+        "29aYovXoVtL2Oakz2jIlPc:override",
+        "default"
+      ],
+      "rule_ids": [
+        "29aYovXoVtL2Oakz2jIlPc:override",
+        "default"
+      ],
+      "value_types": {
+        "switch-to-reasoning-modal": [
+          "bool"
+        ],
+        "show-upsell-via-keyword": [
+          "bool"
+        ],
+        "show-upsell-via-links": [
+          "bool"
+        ]
+      }
+    },
+    "1435014612": {
+      "keys": [
+        "enable_new_sidebar_upsells",
+        "enable_new_splash_upgrade_banner",
+        "enable_old_header_purple_upgrade_pill",
+        "enable_v2_sidebar_invite_cta",
+        "enable_v2_sidebar_invite_cta_cap_button",
+        "enable_v2_sidebar_upsell",
+        "enable_v2_sidebar_upsell_cap_button",
+        "new_upsells_dismissible"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_new_sidebar_upsells": [
+          "bool"
+        ],
+        "enable_old_header_purple_upgrade_pill": [
+          "bool"
+        ],
+        "enable_new_splash_upgrade_banner": [
+          "bool"
+        ],
+        "new_upsells_dismissible": [
+          "bool"
+        ],
+        "enable_v2_sidebar_upsell": [
+          "bool"
+        ],
+        "enable_v2_sidebar_upsell_cap_button": [
+          "bool"
+        ],
+        "enable_v2_sidebar_invite_cta": [
+          "bool"
+        ],
+        "enable_v2_sidebar_invite_cta_cap_button": [
+          "bool"
+        ]
+      }
+    },
+    "1547743984": {
+      "keys": [
+        "android_drop_down_share_on_top",
+        "android_drop_down_share_on_top_enabled",
+        "android_share_long_press_enabled",
+        "android_share_prompt_and_response_enabled",
+        "in_dalle_preview_exp",
+        "is_continue_enabled",
+        "is_discoverability_toggle_enabled",
+        "is_message_prompt_enabled",
+        "is_meta_improvements_enabled",
+        "is_new_sharing_preview_enabled",
+        "is_one_click_sharing_enabled",
+        "is_simplified_sharing_modal_enabled",
+        "is_social_share_options_enabled",
+        "is_update_shared_links_enabled",
+        "should_simplify_modal",
+        "show_copylink_state_if_no_updates",
+        "show_share_button_inline",
+        "show_share_button_text",
+        "use_dalle_preview"
+      ],
+      "groups": [
+        "5l1fatG3RDeXI00cgKK009",
+        "default",
+        "prestart"
+      ],
+      "rule_ids": [
+        "5l1fatG3RDeXI00cgKK009",
+        "default",
+        "prestart"
+      ],
+      "value_types": {
+        "should_simplify_modal": [
+          "bool"
+        ],
+        "is_simplified_sharing_modal_enabled": [
+          "bool"
+        ],
+        "is_social_share_options_enabled": [
+          "bool"
+        ],
+        "is_update_shared_links_enabled": [
+          "bool"
+        ],
+        "is_discoverability_toggle_enabled": [
+          "bool"
+        ],
+        "show_copylink_state_if_no_updates": [
+          "bool"
+        ],
+        "is_continue_enabled": [
+          "bool"
+        ],
+        "show_share_button_text": [
+          "bool"
+        ],
+        "is_meta_improvements_enabled": [
+          "bool"
+        ],
+        "show_share_button_inline": [
+          "bool"
+        ],
+        "use_dalle_preview": [
+          "bool"
+        ],
+        "in_dalle_preview_exp": [
+          "bool"
+        ],
+        "android_share_prompt_and_response_enabled": [
+          "bool"
+        ],
+        "android_share_long_press_enabled": [
+          "bool"
+        ],
+        "is_message_prompt_enabled": [
+          "bool"
+        ],
+        "android_drop_down_share_on_top_enabled": [
+          "bool"
+        ],
+        "is_one_click_sharing_enabled": [
+          "bool"
+        ],
+        "is_new_sharing_preview_enabled": [
+          "bool"
+        ],
+        "android_drop_down_share_on_top": [
+          "bool"
+        ]
+      }
+    },
+    "1560606832": {
+      "keys": [
+        "should_show_cot_header",
+        "should_update_thread_store",
+        "should_use_new_ui"
+      ],
+      "groups": [
+        "5nRyKpqTxIe8j19ZsvSGyw:override",
+        "default"
+      ],
+      "rule_ids": [
+        "5nRyKpqTxIe8j19ZsvSGyw:override",
+        "default"
+      ],
+      "value_types": {
+        "should_update_thread_store": [
+          "bool"
+        ],
+        "should_use_new_ui": [
+          "bool"
+        ],
+        "should_show_cot_header": [
+          "bool"
+        ]
+      }
+    },
+    "1578749296": {
+      "keys": [
+        "is_sticky_toggle_off",
+        "is_trinity"
+      ],
+      "groups": [
+        "3hDI9H8yYwasGQEGrfyB97:override",
+        "default"
+      ],
+      "rule_ids": [
+        "3hDI9H8yYwasGQEGrfyB97:override",
+        "default"
+      ],
+      "value_types": {
+        "is_sticky_toggle_off": [
+          "bool"
+        ],
+        "is_trinity": [
+          "bool"
+        ]
+      }
+    },
+    "1630876919": {
+      "keys": [
+        "backfill_completed",
+        "enable_indexing",
+        "enable_local_indexing",
+        "enable_us_rollout",
+        "enable_ux",
+        "enable_ux_rollout"
+      ],
+      "groups": [
+        "31UyKaWB8PZhFswQt29NlZ",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "31UyKaWB8PZhFswQt29NlZ",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enable_indexing": [
+          "bool"
+        ],
+        "backfill_completed": [
+          "bool"
+        ],
+        "enable_local_indexing": [
+          "bool"
+        ],
+        "enable_ux": [
+          "bool"
+        ],
+        "enable_us_rollout": [
+          "bool"
+        ],
+        "enable_ux_rollout": [
+          "bool"
+        ]
+      }
+    },
+    "1696863369": {
+      "keys": [
+        "has_sidekick_access",
+        "show_nux_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "has_sidekick_access": [
+          "bool"
+        ],
+        "show_nux_banner": [
+          "bool"
+        ]
+      }
+    },
+    "1697140512": {
+      "keys": [
+        "can_download_sidetron",
+        "show_nux_banner"
+      ],
+      "groups": [
+        "WEjdXIiAdB2fsEb1cKwOz:override",
+        "default"
+      ],
+      "rule_ids": [
+        "WEjdXIiAdB2fsEb1cKwOz:override",
+        "default"
+      ],
+      "value_types": {
+        "show_nux_banner": [
+          "bool"
+        ],
+        "can_download_sidetron": [
+          "bool"
+        ]
+      }
+    },
+    "1704793646": {
+      "keys": [
+        "full_name_llm",
+        "greeting_web",
+        "name_char_limit"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "greeting_web": [
+          "bool"
+        ],
+        "name_char_limit": [
+          "dict",
+          "string"
+        ],
+        "full_name_llm": [
+          "bool"
+        ]
+      }
+    },
+    "1704943789": {
+      "keys": [
+        "connectors_button",
+        "enableToggle",
+        "group",
+        "join_teammates",
+        "keywords-upsell",
+        "links-upsell",
+        "onboarding_state",
+        "post_connection_connector_button",
+        "suggested_prompts",
+        "toggleState"
+      ],
+      "groups": [
+        "5JabYAaMS7IWJiE5RAyBvu:override",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "5JabYAaMS7IWJiE5RAyBvu:override",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "group": [
+          "string"
+        ],
+        "links-upsell": [
+          "bool"
+        ],
+        "keywords-upsell": [
+          "bool"
+        ],
+        "enableToggle": [
+          "bool"
+        ],
+        "toggleState": [
+          "string"
+        ],
+        "connectors_button": [
+          "bool"
+        ],
+        "suggested_prompts": [
+          "bool"
+        ],
+        "join_teammates": [
+          "bool"
+        ],
+        "onboarding_state": [
+          "string"
+        ],
+        "post_connection_connector_button": [
+          "bool"
+        ]
+      }
+    },
+    "1738106734": {
+      "keys": [
+        "should_show_codex_upsell_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_codex_upsell_banner": [
+          "bool"
+        ]
+      }
+    },
+    "1780960461": {
+      "keys": [
+        "enabled",
+        "greeting_web",
+        "mobile",
+        "web"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "mobile": [
+          "bool"
+        ],
+        "web": [
+          "bool"
+        ],
+        "greeting_web": [
+          "bool"
+        ],
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1803944755": {
+      "keys": [
+        "condense_authorize_redirects",
+        "condense_consent_redirects",
+        "condense_hydra_redirects",
+        "enable_combined_login_or_signup_button",
+        "enable_dynamic_redirect_for_existing_username_on_login_screen",
+        "enable_dynamic_redirect_for_existing_username_on_signup_screen",
+        "enable_link_wordmark_to_home_page",
+        "enable_password_reset_leaked_credential_check",
+        "enable_redirect_to_social_for_existing_email_on_login_screen",
+        "enable_redirect_to_social_for_existing_email_on_signup_screen",
+        "enable_signup_leaked_credential_check",
+        "enable_unified_login_or_signup_button",
+        "enable_unified_login_or_signup_start_page",
+        "enable_unified_login_or_signup_start_page_at_authapi",
+        "enable_unified_login_or_signup_start_page_at_chatgpt_web",
+        "enforce_hrd_for_explicit_password_connections",
+        "expired_session_error_page_variant",
+        "express_server_delivery_mechanism",
+        "in_login_web_branding_experiment",
+        "is_login_modal_integration_enabled",
+        "is_no_auth_login_modal_enabled",
+        "log_back_variant",
+        "log_back_variation",
+        "login_or_signup_cta_copy",
+        "login_web_branding",
+        "set_full_name_in_auth_session_cookie",
+        "show_subtitle_on_auth_page",
+        "simplified_auth_options_web_variant",
+        "use_authapi_password_connection_type",
+        "use_dynamic_page_title",
+        "use_generic_login_options_order",
+        "use_mfaapi_for_email_otp_send_and_verify",
+        "use_separate_incorrect_password_error_message"
+      ],
+      "groups": [
+        "2x357KUS6g1e0Tp86TCRig",
+        "74YLloBuDGDmIat8IbITNu",
+        "7iCrHCamBLiUBheVQ1Rh72",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "2x357KUS6g1e0Tp86TCRig",
+        "74YLloBuDGDmIat8IbITNu",
+        "7iCrHCamBLiUBheVQ1Rh72",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enable_dynamic_redirect_for_existing_username_on_signup_screen": [
+          "bool"
+        ],
+        "enable_dynamic_redirect_for_existing_username_on_login_screen": [
+          "bool"
+        ],
+        "enable_redirect_to_social_for_existing_email_on_signup_screen": [
+          "bool"
+        ],
+        "enable_redirect_to_social_for_existing_email_on_login_screen": [
+          "bool"
+        ],
+        "condense_authorize_redirects": [
+          "bool"
+        ],
+        "use_separate_incorrect_password_error_message": [
+          "bool"
+        ],
+        "login_web_branding": [
+          "string"
+        ],
+        "in_login_web_branding_experiment": [
+          "bool"
+        ],
+        "enforce_hrd_for_explicit_password_connections": [
+          "bool"
+        ],
+        "use_authapi_password_connection_type": [
+          "bool"
+        ],
+        "enable_link_wordmark_to_home_page": [
+          "bool"
+        ],
+        "use_dynamic_page_title": [
+          "bool"
+        ],
+        "express_server_delivery_mechanism": [
+          "string"
+        ],
+        "enable_combined_login_or_signup_button": [
+          "bool"
+        ],
+        "login_or_signup_cta_copy": [
+          "string"
+        ],
+        "enable_unified_login_or_signup_start_page_at_authapi": [
+          "bool"
+        ],
+        "enable_unified_login_or_signup_start_page_at_chatgpt_web": [
+          "bool"
+        ],
+        "enable_signup_leaked_credential_check": [
+          "bool"
+        ],
+        "enable_unified_login_or_signup_button": [
+          "bool"
+        ],
+        "show_subtitle_on_auth_page": [
+          "bool"
+        ],
+        "simplified_auth_options_web_variant": [
+          "string"
+        ],
+        "expired_session_error_page_variant": [
+          "string"
+        ],
+        "enable_password_reset_leaked_credential_check": [
+          "bool"
+        ],
+        "is_no_auth_login_modal_enabled": [
+          "bool"
+        ],
+        "use_generic_login_options_order": [
+          "bool"
+        ],
+        "use_mfaapi_for_email_otp_send_and_verify": [
+          "bool"
+        ],
+        "condense_hydra_redirects": [
+          "bool"
+        ],
+        "condense_consent_redirects": [
+          "bool"
+        ],
+        "is_login_modal_integration_enabled": [
+          "bool"
+        ],
+        "log_back_variation": [
+          "string"
+        ],
+        "log_back_variant": [
+          "string"
+        ],
+        "set_full_name_in_auth_session_cookie": [
+          "bool"
+        ],
+        "enable_unified_login_or_signup_start_page": [
+          "bool"
+        ]
+      }
+    },
+    "1846737571": {
+      "keys": [
+        "is_upgrade_button_blue"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_upgrade_button_blue": [
+          "bool"
+        ]
+      }
+    },
+    "1914829685": {
+      "keys": [
+        "forward_to_authapi"
+      ],
+      "groups": [
+        "2RO4BOrVWPrsxRUPYNKPLe:override"
+      ],
+      "rule_ids": [
+        "2RO4BOrVWPrsxRUPYNKPLe:override"
+      ],
+      "value_types": {
+        "forward_to_authapi": [
+          "bool"
+        ]
+      }
+    },
+    "1916748563": {
+      "keys": [
+        "is_upgrade_link_shown"
+      ],
+      "groups": [
+        "CCmPdzLR7Z9OxfOrx7vaF",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "CCmPdzLR7Z9OxfOrx7vaF",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "is_upgrade_link_shown": [
+          "bool"
+        ]
+      }
+    },
+    "1922342873": {
+      "keys": [
+        "can-select-personality"
+      ],
+      "groups": [
+        "4BlQC5ojHEiirWKQdW4v8O:override",
+        "default"
+      ],
+      "rule_ids": [
+        "4BlQC5ojHEiirWKQdW4v8O:override",
+        "default"
+      ],
+      "value_types": {
+        "can-select-personality": [
+          "bool"
+        ]
+      }
+    },
+    "1976075658": {
+      "keys": [
+        "email_sent",
+        "send_email",
+        "show_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "email_sent": [
+          "bool"
+        ],
+        "show_banner": [
+          "bool"
+        ],
+        "send_email": [
+          "bool"
+        ]
+      }
+    },
+    "1997515563": {
+      "keys": [
+        "should_show_image_gen_latency_upsell"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_image_gen_latency_upsell": [
+          "bool"
+        ]
+      }
+    },
+    "2059705933": {
+      "keys": [
+        "Enabled"
+      ],
+      "groups": [
+        "4ZuvrVpAKOTO8IDqsWtFio",
+        "4ZuvrVpAKOTO8IDqsWtFio:override",
+        "default"
+      ],
+      "rule_ids": [
+        "4ZuvrVpAKOTO8IDqsWtFio",
+        "4ZuvrVpAKOTO8IDqsWtFio:override",
+        "default"
+      ],
+      "value_types": {
+        "Enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2118136551": {
+      "keys": [
+        "make_signup_sticky",
+        "should_show_imagegen_nux",
+        "show_burrito_upsell_modal",
+        "show_chatgpt_h1",
+        "show_cookie_banner_auth_login",
+        "show_cookie_banner_if_qualified",
+        "show_cookie_banner_improvements",
+        "show_disclaimer_banner_dismiss_button",
+        "show_gpt5_upsell_modal",
+        "show_management_modal",
+        "sign_up_button_has_the_word_free",
+        "test_dummy"
+      ],
+      "groups": [
+        "795dqbua8FTFk5zgTNvOm2",
+        "795dqd9cAY39Dv7cuVrrF4",
+        "default"
+      ],
+      "rule_ids": [
+        "795dqbua8FTFk5zgTNvOm2",
+        "795dqd9cAY39Dv7cuVrrF4",
+        "default"
+      ],
+      "value_types": {
+        "show_cookie_banner_if_qualified": [
+          "bool"
+        ],
+        "test_dummy": [
+          "bool"
+        ],
+        "sign_up_button_has_the_word_free": [
+          "bool"
+        ],
+        "show_cookie_banner_auth_login": [
+          "bool"
+        ],
+        "show_cookie_banner_improvements": [
+          "bool"
+        ],
+        "should_show_imagegen_nux": [
+          "bool"
+        ],
+        "show_management_modal": [
+          "bool"
+        ],
+        "show_disclaimer_banner_dismiss_button": [
+          "bool"
+        ],
+        "make_signup_sticky": [
+          "bool"
+        ],
+        "show_chatgpt_h1": [
+          "bool"
+        ],
+        "show_gpt5_upsell_modal": [
+          "bool"
+        ],
+        "show_burrito_upsell_modal": [
+          "bool"
+        ]
+      }
+    },
+    "2149763392": {
+      "keys": [
+        "show-in-main-composer",
+        "show-model-picker"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show-in-main-composer": [
+          "bool"
+        ],
+        "show-model-picker": [
+          "bool"
+        ]
+      }
+    },
+    "2152104812": {
+      "keys": [
+        "hide_default_gpts",
+        "hide_gpts_if_none"
+      ],
+      "groups": [
+        "2xoPgHLCkv3ebdMAj1eTZK:override",
+        "default"
+      ],
+      "rule_ids": [
+        "2xoPgHLCkv3ebdMAj1eTZK:override",
+        "default"
+      ],
+      "value_types": {
+        "hide_gpts_if_none": [
+          "bool"
+        ],
+        "hide_default_gpts": [
+          "bool"
+        ]
+      }
+    },
+    "2239990662": {
+      "keys": [
+        "redirect_to_home",
+        "should_hard_navigate_to_root_path_for_team"
+      ],
+      "groups": [
+        "2zfQ9wsGV314boxCCRn3ui",
+        "default"
+      ],
+      "rule_ids": [
+        "2zfQ9wsGV314boxCCRn3ui",
+        "default"
+      ],
+      "value_types": {
+        "redirect_to_home": [
+          "bool"
+        ],
+        "should_hard_navigate_to_root_path_for_team": [
+          "bool"
+        ]
+      }
+    },
+    "2259187367": {
+      "keys": [
+        "additional_category",
+        "enable_additional_categories",
+        "enable_nux",
+        "end_time",
+        "force_madlibs_param_name",
+        "start_time",
+        "use_multi_input"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_nux": [
+          "bool"
+        ],
+        "start_time": [
+          "string"
+        ],
+        "end_time": [
+          "string"
+        ],
+        "use_multi_input": [
+          "bool"
+        ],
+        "force_madlibs_param_name": [
+          "string"
+        ],
+        "enable_additional_categories": [
+          "bool"
+        ],
+        "additional_category": [
+          "string"
+        ]
+      }
+    },
+    "2273762597": {
+      "keys": [
+        "discount_offer_upsell_beacon_enabled",
+        "is_plus_free_trial_enabled",
+        "is_plus_intro_offer_enabled",
+        "plus_intro_offer",
+        "regular_price_upsell_beacon_enabled",
+        "regular_price_upsell_experiment_enabled",
+        "web_plus_free_trial_coupon_eu",
+        "web_plus_free_trial_coupon_us",
+        "web_plus_intro_offer_coupon"
+      ],
+      "groups": [
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "plus_intro_offer": [
+          "string"
+        ],
+        "web_plus_intro_offer_coupon": [
+          "string"
+        ],
+        "is_plus_intro_offer_enabled": [
+          "bool"
+        ],
+        "regular_price_upsell_experiment_enabled": [
+          "bool"
+        ],
+        "regular_price_upsell_beacon_enabled": [
+          "bool"
+        ],
+        "discount_offer_upsell_beacon_enabled": [
+          "bool"
+        ],
+        "is_plus_free_trial_enabled": [
+          "bool"
+        ],
+        "web_plus_free_trial_coupon_us": [
+          "string"
+        ],
+        "web_plus_free_trial_coupon_eu": [
+          "string"
+        ]
+      }
+    },
+    "2356508715": {
+      "keys": [
+        "allow_receiver_see_user_uploaded_files"
+      ],
+      "groups": [
+        "17eI5Na87kYJh3HZV7JQhl",
+        "2OtTtcmxclj4w6zsKH0PVb",
+        "2OtTte1zEDsyPw7olOWted",
+        "7KJcC85OKb48XkVMjhUWqu:override",
+        "default"
+      ],
+      "rule_ids": [
+        "17eI5Na87kYJh3HZV7JQhl",
+        "2OtTtcmxclj4w6zsKH0PVb",
+        "2OtTte1zEDsyPw7olOWted",
+        "7KJcC85OKb48XkVMjhUWqu:override",
+        "default"
+      ],
+      "value_types": {
+        "allow_receiver_see_user_uploaded_files": [
+          "bool"
+        ]
+      }
+    },
+    "2382399797": {
+      "keys": [
+        "is_enabled",
+        "navigator_share_image",
+        "navigator_share_link",
+        "navigator_share_text"
+      ],
+      "groups": [
+        "2H73RDC2aRVXfaQ3lZF8UM",
+        "default"
+      ],
+      "rule_ids": [
+        "2H73RDC2aRVXfaQ3lZF8UM",
+        "default"
+      ],
+      "value_types": {
+        "is_enabled": [
+          "bool"
+        ],
+        "navigator_share_text": [
+          "bool"
+        ],
+        "navigator_share_image": [
+          "bool"
+        ],
+        "navigator_share_link": [
+          "bool"
+        ]
+      }
+    },
+    "2489999880": {
+      "keys": [
+        "is_polling_enabled",
+        "is_resume_enabled",
+        "is_resume_over_reloads_enabled"
+      ],
+      "groups": [
+        "3N1wXSeIKDZ1UyJJbchvtW",
+        "5AXQzcXBaCXDCdwyC2BAwA",
+        "Gi7ARG8v3EFAOZtzhLySv",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "3N1wXSeIKDZ1UyJJbchvtW",
+        "5AXQzcXBaCXDCdwyC2BAwA",
+        "Gi7ARG8v3EFAOZtzhLySv",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "is_resume_enabled": [
+          "bool"
+        ],
+        "is_polling_enabled": [
+          "bool"
+        ],
+        "is_resume_over_reloads_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2494348560": {
+      "keys": [
+        "enable_ca_pro_onboarding_flow",
+        "enabled_suggested_prompts"
+      ],
+      "groups": [
+        "1YTIN2lOJV3YW7CzgcmC0V",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "1YTIN2lOJV3YW7CzgcmC0V",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enabled_suggested_prompts": [
+          "bool"
+        ],
+        "enable_ca_pro_onboarding_flow": [
+          "bool"
+        ]
+      }
+    },
+    "2505516353": {
+      "keys": [
+        "android-keyboard-layout"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "android-keyboard-layout": [
+          "bool"
+        ]
+      }
+    },
+    "2526598250": {
+      "keys": [
+        "font-size",
+        "logged-out-attach-label",
+        "logged-out-attach-plus-icon",
+        "logged-out-hide-tool-buttons",
+        "logged-out-voice-label",
+        "plus-button-adds-files",
+        "plus-button-label",
+        "single-line"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "single-line": [
+          "bool"
+        ],
+        "plus-button-label": [
+          "bool"
+        ],
+        "logged-out-voice-label": [
+          "bool"
+        ],
+        "font-size": [
+          "string"
+        ],
+        "plus-button-adds-files": [
+          "bool"
+        ],
+        "logged-out-attach-label": [
+          "bool"
+        ],
+        "logged-out-attach-plus-icon": [
+          "bool"
+        ],
+        "logged-out-hide-tool-buttons": [
+          "bool"
+        ]
+      }
+    },
+    "2622458804": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "2670443078": {
+      "keys": [
+        "is_gating_fix_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_gating_fix_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2675205028": {
+      "keys": [
+        "enforce_focus_mode",
+        "scroll_to_plus_variant",
+        "show_grayscale_background",
+        "show_web_redesign"
+      ],
+      "groups": [
+        "4zuAKIOEZF0AZ5pNmMGIah",
+        "4zuAKKtHrXa5iuXIXUCltj",
+        "6TTyToyxwSKOY0EsntUowL",
+        "default"
+      ],
+      "rule_ids": [
+        "4zuAKIOEZF0AZ5pNmMGIah",
+        "4zuAKKtHrXa5iuXIXUCltj",
+        "6TTyToyxwSKOY0EsntUowL",
+        "default"
+      ],
+      "value_types": {
+        "show_grayscale_background": [
+          "bool"
+        ],
+        "show_web_redesign": [
+          "bool"
+        ],
+        "scroll_to_plus_variant": [
+          "string"
+        ],
+        "enforce_focus_mode": [
+          "bool"
+        ]
+      }
+    },
+    "2716194794": {
+      "keys": [
+        "show_upsell"
+      ],
+      "groups": [
+        "2JXTuB4yF47RmErlyvopAI:override",
+        "default"
+      ],
+      "rule_ids": [
+        "2JXTuB4yF47RmErlyvopAI:override",
+        "default"
+      ],
+      "value_types": {
+        "show_upsell": [
+          "bool"
+        ]
+      }
+    },
+    "2723963139": {
+      "keys": [
+        "config",
+        "is_AG8PqS2q_enabled",
+        "is_chive_enabled",
+        "is_conversation_model_switching_allowed",
+        "is_dynamic_model_enabled",
+        "sahara_model_id_override",
+        "show_message_model_info",
+        "show_message_regenerate_model_selector",
+        "show_message_regenerate_model_selector_on_every_message",
+        "show_rate_limit_downgrade_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_dynamic_model_enabled": [
+          "bool"
+        ],
+        "show_message_model_info": [
+          "bool"
+        ],
+        "show_message_regenerate_model_selector": [
+          "bool"
+        ],
+        "is_conversation_model_switching_allowed": [
+          "bool"
+        ],
+        "show_rate_limit_downgrade_banner": [
+          "bool"
+        ],
+        "config": [
+          "dict"
+        ],
+        "show_message_regenerate_model_selector_on_every_message": [
+          "bool"
+        ],
+        "is_AG8PqS2q_enabled": [
+          "bool"
+        ],
+        "is_chive_enabled": [
+          "bool"
+        ],
+        "sahara_model_id_override": [
+          "string"
+        ]
+      }
+    },
+    "2762630623": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "6SVI1kEbTjkGvp03nEk2iJ",
+        "default"
+      ],
+      "rule_ids": [
+        "6SVI1kEbTjkGvp03nEk2iJ",
+        "default"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "2775247110": {
+      "keys": [
+        "show_plan_type_badge",
+        "show_pro_badge"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_pro_badge": [
+          "bool"
+        ],
+        "show_plan_type_badge": [
+          "bool"
+        ]
+      }
+    },
+    "2788179050": {
+      "keys": [
+        "free_gpt_5_banner_copy",
+        "plus_upsell_cta_copy",
+        "pro_upsell_cta_copy"
+      ],
+      "groups": [
+        "2ybTw1pegfIrLbHgHI9qIs",
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "2ybTw1pegfIrLbHgHI9qIs",
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "plus_upsell_cta_copy": [
+          "string"
+        ],
+        "pro_upsell_cta_copy": [
+          "string"
+        ],
+        "free_gpt_5_banner_copy": [
+          "string"
+        ]
+      }
+    },
+    "2840731323": {
+      "keys": [
+        "is_continue_enabled",
+        "is_direct_continue_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_continue_enabled": [
+          "bool"
+        ],
+        "is_direct_continue_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2861477803": {
+      "keys": [
+        "use_f_convo",
+        "use_f_prepare"
+      ],
+      "groups": [
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "use_f_convo": [
+          "bool"
+        ],
+        "use_f_prepare": [
+          "bool"
+        ]
+      }
+    },
+    "2867403379": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2884982660": {
+      "keys": [
+        "load-machine-translated"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "load-machine-translated": [
+          "bool"
+        ]
+      }
+    },
+    "2888142241": {
+      "keys": [
+        "is_feedback_tool_shown",
+        "is_upgrade_in_settings"
+      ],
+      "groups": [
+        "3cXZ2zQPxKkJROYGCRIa5b",
+        "default"
+      ],
+      "rule_ids": [
+        "3cXZ2zQPxKkJROYGCRIa5b",
+        "default"
+      ],
+      "value_types": {
+        "is_upgrade_in_settings": [
+          "bool"
+        ],
+        "is_feedback_tool_shown": [
+          "bool"
+        ]
+      }
+    },
+    "2892100643": {
+      "keys": [
+        "golden_hour_auto_memory_update_version",
+        "golden_hour_enable_archived_edges",
+        "golden_hour_ignore_backfill_entries",
+        "golden_hour_is_soft_holdout",
+        "golden_hour_run_backfill",
+        "golden_hour_run_enabled",
+        "golden_hour_run_expansion_ratio",
+        "golden_hour_shadow_enabled"
+      ],
+      "groups": [
+        "7b2L3vsJNQPiIJCZuM2D8T",
+        "default"
+      ],
+      "rule_ids": [
+        "7b2L3vsJNQPiIJCZuM2D8T",
+        "default"
+      ],
+      "value_types": {
+        "golden_hour_run_enabled": [
+          "bool"
+        ],
+        "golden_hour_run_expansion_ratio": [
+          "string"
+        ],
+        "golden_hour_is_soft_holdout": [
+          "bool"
+        ],
+        "golden_hour_run_backfill": [
+          "bool"
+        ],
+        "golden_hour_shadow_enabled": [
+          "bool"
+        ],
+        "golden_hour_ignore_backfill_entries": [
+          "bool"
+        ],
+        "golden_hour_enable_archived_edges": [
+          "bool"
+        ],
+        "golden_hour_auto_memory_update_version": [
+          "string"
+        ]
+      }
+    },
+    "2904126195": {
+      "keys": [
+        "double-write-files-to-library",
+        "persist-files-to-library",
+        "show-recent-files-dropdown"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show-recent-files-dropdown": [
+          "bool"
+        ],
+        "persist-files-to-library": [
+          "bool"
+        ],
+        "double-write-files-to-library": [
+          "bool"
+        ]
+      }
+    },
+    "2932223118": {
+      "keys": [
+        "is_mobile_web_toggle_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_mobile_web_toggle_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2972011003": {
+      "keys": [
+        "search_tool_holdout_enabled",
+        "user_context_message_search_tools_default"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "user_context_message_search_tools_default": [
+          "bool"
+        ],
+        "search_tool_holdout_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3048336830": {
+      "keys": [
+        "is-enabled",
+        "use-rtl-layout"
+      ],
+      "groups": [
+        "default",
+        "localization-april Nzc6Xnht6tIVmb48Ejg1T:override"
+      ],
+      "rule_ids": [
+        "default",
+        "localization-april Nzc6Xnht6tIVmb48Ejg1T:override"
+      ],
+      "value_types": {
+        "is-enabled": [
+          "bool"
+        ],
+        "use-rtl-layout": [
+          "bool"
+        ]
+      }
+    },
+    "3070823306": {
+      "keys": [
+        "hidden_hrs",
+        "new_markdown"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "new_markdown": [
+          "bool"
+        ],
+        "hidden_hrs": [
+          "bool"
+        ]
+      }
+    },
+    "3081064739": {
+      "keys": [
+        "can-bounce",
+        "composer-plus-menu",
+        "dedent-size",
+        "detent-size",
+        "no-explicit-add-from-social",
+        "project-modal"
+      ],
+      "groups": [
+        "HrMaCSyBPs7vBUdpSi5GJR",
+        "default"
+      ],
+      "rule_ids": [
+        "HrMaCSyBPs7vBUdpSi5GJR",
+        "default"
+      ],
+      "value_types": {
+        "project-modal": [
+          "bool"
+        ],
+        "composer-plus-menu": [
+          "bool"
+        ],
+        "no-explicit-add-from-social": [
+          "bool"
+        ],
+        "detent-size": [
+          "string"
+        ],
+        "can-bounce": [
+          "bool"
+        ],
+        "dedent-size": [
+          "string"
+        ]
+      }
+    },
+    "3119715334": {
+      "keys": [
+        "should-enable-hojicha",
+        "should-enable-skip"
+      ],
+      "groups": [
+        "default",
+        "prestart"
+      ],
+      "rule_ids": [
+        "default",
+        "prestart"
+      ],
+      "value_types": {
+        "should-enable-hojicha": [
+          "bool"
+        ],
+        "should-enable-skip": [
+          "bool"
+        ]
+      }
+    },
+    "3144088496": {
+      "keys": [
+        "force_show_upgrade_line_item",
+        "upgrade_profile_color"
+      ],
+      "groups": [
+        "5ItJxetO3BmtnHCgn2etJn",
+        "default"
+      ],
+      "rule_ids": [
+        "5ItJxetO3BmtnHCgn2etJn",
+        "default"
+      ],
+      "value_types": {
+        "force_show_upgrade_line_item": [
+          "bool"
+        ],
+        "upgrade_profile_color": [
+          "string"
+        ]
+      }
+    },
+    "3170465812": {
+      "keys": [
+        "promo_eligibility_months",
+        "promo_id",
+        "promo_redemption_cta_color",
+        "should_show_promo"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_promo": [
+          "bool"
+        ],
+        "promo_eligibility_months": [
+          "dict"
+        ],
+        "promo_id": [
+          "string"
+        ],
+        "promo_redemption_cta_color": [
+          "string"
+        ]
+      }
+    },
+    "3178812292": {
+      "keys": [
+        "use_f_convo",
+        "use_f_prepare"
+      ],
+      "groups": [
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "use_f_convo": [
+          "bool"
+        ],
+        "use_f_prepare": [
+          "bool"
+        ]
+      }
+    },
+    "3206655705": {
+      "keys": [
+        "enable_new_ux"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_new_ux": [
+          "bool"
+        ]
+      }
+    },
+    "3217430380": {
+      "keys": [
+        "enable_workspace_discovery"
+      ],
+      "groups": [
+        "4PLi5Hyc8aoZ1bM70SfNK2",
+        "default"
+      ],
+      "rule_ids": [
+        "4PLi5Hyc8aoZ1bM70SfNK2",
+        "default"
+      ],
+      "value_types": {
+        "enable_workspace_discovery": [
+          "bool"
+        ]
+      }
+    },
+    "3243846918": {
+      "keys": [
+        "enable_message_slice"
+      ],
+      "groups": [
+        "53PZPjaMTh6wA1PkaXmlbZ:override",
+        "default"
+      ],
+      "rule_ids": [
+        "53PZPjaMTh6wA1PkaXmlbZ:override",
+        "default"
+      ],
+      "value_types": {
+        "enable_message_slice": [
+          "bool"
+        ]
+      }
+    },
+    "3274919246": {
+      "keys": [
+        "is_enabled",
+        "test",
+        "variant"
+      ],
+      "groups": [
+        "CrGSizLA5H47JhyeMVAlTk:override"
+      ],
+      "rule_ids": [
+        "CrGSizLA5H47JhyeMVAlTk:override"
+      ],
+      "value_types": {
+        "test": [
+          "string"
+        ],
+        "is_enabled": [
+          "bool"
+        ],
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "3278106051": {
+      "keys": [
+        "allow_receiver_see_user_uploaded_files",
+        "allow_receiver_see_user_uploaded_files_DO_NOT_ENABLE",
+        "enabled_convo_sharing_with_user_uploaded_files",
+        "is_dalle_sharing_enabled"
+      ],
+      "groups": [
+        "2565FqenntBmWAH5t4CfN7",
+        "7E5yLFjnQs0g57l1YbK9n5",
+        "7E5yLGYqiK9KowSXzjFMG7:override",
+        "default"
+      ],
+      "rule_ids": [
+        "2565FqenntBmWAH5t4CfN7",
+        "7E5yLFjnQs0g57l1YbK9n5",
+        "7E5yLGYqiK9KowSXzjFMG7:override",
+        "default"
+      ],
+      "value_types": {
+        "is_dalle_sharing_enabled": [
+          "bool"
+        ],
+        "enabled_convo_sharing_with_user_uploaded_files": [
+          "bool"
+        ],
+        "allow_receiver_see_user_uploaded_files_DO_NOT_ENABLE": [
+          "bool"
+        ],
+        "allow_receiver_see_user_uploaded_files": [
+          "bool"
+        ]
+      }
+    },
+    "3283840244": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "3396794266": {
+      "keys": [
+        "enable_interruption",
+        "restore_prompt_on_stop"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_interruption": [
+          "bool"
+        ],
+        "restore_prompt_on_stop": [
+          "bool"
+        ]
+      }
+    },
+    "3431098147": {
+      "keys": [
+        "should_show_subscription_settings_to_free"
+      ],
+      "groups": [
+        "5TAcj5oPf5sj1K0jpzbOhC",
+        "default"
+      ],
+      "rule_ids": [
+        "5TAcj5oPf5sj1K0jpzbOhC",
+        "default"
+      ],
+      "value_types": {
+        "should_show_subscription_settings_to_free": [
+          "bool"
+        ]
+      }
+    },
+    "3432045939": {
+      "keys": [
+        "hide_on_click_outside_payment_modal",
+        "variant"
+      ],
+      "groups": [
+        "5Kz1XKs7cZXY1fKvqA1aMS",
+        "5Kz1XM79Fi7skFir1HWO5U",
+        "default"
+      ],
+      "rule_ids": [
+        "5Kz1XKs7cZXY1fKvqA1aMS",
+        "5Kz1XM79Fi7skFir1HWO5U",
+        "default"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ],
+        "hide_on_click_outside_payment_modal": [
+          "bool"
+        ]
+      }
+    },
+    "3434623093": {
+      "keys": [
+        "labels",
+        "with-attach-upsell",
+        "with-reason-upsell",
+        "with-voice-upsell"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "with-attach-upsell": [
+          "bool"
+        ],
+        "labels": [
+          "string"
+        ],
+        "with-voice-upsell": [
+          "bool"
+        ],
+        "with-reason-upsell": [
+          "bool"
+        ]
+      }
+    },
+    "3436367576": {
+      "keys": [
+        "backfill_completed",
+        "enable_indexing",
+        "enable_local_indexing",
+        "enable_ux",
+        "wave"
+      ],
+      "groups": [
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "targetingGate"
+      ],
+      "value_types": {
+        "enable_indexing": [
+          "bool"
+        ],
+        "wave": [
+          "string"
+        ],
+        "enable_ux": [
+          "bool"
+        ],
+        "enable_local_indexing": [
+          "bool"
+        ],
+        "backfill_completed": [
+          "bool"
+        ]
+      }
+    },
+    "3453653771": {
+      "keys": [
+        "is_name_folder"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_name_folder": [
+          "bool"
+        ]
+      }
+    },
+    "3471271313": {
+      "keys": [
+        "show_upsell"
+      ],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {
+        "show_upsell": [
+          "bool"
+        ]
+      }
+    },
+    "3517133692": {
+      "keys": [
+        "is_memory_undo_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_memory_undo_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3533083032": {
+      "keys": [
+        "anon_hide_model_header_dropdown",
+        "autocomplete_max_char",
+        "autocomplete_min_char",
+        "autocomplete_mode",
+        "chatgpt_anon_heading_enabled",
+        "disclaimer_color_adjust",
+        "enable_cached_response",
+        "enable_new_homepage_anon",
+        "enable_new_mobile",
+        "filter_prompt_by_model",
+        "headline_option",
+        "homepage_prompt_style",
+        "india_first_prompt",
+        "new-user-message-count",
+        "num_completions_to_fetch_from_index",
+        "prompt_source",
+        "search_autocomplete_mode",
+        "show_composer_header",
+        "show_dalle_starter_prompts",
+        "use_memory_in_model_autocomplete",
+        "use_modapi_in_autocomplete",
+        "web-enable-for-new-users",
+        "web_enable_for_existing_users"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_new_homepage_anon": [
+          "bool"
+        ],
+        "filter_prompt_by_model": [
+          "bool"
+        ],
+        "headline_option": [
+          "string"
+        ],
+        "disclaimer_color_adjust": [
+          "bool"
+        ],
+        "show_composer_header": [
+          "bool"
+        ],
+        "enable_new_mobile": [
+          "bool"
+        ],
+        "enable_cached_response": [
+          "bool"
+        ],
+        "show_dalle_starter_prompts": [
+          "bool"
+        ],
+        "use_modapi_in_autocomplete": [
+          "bool"
+        ],
+        "use_memory_in_model_autocomplete": [
+          "bool"
+        ],
+        "autocomplete_max_char": [
+          "bool",
+          "string"
+        ],
+        "search_autocomplete_mode": [
+          "string"
+        ],
+        "autocomplete_min_char": [
+          "string"
+        ],
+        "autocomplete_mode": [
+          "string"
+        ],
+        "num_completions_to_fetch_from_index": [
+          "dict",
+          "string"
+        ],
+        "india_first_prompt": [
+          "string"
+        ],
+        "web-enable-for-new-users": [
+          "bool"
+        ],
+        "new-user-message-count": [
+          "dict",
+          "string"
+        ],
+        "chatgpt_anon_heading_enabled": [
+          "bool"
+        ],
+        "anon_hide_model_header_dropdown": [
+          "bool"
+        ],
+        "prompt_source": [
+          "string"
+        ],
+        "homepage_prompt_style": [
+          "string"
+        ],
+        "web_enable_for_existing_users": [
+          "bool"
+        ]
+      }
+    },
+    "3590606857": {
+      "keys": [
+        "should_offer_paypal"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_offer_paypal": [
+          "bool"
+        ]
+      }
+    },
+    "3606233934": {
+      "keys": [
+        "enable_notifications_feed",
+        "link"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "link": [
+          "string"
+        ],
+        "enable_notifications_feed": [
+          "bool"
+        ]
+      }
+    },
+    "3613709240": {
+      "keys": [
+        "shouldRefreshAccessToken"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "shouldRefreshAccessToken": [
+          "bool"
+        ]
+      }
+    },
+    "3637408529": {
+      "keys": [
+        "composer_text",
+        "is_anon_chat_enabled",
+        "is_anon_chat_enabled_for_new_users_only",
+        "is_desktop_primary_auth_button_on_right",
+        "is_in_composer_text_exp",
+        "is_login_primary_button",
+        "is_no_auth_gpt4o_modal_enabled",
+        "is_no_auth_soft_rate_limit_modal_enabled",
+        "is_no_auth_welcome_back_modal_enabled",
+        "is_no_auth_welcome_modal_enabled",
+        "is_primary_btn_blue",
+        "is_secondary_auth_banner_button_enabled",
+        "is_secondary_banner_button_enabled",
+        "is_try_it_first_on_login_page_enabled",
+        "no_auth_banner_signup_rate_limit",
+        "no_auth_hard_rate_limit",
+        "no_auth_soft_rate_limit",
+        "no_auth_upsell_wording",
+        "should_refresh_access_token_error_take_user_to_no_auth",
+        "should_show_disclaimer_only_once_per_device",
+        "should_show_no_auth_signup_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_anon_chat_enabled": [
+          "bool"
+        ],
+        "is_anon_chat_enabled_for_new_users_only": [
+          "bool"
+        ],
+        "is_try_it_first_on_login_page_enabled": [
+          "bool"
+        ],
+        "is_no_auth_welcome_modal_enabled": [
+          "bool"
+        ],
+        "no_auth_soft_rate_limit": [
+          "string"
+        ],
+        "no_auth_hard_rate_limit": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "should_show_no_auth_signup_banner": [
+          "bool"
+        ],
+        "is_no_auth_welcome_back_modal_enabled": [
+          "bool"
+        ],
+        "is_no_auth_soft_rate_limit_modal_enabled": [
+          "bool"
+        ],
+        "is_no_auth_gpt4o_modal_enabled": [
+          "bool"
+        ],
+        "is_login_primary_button": [
+          "bool"
+        ],
+        "is_desktop_primary_auth_button_on_right": [
+          "bool"
+        ],
+        "is_primary_btn_blue": [
+          "bool"
+        ],
+        "should_show_disclaimer_only_once_per_device": [
+          "bool"
+        ],
+        "is_secondary_banner_button_enabled": [
+          "bool"
+        ],
+        "is_secondary_auth_banner_button_enabled": [
+          "bool"
+        ],
+        "no_auth_banner_signup_rate_limit": [
+          "string"
+        ],
+        "composer_text": [
+          "string"
+        ],
+        "is_in_composer_text_exp": [
+          "bool"
+        ],
+        "no_auth_upsell_wording": [
+          "string"
+        ],
+        "should_refresh_access_token_error_take_user_to_no_auth": [
+          "bool"
+        ]
+      }
+    },
+    "3647926857": {
+      "keys": [
+        "autoswitcher_enabled",
+        "configuration_menu",
+        "copy-and-link",
+        "inference_debounce_ms",
+        "reason_in_overflow_for_free_users",
+        "reasoning_slider",
+        "reasoning_slider_nux",
+        "search_in_overflow_for_free_users",
+        "unified_architecture",
+        "use_case_landing_page",
+        "ux_updates"
+      ],
+      "groups": [
+        "FZ3KnsNKPa5GF4bDvoFsJC:override",
+        "default",
+        "oKtDJ8osZkY9h0Rg1A8bg:override"
+      ],
+      "rule_ids": [
+        "FZ3KnsNKPa5GF4bDvoFsJC:override",
+        "default",
+        "oKtDJ8osZkY9h0Rg1A8bg:override"
+      ],
+      "value_types": {
+        "unified_architecture": [
+          "bool"
+        ],
+        "ux_updates": [
+          "bool"
+        ],
+        "inference_debounce_ms": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "autoswitcher_enabled": [
+          "bool"
+        ],
+        "copy-and-link": [
+          "bool"
+        ],
+        "reasoning_slider": [
+          "string"
+        ],
+        "use_case_landing_page": [
+          "bool"
+        ],
+        "reasoning_slider_nux": [
+          "bool"
+        ],
+        "reason_in_overflow_for_free_users": [
+          "bool"
+        ],
+        "search_in_overflow_for_free_users": [
+          "bool"
+        ],
+        "configuration_menu": [
+          "string"
+        ]
+      }
+    },
+    "3665464419": {
+      "keys": [
+        "use_business_default_tab"
+      ],
+      "groups": [
+        "76aKIbQ8SVzpxvCLv6MFfH",
+        "default"
+      ],
+      "rule_ids": [
+        "76aKIbQ8SVzpxvCLv6MFfH",
+        "default"
+      ],
+      "value_types": {
+        "use_business_default_tab": [
+          "bool"
+        ]
+      }
+    },
+    "3692302894": {
+      "keys": [
+        "agent_suggestions",
+        "capability_prompts_in_stream",
+        "capability_suggestions",
+        "category_tabs",
+        "mixed_suggestions_prompt_config_key",
+        "model",
+        "prefetch_capability_suggestions",
+        "search_team_followups_enabled",
+        "use_mixed_suggestions"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "capability_suggestions": [
+          "bool"
+        ],
+        "capability_prompts_in_stream": [
+          "bool"
+        ],
+        "prefetch_capability_suggestions": [
+          "bool"
+        ],
+        "model": [
+          "string"
+        ],
+        "category_tabs": [
+          "list"
+        ],
+        "use_mixed_suggestions": [
+          "bool"
+        ],
+        "mixed_suggestions_prompt_config_key": [
+          "string"
+        ],
+        "search_team_followups_enabled": [
+          "bool"
+        ],
+        "agent_suggestions": [
+          "bool"
+        ]
+      }
+    },
+    "3703416703": {
+      "keys": [
+        "use_f_convo",
+        "use_f_prepare"
+      ],
+      "groups": [
+        "4uPKH94LWU7De7qPKL79iZ",
+        "default"
+      ],
+      "rule_ids": [
+        "4uPKH94LWU7De7qPKL79iZ",
+        "default"
+      ],
+      "value_types": {
+        "use_f_convo": [
+          "bool"
+        ],
+        "use_f_prepare": [
+          "bool"
+        ]
+      }
+    },
+    "3710035514": {
+      "keys": [
+        "navigation_entry_persistent"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "navigation_entry_persistent": [
+          "bool"
+        ]
+      }
+    },
+    "3711177917": {
+      "keys": [
+        "is_inline_summarizer_enabled",
+        "is_summarizer_default_expanded"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_summarizer_default_expanded": [
+          "bool"
+        ],
+        "is_inline_summarizer_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3737571708": {
+      "keys": [
+        "sidebar_type"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "sidebar_type": [
+          "string"
+        ]
+      }
+    },
+    "3766234559": {
+      "keys": [
+        "all_pages_enabled",
+        "image_gen_enabled",
+        "image_gen_prompt_type"
+      ],
+      "groups": [
+        "6bPoOJQe9o85nQ3ffaLepm:override",
+        "default"
+      ],
+      "rule_ids": [
+        "6bPoOJQe9o85nQ3ffaLepm:override",
+        "default"
+      ],
+      "value_types": {
+        "image_gen_prompt_type": [
+          "string"
+        ],
+        "image_gen_enabled": [
+          "bool"
+        ],
+        "all_pages_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3768341700": {
+      "keys": [
+        "is_country_selector_enabled",
+        "is_pricing_enabled_for_brl",
+        "is_pricing_enabled_for_egp",
+        "is_pricing_enabled_for_idr",
+        "is_pricing_enabled_for_inr",
+        "is_pricing_enabled_for_krw",
+        "is_pricing_enabled_for_kzt",
+        "is_pricing_enabled_for_myr",
+        "is_pricing_enabled_for_ngn",
+        "is_pricing_enabled_for_php",
+        "is_pricing_enabled_for_pkr",
+        "is_pricing_enabled_for_thb",
+        "is_pricing_enabled_for_tzs",
+        "is_pricing_enabled_for_vnd",
+        "is_pricing_enabled_for_zar",
+        "is_produce_design",
+        "is_produce_text",
+        "is_produce_text_design",
+        "is_sku_info_code_enabled",
+        "is_team_pricing_vat_disclaimer_enabled",
+        "is_vat_information_enabled",
+        "is_vat_information_with_amount_enabled",
+        "remove_early_access_upsell"
+      ],
+      "groups": [
+        "2N4LVVrwmLiCtg2BJozlHO",
+        "default"
+      ],
+      "rule_ids": [
+        "2N4LVVrwmLiCtg2BJozlHO",
+        "default"
+      ],
+      "value_types": {
+        "is_produce_text": [
+          "bool"
+        ],
+        "remove_early_access_upsell": [
+          "bool"
+        ],
+        "is_produce_text_design": [
+          "bool"
+        ],
+        "is_produce_design": [
+          "bool"
+        ],
+        "is_country_selector_enabled": [
+          "bool"
+        ],
+        "is_vat_information_enabled": [
+          "bool"
+        ],
+        "is_vat_information_with_amount_enabled": [
+          "bool"
+        ],
+        "is_team_pricing_vat_disclaimer_enabled": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_inr": [
+          "bool"
+        ],
+        "is_sku_info_code_enabled": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_krw": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_idr": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_brl": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_php": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_vnd": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_thb": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_pkr": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_myr": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_egp": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_tzs": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_kzt": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_ngn": [
+          "bool"
+        ],
+        "is_pricing_enabled_for_zar": [
+          "bool"
+        ]
+      }
+    },
+    "3850010910": {
+      "keys": [
+        "billing_failure_banner_delay_mins",
+        "billing_failure_banner_interval_mins",
+        "grace_period_days",
+        "grace_period_id",
+        "include_banner_notifications",
+        "ios_banner_enabled",
+        "is_banner_notification_dismissible",
+        "plus_grace_period_days",
+        "should_send_email_on_payment_failure",
+        "show_billing_failure_banner"
+      ],
+      "groups": [
+        "7Mi1umQnbFL4g2qRjBRrjX",
+        "default"
+      ],
+      "rule_ids": [
+        "7Mi1umQnbFL4g2qRjBRrjX",
+        "default"
+      ],
+      "value_types": {
+        "plus_grace_period_days": [
+          "string"
+        ],
+        "include_banner_notifications": [
+          "bool"
+        ],
+        "is_banner_notification_dismissible": [
+          "bool"
+        ],
+        "ios_banner_enabled": [
+          "bool"
+        ],
+        "should_send_email_on_payment_failure": [
+          "bool"
+        ],
+        "show_billing_failure_banner": [
+          "bool"
+        ],
+        "billing_failure_banner_delay_mins": [
+          "dict",
+          "list",
+          "number",
+          "string"
+        ],
+        "billing_failure_banner_interval_mins": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "grace_period_id": [
+          "string"
+        ],
+        "grace_period_days": [
+          "string"
+        ]
+      }
+    },
+    "3861158060": {
+      "keys": [
+        "should_show_codex_upsell_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_show_codex_upsell_banner": [
+          "bool"
+        ]
+      }
+    },
+    "3886886465": {
+      "keys": [
+        "should_overwrite_banner_info"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "should_overwrite_banner_info": [
+          "bool"
+        ]
+      }
+    },
+    "3927927759": {
+      "keys": [
+        "enable_mobile_app_upsell_banner",
+        "enable_moodeng_upsell_banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_mobile_app_upsell_banner": [
+          "bool"
+        ],
+        "enable_moodeng_upsell_banner": [
+          "bool"
+        ]
+      }
+    },
+    "3950229590": {
+      "keys": [
+        "auth_validation_on_checkout_enforced",
+        "enable_flush_statsig_on_checkout",
+        "enabled_custom_checkout_for_go",
+        "enabled_custom_checkout_for_plus",
+        "enabled_custom_checkout_for_pro",
+        "enabled_custom_checkout_for_team",
+        "enabled_prefetch_checkout_for_plus",
+        "is_checkout_redesign",
+        "is_layout_accordion_enabled",
+        "is_layout_accordion_expanded",
+        "is_layout_show_card_terms",
+        "skip_sentinel_checkout"
+      ],
+      "groups": [
+        "5dru9GMhVazBu9JI6hwd9N",
+        "default"
+      ],
+      "rule_ids": [
+        "5dru9GMhVazBu9JI6hwd9N",
+        "default"
+      ],
+      "value_types": {
+        "enabled_custom_checkout_for_plus": [
+          "bool"
+        ],
+        "enabled_custom_checkout_for_pro": [
+          "bool"
+        ],
+        "enabled_custom_checkout_for_team": [
+          "bool"
+        ],
+        "enabled_prefetch_checkout_for_plus": [
+          "bool"
+        ],
+        "skip_sentinel_checkout": [
+          "bool"
+        ],
+        "is_layout_accordion_enabled": [
+          "bool"
+        ],
+        "is_layout_accordion_expanded": [
+          "bool"
+        ],
+        "is_layout_show_card_terms": [
+          "bool"
+        ],
+        "enable_flush_statsig_on_checkout": [
+          "bool"
+        ],
+        "enabled_custom_checkout_for_go": [
+          "bool"
+        ],
+        "is_checkout_redesign": [
+          "bool"
+        ],
+        "auth_validation_on_checkout_enforced": [
+          "bool"
+        ]
+      }
+    },
+    "3972089454": {
+      "keys": [
+        "search_scoring_dyconfig_name"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "search_scoring_dyconfig_name": [
+          "string"
+        ]
+      }
+    },
+    "3991624489": {
+      "keys": [
+        "animation_duration",
+        "is_word_fade_disabled",
+        "token_buffer_type",
+        "word_fade_type"
+      ],
+      "groups": [
+        "DGiI6Beljqe5341DW3k3Wd:override"
+      ],
+      "rule_ids": [
+        "DGiI6Beljqe5341DW3k3Wd:override"
+      ],
+      "value_types": {
+        "is_word_fade_disabled": [
+          "bool"
+        ],
+        "token_buffer_type": [
+          "string"
+        ],
+        "word_fade_type": [
+          "string"
+        ],
+        "animation_duration": [
+          "dict",
+          "list",
+          "string"
+        ]
+      }
+    },
+    "4020668365": {
+      "keys": [
+        "enable_nux",
+        "end_time",
+        "start_time",
+        "use_multi_input"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable_nux": [
+          "bool"
+        ],
+        "start_time": [
+          "string"
+        ],
+        "end_time": [
+          "string"
+        ],
+        "use_multi_input": [
+          "bool"
+        ]
+      }
+    },
+    "4031588851": {
+      "keys": [
+        "autocomplete_fetch_interval",
+        "autocomplete_max_char",
+        "autocomplete_min_char",
+        "autocomplete_mode",
+        "autocomplete_qualified_start_date",
+        "composer_text",
+        "dream_type",
+        "enable_ask_me_prompts",
+        "enable_hardcoded_browse_prompts",
+        "enable_hardcoded_data_vis_prompts",
+        "enable_hardcoded_file_document_prompts",
+        "enable_hardcoded_onboarding_prompt",
+        "enable_hardcoded_vision_prompts",
+        "enable_new_autocomplete_homepage",
+        "enable_new_homepage",
+        "enable_new_mobile",
+        "enable_reasoning_prompts_0202",
+        "enable_recommend_prompts",
+        "filter_starter_prompt_by_model",
+        "for_you_prompts_enabled",
+        "headline_option",
+        "homepage_prompt_style",
+        "image_gen_prompts_type",
+        "india_first_prompt",
+        "is_two_line",
+        "model_talks_option",
+        "new-user-age-seconds",
+        "num_completions_to_fetch_from_index",
+        "persist_new_user_experience",
+        "prompt_source",
+        "search_autocomplete_mode",
+        "show_india_prompts",
+        "starter_prompt_ranking_algorithm",
+        "use_memory_in_model_autocomplete",
+        "use_modapi_in_autocomplete",
+        "web-enable-for-new-users",
+        "web_enable_for_existing_users"
+      ],
+      "groups": [
+        "default",
+        "targetingGate"
+      ],
+      "rule_ids": [
+        "default",
+        "targetingGate"
+      ],
+      "value_types": {
+        "enable_hardcoded_vision_prompts": [
+          "bool"
+        ],
+        "enable_hardcoded_file_document_prompts": [
+          "bool"
+        ],
+        "enable_hardcoded_data_vis_prompts": [
+          "bool"
+        ],
+        "enable_hardcoded_browse_prompts": [
+          "bool"
+        ],
+        "is_two_line": [
+          "bool"
+        ],
+        "enable_new_homepage": [
+          "bool"
+        ],
+        "autocomplete_mode": [
+          "string"
+        ],
+        "starter_prompt_ranking_algorithm": [
+          "string"
+        ],
+        "autocomplete_min_char": [
+          "string"
+        ],
+        "autocomplete_max_char": [
+          "bool",
+          "string"
+        ],
+        "headline_option": [
+          "string"
+        ],
+        "use_memory_in_model_autocomplete": [
+          "bool"
+        ],
+        "filter_starter_prompt_by_model": [
+          "bool"
+        ],
+        "use_modapi_in_autocomplete": [
+          "bool"
+        ],
+        "autocomplete_qualified_start_date": [
+          "string"
+        ],
+        "enable_new_autocomplete_homepage": [
+          "bool"
+        ],
+        "model_talks_option": [
+          "string"
+        ],
+        "enable_new_mobile": [
+          "bool"
+        ],
+        "search_autocomplete_mode": [
+          "string"
+        ],
+        "enable_hardcoded_onboarding_prompt": [
+          "bool"
+        ],
+        "autocomplete_fetch_interval": [
+          "dict",
+          "list",
+          "string"
+        ],
+        "num_completions_to_fetch_from_index": [
+          "dict",
+          "string"
+        ],
+        "enable_recommend_prompts": [
+          "bool"
+        ],
+        "enable_ask_me_prompts": [
+          "bool"
+        ],
+        "composer_text": [
+          "string"
+        ],
+        "enable_reasoning_prompts_0202": [
+          "bool"
+        ],
+        "dream_type": [
+          "string"
+        ],
+        "india_first_prompt": [
+          "string"
+        ],
+        "new-user-age-seconds": [
+          "number"
+        ],
+        "web-enable-for-new-users": [
+          "bool"
+        ],
+        "show_india_prompts": [
+          "bool"
+        ],
+        "prompt_source": [
+          "string"
+        ],
+        "homepage_prompt_style": [
+          "string"
+        ],
+        "web_enable_for_existing_users": [
+          "bool"
+        ],
+        "persist_new_user_experience": [
+          "bool"
+        ],
+        "image_gen_prompts_type": [
+          "string"
+        ],
+        "for_you_prompts_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4048646334": {
+      "keys": [
+        "should_show_persistent_homepage_rate_limit_banner",
+        "should_show_thread_header_upgrade_pill"
+      ],
+      "groups": [
+        "Ab1QmF5JR6PFWVz7WmxGq8",
+        "default"
+      ],
+      "rule_ids": [
+        "Ab1QmF5JR6PFWVz7WmxGq8",
+        "default"
+      ],
+      "value_types": {
+        "should_show_thread_header_upgrade_pill": [
+          "bool"
+        ],
+        "should_show_persistent_homepage_rate_limit_banner": [
+          "bool"
+        ]
+      }
+    },
+    "4088782105": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "6tuG5q0psFxtLGqwHgr8m1",
+        "6tuG5rFrUXGY55YsiomLF3"
+      ],
+      "rule_ids": [
+        "6tuG5q0psFxtLGqwHgr8m1",
+        "6tuG5rFrUXGY55YsiomLF3"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4093727931": {
+      "keys": [
+        "enable_chatgpt_trending",
+        "enable_data",
+        "enable_image_gen_trending",
+        "enabled",
+        "item_label",
+        "num_desktop_results",
+        "num_mobile_results"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ],
+        "num_mobile_results": [
+          "dict",
+          "string"
+        ],
+        "num_desktop_results": [
+          "string"
+        ],
+        "enable_image_gen_trending": [
+          "bool"
+        ],
+        "enable_chatgpt_trending": [
+          "bool"
+        ],
+        "enable_data": [
+          "bool"
+        ],
+        "item_label": [
+          "string"
+        ]
+      }
+    },
+    "4105912492": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "4pvNmht2bIwfPp9mrTAyyl",
+        "default"
+      ],
+      "rule_ids": [
+        "4pvNmht2bIwfPp9mrTAyyl",
+        "default"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "4211831761": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4250072504": {
+      "keys": [
+        "is_desktop_enterprise_enabled",
+        "is_enterprise_desktop_enabled",
+        "is_enterprise_enabled"
+      ],
+      "groups": [
+        "3HX7vpdJsUkuyCUEL4V9cE:override"
+      ],
+      "rule_ids": [
+        "3HX7vpdJsUkuyCUEL4V9cE:override"
+      ],
+      "value_types": {
+        "is_enterprise_enabled": [
+          "bool"
+        ],
+        "is_enterprise_desktop_enabled": [
+          "bool"
+        ],
+        "is_desktop_enterprise_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2017435557": {
+      "keys": [
+        "beacon_enabled",
+        "beacon_exp_enabled",
+        "image_gen_multi_stream_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "beacon_exp_enabled": [
+          "bool"
+        ],
+        "beacon_enabled": [
+          "bool"
+        ],
+        "image_gen_multi_stream_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "68001872": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "4z1W3UbmHTd52rrjvJeUk5",
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "4z1W3UbmHTd52rrjvJeUk5",
+        "layerAssignment"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "309365540": {
+      "keys": [
+        "enable"
+      ],
+      "groups": [
+        "24Vc1M6DSdnIiq2rGoKX3s"
+      ],
+      "rule_ids": [
+        "24Vc1M6DSdnIiq2rGoKX3s"
+      ],
+      "value_types": {
+        "enable": [
+          "bool"
+        ]
+      }
+    },
+    "349489989": {
+      "keys": [
+        "per_chunk_time_ms",
+        "shimmer_duration_ms"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "per_chunk_time_ms": [
+          "number"
+        ],
+        "shimmer_duration_ms": [
+          "list",
+          "string"
+        ]
+      }
+    },
+    "450496349": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "2agdSNOYSlMWrHkvwjUpau"
+      ],
+      "rule_ids": [
+        "2agdSNOYSlMWrHkvwjUpau"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "690090010": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "694761886": {
+      "keys": [
+        "newsTabEnabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "newsTabEnabled": [
+          "bool"
+        ]
+      }
+    },
+    "1011775750": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "KjEWrDRZEXvgNJMaNTf4E",
+        "prestart"
+      ],
+      "rule_ids": [
+        "KjEWrDRZEXvgNJMaNTf4E",
+        "prestart"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1249441125": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "1535193150": {
+      "keys": [
+        "file_ref_type_order",
+        "show_turn_search_sources",
+        "show_web_page_file_refs"
+      ],
+      "groups": [
+        "7n9WKSvKgoVDgGzElXY3QT"
+      ],
+      "rule_ids": [
+        "7n9WKSvKgoVDgGzElXY3QT"
+      ],
+      "value_types": {
+        "show_web_page_file_refs": [
+          "bool"
+        ],
+        "show_turn_search_sources": [
+          "bool"
+        ],
+        "file_ref_type_order": [
+          "list"
+        ]
+      }
+    },
+    "1585040960": {
+      "keys": [],
+      "groups": [
+        "prestart"
+      ],
+      "rule_ids": [
+        "prestart"
+      ],
+      "value_types": {}
+    },
+    "1606522228": {
+      "keys": [],
+      "groups": [
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "layerAssignment"
+      ],
+      "value_types": {}
+    },
+    "1639200021": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "2epmYdynpNZJ8n4yYKNpQN"
+      ],
+      "rule_ids": [
+        "2epmYdynpNZJ8n4yYKNpQN"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2133596510": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "USeZCOloSU02kTe6xjZuA"
+      ],
+      "rule_ids": [
+        "USeZCOloSU02kTe6xjZuA"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2589726118": {
+      "keys": [
+        "is_business_seats_discount_enabled",
+        "is_nav_add_seats_button_enabled"
+      ],
+      "groups": [
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "layerAssignment"
+      ],
+      "value_types": {
+        "is_business_seats_discount_enabled": [
+          "bool"
+        ],
+        "is_nav_add_seats_button_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2954428843": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "1TTkzL8TWvijpckpicpFWb"
+      ],
+      "rule_ids": [
+        "1TTkzL8TWvijpckpicpFWb"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "3075710337": {
+      "keys": [
+        "connector_68d579f7b0948191a7da3124a3b560f7",
+        "connector_68de829bf7648191acd70a907364c67c",
+        "connector_68df038e0ba48191908c8434991bbac2",
+        "connector_68df33b1a2d081918778431a9cfca8ba",
+        "connector_68dff83ad60481919f56a6dcd8c8f28e",
+        "connector_68e004f14af881919eb50893d3d9f523",
+        "connector_68e01e8c1c2081918b4567a0b959d3ff"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "connector_68de829bf7648191acd70a907364c67c": [
+          "string"
+        ],
+        "connector_68d579f7b0948191a7da3124a3b560f7": [
+          "string"
+        ],
+        "connector_68e01e8c1c2081918b4567a0b959d3ff": [
+          "string"
+        ],
+        "connector_68df038e0ba48191908c8434991bbac2": [
+          "string"
+        ],
+        "connector_68df33b1a2d081918778431a9cfca8ba": [
+          "string"
+        ],
+        "connector_68dff83ad60481919f56a6dcd8c8f28e": [
+          "dict"
+        ],
+        "connector_68e004f14af881919eb50893d3d9f523": [
+          "string"
+        ]
+      }
+    },
+    "3282868491": {
+      "keys": [
+        "pill_text",
+        "short_text"
+      ],
+      "groups": [
+        "2HlyCvw6bnJY8OJCje8QNB"
+      ],
+      "rule_ids": [
+        "2HlyCvw6bnJY8OJCje8QNB"
+      ],
+      "value_types": {
+        "pill_text": [
+          "string"
+        ],
+        "short_text": [
+          "string"
+        ]
+      }
+    },
+    "3528236309": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "4280292244": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "1iyI0nDcbPTGD9XC8336g3",
+        "4A4YIpDGXMYIvD3FrzT5en"
+      ],
+      "rule_ids": [
+        "1iyI0nDcbPTGD9XC8336g3",
+        "4A4YIpDGXMYIvD3FrzT5en"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4283453052": {
+      "keys": [
+        "max_followups"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "max_followups": [
+          "string"
+        ]
+      }
+    },
+    "92715237": {
+      "keys": [
+        "action_forward_copy",
+        "redesign_enabled",
+        "smb_forward_copy"
+      ],
+      "groups": [
+        "Gg0vsgoIuHxAUIUIEFjgUG",
+        "default"
+      ],
+      "rule_ids": [
+        "Gg0vsgoIuHxAUIUIEFjgUG",
+        "default"
+      ],
+      "value_types": {
+        "action_forward_copy": [
+          "bool"
+        ],
+        "smb_forward_copy": [
+          "bool"
+        ],
+        "redesign_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "174369686": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "B85cUv0AXjhRtaJdQGHKSg",
+        "default"
+      ],
+      "rule_ids": [
+        "B85cUv0AXjhRtaJdQGHKSg",
+        "default"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "664995304": {
+      "keys": [
+        "add_enterprise_to_business",
+        "push_free_to_end",
+        "show_business_tooltips",
+        "show_enterprise_column",
+        "show_new_close_button",
+        "show_tooltips",
+        "show_unified",
+        "show_unified_header",
+        "show_unified_pricing_page"
+      ],
+      "groups": [
+        "21Yc0vi4vw6RlkGy8oo8em",
+        "4jdn63hlk2lzSWKleXZ3Gn",
+        "default"
+      ],
+      "rule_ids": [
+        "21Yc0vi4vw6RlkGy8oo8em",
+        "4jdn63hlk2lzSWKleXZ3Gn",
+        "default"
+      ],
+      "value_types": {
+        "show_unified_pricing_page": [
+          "bool"
+        ],
+        "push_free_to_end": [
+          "bool"
+        ],
+        "show_enterprise_column": [
+          "bool"
+        ],
+        "show_unified_header": [
+          "bool"
+        ],
+        "show_business_tooltips": [
+          "bool"
+        ],
+        "add_enterprise_to_business": [
+          "bool"
+        ],
+        "show_new_close_button": [
+          "bool"
+        ],
+        "show_tooltips": [
+          "bool"
+        ],
+        "show_unified": [
+          "bool"
+        ]
+      }
+    },
+    "684023316": {
+      "keys": [
+        "memory_almost_full_threshold",
+        "show_persistent_generic_upsell",
+        "show_upsell",
+        "upsell_variant"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_upsell": [
+          "bool"
+        ],
+        "upsell_variant": [
+          "string"
+        ],
+        "memory_almost_full_threshold": [
+          "string"
+        ],
+        "show_persistent_generic_upsell": [
+          "bool"
+        ]
+      }
+    },
+    "807523916": {
+      "keys": [
+        "android_disclaimer_fullscreen_update_enabled",
+        "is_banner_disclaimer_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_banner_disclaimer_enabled": [
+          "bool"
+        ],
+        "android_disclaimer_fullscreen_update_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1200251816": {
+      "keys": [
+        "enable-join-workspaces-banner"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enable-join-workspaces-banner": [
+          "bool"
+        ]
+      }
+    },
+    "1648673566": {
+      "keys": [
+        "enabled_purple_cta_color"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled_purple_cta_color": [
+          "bool"
+        ]
+      }
+    },
+    "1925940714": {
+      "keys": [
+        "completion_request_blocking_promise_optimization"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "completion_request_blocking_promise_optimization": [
+          "bool"
+        ]
+      }
+    },
+    "2031949765": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "5ERFB8pjUHuFoLLKwNIoKq",
+        "default"
+      ],
+      "rule_ids": [
+        "5ERFB8pjUHuFoLLKwNIoKq",
+        "default"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "2420067952": {
+      "keys": [
+        "grace_period_days",
+        "grace_period_id",
+        "include_banner_notifications",
+        "is_banner_notification_dismissible",
+        "pro_grace_period_days",
+        "should_send_email_on_payment_failure"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "pro_grace_period_days": [
+          "number"
+        ],
+        "grace_period_days": [
+          "number"
+        ],
+        "grace_period_id": [
+          "string"
+        ],
+        "should_send_email_on_payment_failure": [
+          "bool"
+        ],
+        "include_banner_notifications": [
+          "bool"
+        ],
+        "is_banner_notification_dismissible": [
+          "bool"
+        ]
+      }
+    },
+    "3233347819": {
+      "keys": [
+        "enable_clickable_wordmark",
+        "is_login_modal_integration_enabled",
+        "is_no_auth_login_modal_enabled",
+        "is_social_btn_center_aligned",
+        "is_use_phone_a_link",
+        "log_back_variant",
+        "should_ms_btn_be_moved",
+        "should_update_msft_label",
+        "uses_auth_btn_left_alignment_fix"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "uses_auth_btn_left_alignment_fix": [
+          "bool"
+        ],
+        "enable_clickable_wordmark": [
+          "bool"
+        ],
+        "should_ms_btn_be_moved": [
+          "bool"
+        ],
+        "should_update_msft_label": [
+          "bool"
+        ],
+        "is_social_btn_center_aligned": [
+          "bool"
+        ],
+        "is_no_auth_login_modal_enabled": [
+          "bool"
+        ],
+        "is_login_modal_integration_enabled": [
+          "bool"
+        ],
+        "log_back_variant": [
+          "string"
+        ],
+        "is_use_phone_a_link": [
+          "bool"
+        ]
+      }
+    },
+    "3456102456": {
+      "keys": [
+        "at_least_20_messages_sent_beacons_enabled",
+        "at_least_20_messages_sent_experiment_enabled",
+        "pending_requests_beacon_enabled",
+        "pending_requests_experiment_enabled",
+        "post_chat_shared_beacons_enabled",
+        "post_chat_shared_experiment_enabled",
+        "post_gpt_create_beacons_enabled",
+        "post_gpt_create_experiment_enabled",
+        "post_project_create_beacons_enabled",
+        "post_project_create_experiment_enabled",
+        "trial_with_less_than_five_users_beacons_enabled",
+        "trial_with_less_than_five_users_experiment_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "post_gpt_create_beacons_enabled": [
+          "bool"
+        ],
+        "post_gpt_create_experiment_enabled": [
+          "bool"
+        ],
+        "post_project_create_beacons_enabled": [
+          "bool"
+        ],
+        "post_project_create_experiment_enabled": [
+          "bool"
+        ],
+        "post_chat_shared_beacons_enabled": [
+          "bool"
+        ],
+        "post_chat_shared_experiment_enabled": [
+          "bool"
+        ],
+        "at_least_20_messages_sent_beacons_enabled": [
+          "bool"
+        ],
+        "at_least_20_messages_sent_experiment_enabled": [
+          "bool"
+        ],
+        "trial_with_less_than_five_users_beacons_enabled": [
+          "bool"
+        ],
+        "trial_with_less_than_five_users_experiment_enabled": [
+          "bool"
+        ],
+        "pending_requests_beacon_enabled": [
+          "bool"
+        ],
+        "pending_requests_experiment_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3469223149": {
+      "keys": [
+        "enabled_compact_seat_picker"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled_compact_seat_picker": [
+          "bool"
+        ]
+      }
+    },
+    "3542930659": {
+      "keys": [
+        "show_redesign"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_redesign": [
+          "bool"
+        ]
+      }
+    },
+    "3607173072": {
+      "keys": [
+        "hide_after_num_closes",
+        "show_close",
+        "show_persistent_upsell"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "show_persistent_upsell": [
+          "bool"
+        ],
+        "hide_after_num_closes": [
+          "string"
+        ],
+        "show_close": [
+          "bool"
+        ]
+      }
+    },
+    "3622976851": {
+      "keys": [
+        "is_business_seats_discount_enabled",
+        "is_nav_add_seats_button_enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "is_business_seats_discount_enabled": [
+          "bool"
+        ],
+        "is_nav_add_seats_button_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "95272720": {
+      "keys": [],
+      "groups": [
+        "inlineTargetingRules"
+      ],
+      "rule_ids": [
+        "inlineTargetingRules"
+      ],
+      "value_types": {}
+    },
+    "387775177": {
+      "keys": [
+        "enable-copy-and-open"
+      ],
+      "groups": [
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enable-copy-and-open": [
+          "bool"
+        ]
+      }
+    },
+    "786015841": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "948081399": {
+      "keys": [
+        "inline_canvas_enabled"
+      ],
+      "groups": [
+        "launchedGroup",
+        "layerAssignment",
+        "prestart"
+      ],
+      "rule_ids": [
+        "launchedGroup",
+        "layerAssignment",
+        "prestart"
+      ],
+      "value_types": {
+        "inline_canvas_enabled": [
+          "bool"
+        ]
+      }
+    },
+    "1697094676": {
+      "keys": [],
+      "groups": [
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "layerAssignment"
+      ],
+      "value_types": {}
+    },
+    "2215056542": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "A6yLAunhpn1R2ilfhwXuXn",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "A6yLAunhpn1R2ilfhwXuXn",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "2330365894": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "Abf9CAKhX5xrbw86IIFQq"
+      ],
+      "rule_ids": [
+        "Abf9CAKhX5xrbw86IIFQq"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3010332215": {
+      "keys": [
+        "variant"
+      ],
+      "groups": [
+        "3jlgnCORc7wf66nfOe62Pb",
+        "ETrPlPBsj3tPk0VK2bkJp9"
+      ],
+      "rule_ids": [
+        "3jlgnCORc7wf66nfOe62Pb",
+        "ETrPlPBsj3tPk0VK2bkJp9"
+      ],
+      "value_types": {
+        "variant": [
+          "string"
+        ]
+      }
+    },
+    "3839749267": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "2MTqvVoUqQfx9oX9BcOy0T"
+      ],
+      "rule_ids": [
+        "2MTqvVoUqQfx9oX9BcOy0T"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4125725681": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "1LlMpdcfExuHKfo8JscC8e",
+        "launchedGroup"
+      ],
+      "rule_ids": [
+        "1LlMpdcfExuHKfo8JscC8e",
+        "launchedGroup"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4134344987": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "3NHIqsVfe5bXl2HHBBjdG",
+        "layerAssignment"
+      ],
+      "rule_ids": [
+        "3NHIqsVfe5bXl2HHBBjdG",
+        "layerAssignment"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "4250628994": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "2T4Egu7no77Op34aIF1Yzd"
+      ],
+      "rule_ids": [
+        "2T4Egu7no77Op34aIF1Yzd"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "2815206693": {
+      "keys": [
+        "group"
+      ],
+      "groups": [
+        "HTlpmzjreTrZLtYUlC6OKo"
+      ],
+      "rule_ids": [
+        "HTlpmzjreTrZLtYUlC6OKo"
+      ],
+      "value_types": {
+        "group": [
+          "string"
+        ]
+      }
+    },
+    "4198227845": {
+      "keys": [
+        "enabled_for_chat_existing",
+        "enabled_for_chat_new",
+        "enabled_for_chat_override",
+        "enabled_for_platform_existing",
+        "enabled_for_platform_new",
+        "enabled_for_platform_override"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled_for_platform_override": [
+          "bool"
+        ],
+        "enabled_for_platform_new": [
+          "bool"
+        ],
+        "enabled_for_platform_existing": [
+          "bool"
+        ],
+        "enabled_for_chat_override": [
+          "bool"
+        ],
+        "enabled_for_chat_new": [
+          "bool"
+        ],
+        "enabled_for_chat_existing": [
+          "bool"
+        ]
+      }
+    },
+    "397610558": {
+      "keys": [
+        "inline",
+        "latency_ms"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "latency_ms": [
+          "string"
+        ],
+        "inline": [
+          "bool"
+        ]
+      }
+    },
+    "3453210146": {
+      "keys": [],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {}
+    },
+    "591247241": {
+      "keys": [
+        "enabled"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "enabled": [
+          "bool"
+        ]
+      }
+    },
+    "3823468163": {
+      "keys": [
+        "ordered-system-hints-free"
+      ],
+      "groups": [
+        "default"
+      ],
+      "rule_ids": [
+        "default"
+      ],
+      "value_types": {
+        "ordered-system-hints-free": [
+          "list"
+        ]
+      }
+    }
+  }
+}

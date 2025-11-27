@@ -1,0 +1,69 @@
+{
+  "$id": "normalizer://wham.tasks.backend_api_wham_tasks_id",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "capture_path": {
+          "type": "string"
+        },
+        "extras": {
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "normalizer_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "normalizer_id",
+        "capture_path"
+      ],
+      "type": "object"
+    },
+    "payload": {
+      "additionalProperties": false,
+      "properties": {
+        "current_assistant_turn": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "current_diff_task_turn": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "current_user_turn": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "task": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "task",
+        "current_user_turn",
+        "current_assistant_turn",
+        "current_diff_task_turn"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "payload",
+    "metadata"
+  ],
+  "title": "wham.tasks.backend_api_wham_tasks_idEnvelope",
+  "type": "object"
+}

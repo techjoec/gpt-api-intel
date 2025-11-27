@@ -1,0 +1,89 @@
+{
+  "links": [
+    {
+      "id": "link_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "created_at": "2025-08-19T08:16:24.921624Z",
+      "connector_id": "connector_google_drive_placeholder",
+      "name": "Google Drive",
+      "actions": ["fetch", "get_profile", "search"],
+      "auth_type": "OAUTH",
+      "auth_secret": null,
+      "scopes": [
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/userinfo.profile",
+        "https://www.googleapis.com/auth/drive.readonly"
+      ],
+      "oauth_client_id": "google_oauth_client",
+      "owners": [{ "type": "USER", "id": "user_xxxxxxxxxxxxxxxxxxxxx" }],
+      "access_list": [],
+      "link_params": null,
+      "labels": null,
+      "owner_profile": {
+        "id": "google_profile_id_placeholder",
+        "name": "REDACTED",
+        "email": "redacted@example.com",
+        "nickname": null,
+        "picture": "https://example.com/avatar.png"
+      },
+      "refreshing": "2025-09-10T21:09:42.322941Z",
+      "auth_status": "ACTIVE",
+      "auth_status_updated_at": null
+    },
+    {
+      "id": "link_yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+      "created_at": "2025-07-30T09:02:43.582662Z",
+      "connector_id": "connector_github_placeholder",
+      "name": "GitHub",
+      "actions": [
+        "fetch",
+        "search",
+        "search_issues",
+        "search_installed_repositories_streaming",
+        "search_prs",
+        "get_users_recent_prs_in_repo",
+        "list_repositories",
+        "get_repo",
+        "create_branch",
+        "create_blob",
+        "fetch_blob",
+        "fetch_file",
+        "create_tree",
+        "create_commit",
+        "update_ref",
+        "create_pull_request",
+        "get_user_login",
+        "enable_auto_merge",
+        "label_pr",
+        "get_pr_info",
+        "list_installations",
+        "list_user_orgs",
+        "list_repositories_by_installation",
+        "search_repositories",
+        "fetch_issue",
+        "list_installed_accounts",
+        "get_profile",
+        "fetch_pr_patch",
+        "fetch_pr_comments"
+      ],
+      "auth_type": "OAUTH",
+      "auth_secret": null,
+      "scopes": [],
+      "oauth_client_id": "github_oauth_client",
+      "owners": [{ "type": "USER", "id": "user_xxxxxxxxxxxxxxxxxxxxx" }],
+      "access_list": [],
+      "link_params": null,
+      "labels": null,
+      "owner_profile": {
+        "id": "github_user_id_placeholder",
+        "name": null,
+        "email": null,
+        "nickname": "github_handle",
+        "picture": "https://avatars.githubusercontent.com/u/123456789?v=4"
+      },
+      "refreshing": null,
+      "auth_status": "ACTIVE",
+      "auth_status_updated_at": null
+    }
+  ]
+}
+
